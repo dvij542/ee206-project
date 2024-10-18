@@ -1,0 +1,55 @@
+[0.140s] Invoking command in '/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/lbr_fri_ros2': AMENT_PREFIX_PATH=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri:/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb:/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri:/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb:/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/lib:/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/lib:/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/dvij/.mpi-is/pam/install/lib:/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/dvij/.mpi-is/pam/install/lib:/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia PYTHONPATH=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/src/lbr_fri_ros2_stack/lbr_fri_ros2 -DCMAKE_INSTALL_PREFIX=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2
+[0.170s] -- The C compiler identification is GNU 9.4.0
+[0.204s] -- The CXX compiler identification is GNU 9.4.0
+[0.211s] -- Detecting C compiler ABI info
+[0.250s] -- Detecting C compiler ABI info - done
+[0.259s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.259s] -- Detecting C compile features
+[0.259s] -- Detecting C compile features - done
+[0.261s] -- Detecting CXX compiler ABI info
+[0.307s] -- Detecting CXX compiler ABI info - done
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.317s] -- Detecting CXX compile features
+[0.317s] -- Detecting CXX compile features - done
+[0.318s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.321s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.321s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.321s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.321s]   the cmake_policy command to set the policy and suppress this warning.
+[0.321s] 
+[0.321s] Call Stack (most recent call first):
+[0.321s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.321s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.321s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.321s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.321s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.321s]   CMakeLists.txt:9 (find_package)
+[0.321s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.321s] [0m
+[0.333s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[0.333s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.378s] -- Found fri: 1.0.0 (/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/cmake)
+[0.379s] -- Found lbr_fri_msgs: 1.0.0 (/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake)
+[0.396s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.400s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.458s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[0.482s] -- Found FastRTPS: /opt/ros/galactic/include
+[0.548s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.588s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.615s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.616s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.626s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.626s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.671s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.671s] -- Looking for pthread_create in pthreads
+[0.708s] -- Looking for pthread_create in pthreads - not found
+[0.708s] -- Looking for pthread_create in pthread
+[0.752s] -- Looking for pthread_create in pthread - found
+[0.753s] -- Found Threads: TRUE
+[0.821s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[0.849s] -- Found realtime_tools: 2.2.0 (/opt/ros/galactic/share/realtime_tools/cmake)
+[0.890s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[0.895s] -- Found urdf: 2.5.2 (/opt/ros/galactic/share/urdf/cmake)
+[0.951s] -- Configuring done (0.8s)
+[0.963s] -- Generating done (0.0s)
+[0.964s] -- Build files have been written to: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/lbr_fri_ros2

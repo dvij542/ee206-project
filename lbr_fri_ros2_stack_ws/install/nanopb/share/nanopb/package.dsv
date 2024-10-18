@@ -1,0 +1,8 @@
+source;share/nanopb/hook/cmake_prefix_path.ps1
+source;share/nanopb/hook/cmake_prefix_path.dsv
+source;share/nanopb/hook/cmake_prefix_path.sh
+source;share/nanopb/local_setup.bash
+source;share/nanopb/local_setup.dsv
+source;share/nanopb/local_setup.ps1
+source;share/nanopb/local_setup.sh
+source;share/nanopb/local_setup.zsh

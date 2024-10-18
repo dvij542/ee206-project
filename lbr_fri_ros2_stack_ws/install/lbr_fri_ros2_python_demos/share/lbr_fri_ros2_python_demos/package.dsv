@@ -1,0 +1,6 @@
+source;share/lbr_fri_ros2_python_demos/hook/pythonpath.ps1
+source;share/lbr_fri_ros2_python_demos/hook/pythonpath.dsv
+source;share/lbr_fri_ros2_python_demos/hook/pythonpath.sh
+source;share/lbr_fri_ros2_python_demos/hook/ament_prefix_path.ps1
+source;share/lbr_fri_ros2_python_demos/hook/ament_prefix_path.dsv
+source;share/lbr_fri_ros2_python_demos/hook/ament_prefix_path.sh

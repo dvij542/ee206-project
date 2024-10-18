@@ -1,0 +1,51 @@
+[ 37%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/lbr_client.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/lbr_command_guard.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/lbr_app.dir/rclcpp_components/node_main_lbr_app.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/lbr_intermediary.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library liblbr_fri_ros2.so[0m
+[ 62%] Built target lbr_fri_ros2
+[ 75%] [32mBuilding CXX object CMakeFiles/lbr_app_component.dir/src/lbr_app.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable lbr_app[0m
+[ 87%] Built target lbr_app
+[100%] [32m[1mLinking CXX shared library liblbr_app_component.so[0m
+[100%] Built target lbr_app_component
+-- Install configuration: ""
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/library_path.sh
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/library_path.dsv
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/include
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/include/lbr_fri_ros2
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/include/lbr_fri_ros2/lbr_intermediary.hpp
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/include/lbr_fri_ros2/lbr_app.hpp
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/include/lbr_fri_ros2/lbr_command_guard.hpp
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/include/lbr_fri_ros2/lbr_client.hpp
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/lib/liblbr_fri_ros2.so
+-- Set non-toolchain portion of runtime path of "/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/lib/liblbr_fri_ros2.so" to ""
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/launch
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/launch/lbr_app.launch.py
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/lib/lbr_fri_ros2/lbr_app
+-- Set non-toolchain portion of runtime path of "/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/lib/lbr_fri_ros2/lbr_app" to ""
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/lib/liblbr_app_component.so
+-- Set non-toolchain portion of runtime path of "/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/lib/liblbr_app_component.so" to ""
+-- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/launch
+-- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/launch/lbr_app.launch.py
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/lib/lbr_fri_ros2/lbr_state_smoothing_node.py
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/ament_index/resource_index/package_run_dependencies/lbr_fri_ros2
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/ament_index/resource_index/parent_prefix_path/lbr_fri_ros2
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/ament_prefix_path.sh
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/ament_prefix_path.dsv
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/path.sh
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/path.dsv
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/local_setup.bash
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/local_setup.sh
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/local_setup.zsh
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/local_setup.dsv
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/package.dsv
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/ament_index/resource_index/packages/lbr_fri_ros2
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2_exportExport.cmake
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2_exportExport-noconfig.cmake
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/ament_index/resource_index/rclcpp_components/lbr_fri_ros2
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2Config.cmake
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2Config-version.cmake
+-- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_fri_ros2/share/lbr_fri_ros2/package.xml

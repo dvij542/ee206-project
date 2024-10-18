@@ -1,0 +1,65 @@
+[0.013s] Invoking command in '/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/nanopb': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/local/bin/cmake /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/src/fri/client_sdk/nanopb -DCMAKE_INSTALL_PREFIX=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb
+[0.045s] -- The C compiler identification is GNU 9.4.0
+[0.052s] -- Detecting C compiler ABI info
+[0.094s] -- Detecting C compiler ABI info - done
+[0.104s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.104s] -- Detecting C compile features
+[0.104s] -- Detecting C compile features - done
+[0.105s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.108s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.108s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.108s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.108s]   the cmake_policy command to set the policy and suppress this warning.
+[0.108s] 
+[0.108s] Call Stack (most recent call first):
+[0.108s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.108s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.108s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.108s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.108s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.108s]   CMakeLists.txt:11 (find_package)
+[0.108s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.108s] [0m
+[0.121s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[0.121s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.200s] -- Configuring done (0.2s)
+[0.202s] -- Generating done (0.0s)
+[0.203s] -- Build files have been written to: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/nanopb
+[0.204s] Invoked command in '/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/nanopb' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/local/bin/cmake /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/src/fri/client_sdk/nanopb -DCMAKE_INSTALL_PREFIX=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb
+[0.206s] Invoking command in '/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/nanopb': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/local/bin/cmake --build /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/nanopb -- -j20 -l20
+[0.227s] [ 66%] [32mBuilding C object CMakeFiles/nanopb.dir/src/pb_decode.c.o[0m
+[0.227s] [ 66%] [32mBuilding C object CMakeFiles/nanopb.dir/src/pb_encode.c.o[0m
+[0.328s] [100%] [32m[1mLinking C static library libnanopb.a[0m
+[0.341s] [100%] Built target nanopb
+[0.346s] Invoked command in '/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/nanopb' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/local/bin/cmake --build /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/nanopb -- -j20 -l20
+[0.369s] Invoking command in '/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/nanopb': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/local/bin/cmake --install /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/nanopb
+[0.371s] -- Install configuration: ""
+[0.371s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/environment/library_path.sh
+[0.372s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/environment/library_path.dsv
+[0.372s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/include
+[0.372s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/include/nanopb
+[0.372s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/include/nanopb/pb_encode.h
+[0.372s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/include/nanopb/pb_syshdr_win.h
+[0.372s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/include/nanopb/pb_decode.h
+[0.372s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/include/nanopb/pb_syshdr.h
+[0.372s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/include/nanopb/pb.h
+[0.372s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/lib/libnanopb.a
+[0.372s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/ament_index/resource_index/package_run_dependencies/nanopb
+[0.372s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/ament_index/resource_index/parent_prefix_path/nanopb
+[0.372s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/environment/ament_prefix_path.sh
+[0.372s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/environment/ament_prefix_path.dsv
+[0.373s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/environment/path.sh
+[0.373s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/environment/path.dsv
+[0.373s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/local_setup.bash
+[0.373s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/local_setup.sh
+[0.373s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/local_setup.zsh
+[0.373s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/local_setup.dsv
+[0.373s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/package.dsv
+[0.373s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/ament_index/resource_index/packages/nanopb
+[0.373s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/cmake/export_nanopbExport.cmake
+[0.373s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/cmake/export_nanopbExport-noconfig.cmake
+[0.373s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/cmake/ament_cmake_export_targets-extras.cmake
+[0.373s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/cmake/nanopbConfig.cmake
+[0.373s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/cmake/nanopbConfig-version.cmake
+[0.373s] -- Installing: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/share/nanopb/package.xml
+[0.374s] Invoked command in '/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/nanopb' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/local/bin/cmake --install /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/nanopb

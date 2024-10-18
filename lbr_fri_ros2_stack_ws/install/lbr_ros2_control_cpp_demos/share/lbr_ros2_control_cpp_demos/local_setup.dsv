@@ -1,0 +1,2 @@
+source;share/lbr_ros2_control_cpp_demos/environment/ament_prefix_path.sh
+source;share/lbr_ros2_control_cpp_demos/environment/path.sh

@@ -1,0 +1,39 @@
+[0.009s] Invoking command in '/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/fri': AMENT_PREFIX_PATH=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb:/opt/ros/galactic LD_LIBRARY_PATH=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --build /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/fri -- -j20 -l20
+[0.031s] [100%] Built target fri
+[0.034s] Invoked command in '/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/fri' returned '0': AMENT_PREFIX_PATH=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb:/opt/ros/galactic LD_LIBRARY_PATH=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --build /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/fri -- -j20 -l20
+[0.077s] Invoking command in '/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/fri': AMENT_PREFIX_PATH=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb:/opt/ros/galactic LD_LIBRARY_PATH=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --install /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/fri
+[0.080s] -- Install configuration: ""
+[0.080s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/environment/library_path.sh
+[0.080s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/environment/library_path.dsv
+[0.080s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/include
+[0.080s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/include/fri
+[0.080s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/include/fri/friTransformationClient.h
+[0.080s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/include/fri/friClientApplication.h
+[0.080s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/include/fri/friLBRState.h
+[0.080s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/include/fri/friLBRClient.h
+[0.080s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/include/fri/friConnectionIf.h
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/include/fri/friClientIf.h
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/include/fri/friUdpConnection.h
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/include/fri/friException.h
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/include/fri/friLBRCommand.h
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/lib/libfri.so
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/ament_index/resource_index/package_run_dependencies/fri
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/ament_index/resource_index/parent_prefix_path/fri
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/environment/ament_prefix_path.sh
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/environment/ament_prefix_path.dsv
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/environment/path.sh
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/environment/path.dsv
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/local_setup.bash
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/local_setup.sh
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/local_setup.zsh
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/local_setup.dsv
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/package.dsv
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/ament_index/resource_index/packages/fri
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/cmake/export_friExport.cmake
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/cmake/export_friExport-noconfig.cmake
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/cmake/ament_cmake_export_targets-extras.cmake
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/cmake/friConfig.cmake
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/cmake/friConfig-version.cmake
+[0.081s] -- Up-to-date: /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/fri/share/fri/package.xml
+[0.082s] Invoked command in '/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/fri' returned '0': AMENT_PREFIX_PATH=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb:/opt/ros/galactic LD_LIBRARY_PATH=/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/nanopb/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --install /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/fri

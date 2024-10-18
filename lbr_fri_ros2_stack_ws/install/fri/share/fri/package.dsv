@@ -1,0 +1,11 @@
+source;share/fri/hook/cmake_prefix_path.ps1
+source;share/fri/hook/cmake_prefix_path.dsv
+source;share/fri/hook/cmake_prefix_path.sh
+source;share/fri/hook/ld_library_path_lib.ps1
+source;share/fri/hook/ld_library_path_lib.dsv
+source;share/fri/hook/ld_library_path_lib.sh
+source;share/fri/local_setup.bash
+source;share/fri/local_setup.dsv
+source;share/fri/local_setup.ps1
+source;share/fri/local_setup.sh
+source;share/fri/local_setup.zsh

@@ -1,0 +1,3 @@
+
+bool connected
+string message

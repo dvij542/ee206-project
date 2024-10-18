@@ -1,0 +1,36 @@
+running egg_info
+creating ../../../../build/lbr_ros2_control_python_demos/lbr_ros2_control_python_demos.egg-info
+writing ../../../../build/lbr_ros2_control_python_demos/lbr_ros2_control_python_demos.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/lbr_ros2_control_python_demos/lbr_ros2_control_python_demos.egg-info/dependency_links.txt
+writing entry points to ../../../../build/lbr_ros2_control_python_demos/lbr_ros2_control_python_demos.egg-info/entry_points.txt
+writing requirements to ../../../../build/lbr_ros2_control_python_demos/lbr_ros2_control_python_demos.egg-info/requires.txt
+writing top-level names to ../../../../build/lbr_ros2_control_python_demos/lbr_ros2_control_python_demos.egg-info/top_level.txt
+writing manifest file '../../../../build/lbr_ros2_control_python_demos/lbr_ros2_control_python_demos.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/lbr_ros2_control_python_demos/lbr_ros2_control_python_demos.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../../build/lbr_ros2_control_python_demos/lbr_ros2_control_python_demos.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/lbr_ros2_control_python_demos/build
+creating /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/lbr_ros2_control_python_demos/build/lib
+creating /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/lbr_ros2_control_python_demos/build/lib/lbr_ros2_control_python_demos
+copying lbr_ros2_control_python_demos/__init__.py -> /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/lbr_ros2_control_python_demos/build/lib/lbr_ros2_control_python_demos
+copying lbr_ros2_control_python_demos/lbr_joint_trajectory_executioner_node.py -> /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/lbr_ros2_control_python_demos/build/lib/lbr_ros2_control_python_demos
+running install
+running install_lib
+creating /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_ros2_control_python_demos/lib/python3.8/site-packages/lbr_ros2_control_python_demos
+copying /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/lbr_ros2_control_python_demos/build/lib/lbr_ros2_control_python_demos/__init__.py -> /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_ros2_control_python_demos/lib/python3.8/site-packages/lbr_ros2_control_python_demos
+copying /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/lbr_ros2_control_python_demos/build/lib/lbr_ros2_control_python_demos/lbr_joint_trajectory_executioner_node.py -> /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_ros2_control_python_demos/lib/python3.8/site-packages/lbr_ros2_control_python_demos
+byte-compiling /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_ros2_control_python_demos/lib/python3.8/site-packages/lbr_ros2_control_python_demos/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_ros2_control_python_demos/lib/python3.8/site-packages/lbr_ros2_control_python_demos/lbr_joint_trajectory_executioner_node.py to lbr_joint_trajectory_executioner_node.cpython-38.pyc
+running install_data
+creating /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_ros2_control_python_demos/share/ament_index
+creating /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_ros2_control_python_demos/share/ament_index/resource_index
+creating /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_ros2_control_python_demos/share/ament_index/resource_index/packages
+copying resource/lbr_ros2_control_python_demos -> /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_ros2_control_python_demos/share/ament_index/resource_index/packages
+copying package.xml -> /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_ros2_control_python_demos/share/lbr_ros2_control_python_demos
+running install_egg_info
+Copying ../../../../build/lbr_ros2_control_python_demos/lbr_ros2_control_python_demos.egg-info to /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_ros2_control_python_demos/lib/python3.8/site-packages/lbr_ros2_control_python_demos-0.0.0-py3.8.egg-info
+running install_scripts
+Installing lbr_joint_trajectory_executioner_node script to /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/install/lbr_ros2_control_python_demos/lib/lbr_ros2_control_python_demos
+writing list of installed files to '/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros2_stack_ws/build/lbr_ros2_control_python_demos/install.log'

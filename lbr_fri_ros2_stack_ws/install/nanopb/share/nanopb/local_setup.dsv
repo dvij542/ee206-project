@@ -1,0 +1,3 @@
+source;share/nanopb/environment/ament_prefix_path.sh
+source;share/nanopb/environment/library_path.sh
+source;share/nanopb/environment/path.sh

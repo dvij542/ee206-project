@@ -25,14 +25,12 @@ xml = """
             <geom name="handle" type="cylinder" pos="-0.05 0 0" size="0.02 0.05" quat="0 0.7068252 0 0.7073883" rgba="0 0 1 0.3" contype="0" conaffinity="0"/>
         </body>
     </worldbody>
-
-    
 </mujoco>
 """
 class KukaTennisEnv(gym.Env):
-    def __init__(self,proc_id=0):
+    def __init__(self,proc_id=0,history=4):
         super(KukaTennisEnv, self).__init__()
-
+        self.history = history  
         # Load the MuJoCo model
         self.model = mj.MjModel.from_xml_string(xml)  # Use your actual MuJoCo XML path
         self.data = mj.MjData(self.model)
@@ -40,7 +38,7 @@ class KukaTennisEnv(gym.Env):
         
         # Define action and observation spaces
         self.action_space = spaces.Box(low=-0.15, high=0.15, shape=(7,), dtype=np.float32)  # Adjust based on your actuator count
-        self.observation_space = spaces.Box(low=-np.inf, high=np.inf, shape=(self.model.nq + self.model.nv + 7 + 7,), dtype=np.float32)
+        self.observation_space = spaces.Box(low=-np.inf, high=np.inf, shape=(self.model.nq + self.model.nv + 7 + 7 + 7*history,), dtype=np.float32)
 
         # Simulation time step
         self.sim_dt = self.model.opt.timestep
@@ -52,11 +50,12 @@ class KukaTennisEnv(gym.Env):
         self.orientation_K = 10.0
         self.dist_k = 10.0
         self.prev_reward = 0.
-        self.tolerance_range = [2.5,2.0]
+        self.tolerance_range = [2.5,1.0]
         self.tolerance_exp = 12_000_000/256
         self.total_steps = 0
         self.proc_id = proc_id
-
+        self.prev_actions = np.zeros((history,7))
+        
 
     def update_vis_pose(self,pose):
         # Update the cylinder geom position
@@ -97,14 +96,14 @@ class KukaTennisEnv(gym.Env):
         diff_quat_rel = r_target*r_current.inv()
         diff_quat = diff_quat_rel.as_quat()
         # Get observation (qpos: joint positions, qvel: joint velocities)
-        obs = np.float32(np.concatenate([self.data.qpos, self.data.qvel,diff_pos,diff_quat,self.curr_target]))
+        obs = np.float32(np.concatenate([self.data.qpos, self.data.qvel,diff_pos,diff_quat,self.curr_target,self.prev_actions.flatten()]))
         # print(self.data.qpos)
         # Calculate reward and done
         error = diff_quat_rel.magnitude()
         # print("angle error: ",error,2*np.arcsin(np.linalg.norm(diff_quat_rel.as_quat()[:3])))
         # Implement your reward calculation
         reward = - self.dist_k*np.linalg.norm(end_effector_pos - self.curr_target[:3]) - (self.orientation_K*error)
-        print(reward)
+        # print(reward)
         curr_reward = reward - self.prev_reward
         self.prev_reward = reward
         done = self._is_done()
@@ -131,7 +130,8 @@ class KukaTennisEnv(gym.Env):
         return obs, curr_reward, done, False, {}
 
     def step(self, action):
-
+        self.prev_actions[:-1,:] = self.prev_actions[1:,:]
+        self.prev_actions[-1,:] = action
         self.current_step += 1
         self.total_steps += 1
         # Apply action to actuators
@@ -153,11 +153,11 @@ class KukaTennisEnv(gym.Env):
         diff_quat = r_target*r_current.inv()
         diff_quat = diff_quat.as_quat()
         # Get observation (qpos: joint positions, qvel: joint velocities)
-        obs = np.float32(np.concatenate([self.data.qpos, self.data.qvel,diff_pos,diff_quat,self.curr_target]))
+        obs = np.float32(np.concatenate([self.data.qpos, self.data.qvel,diff_pos,diff_quat,self.curr_target,self.prev_actions.flatten()]))
         # print(self.data.qpos)
         # Calculate reward and done
         reward = self._calculate_reward()
-        curr_reward = reward - self.prev_reward
+        curr_reward = reward - self.prev_reward - 150*np.sum(np.abs(self.prev_actions[-1,:]))/(7000*0.15)
         self.prev_reward = reward
         done = self._is_done()
         tol = self.tolerance_range[1] + (self.tolerance_range[0] - self.tolerance_range[1])*np.exp(-self.total_steps/self.tolerance_exp)
@@ -179,7 +179,7 @@ class KukaTennisEnv(gym.Env):
         if self.current_step >= self.max_episode_steps:
             self.current_step = 0
             done = True
-
+        print("Len: ",len(obs))
         return obs, curr_reward, done, False, {}
 
     def reset_target(self):
@@ -205,6 +205,7 @@ class KukaTennisEnv(gym.Env):
 
     def reset(self,seed=None):
         self.current_step = 0
+        self.prev_actions = np.zeros((self.history,7))
         mj.mj_resetData(self.model, self.data)
         self.reset_target()
         for i in range(7):
@@ -225,7 +226,7 @@ class KukaTennisEnv(gym.Env):
         diff_quat = diff_quat.as_quat()
         
         # Return initial observation
-        obs = np.float32(np.concatenate([self.data.qpos, self.data.qvel,diff_pos,diff_quat,self.curr_target]))
+        obs = np.float32(np.concatenate([self.data.qpos, self.data.qvel,diff_pos,diff_quat,self.curr_target,self.prev_actions.flatten()]))
 
         info = {}
         return obs, info
@@ -257,6 +258,7 @@ class KukaTennisEnv(gym.Env):
         # print("angle error: ",error,2*np.arcsin(np.linalg.norm(diff_quat_rel.as_quat()[:3])))
         # Implement your reward calculation
         reward = - self.dist_k*np.linalg.norm(racket_pos - self.curr_target[:3]) - (self.orientation_K*error)
+        
         # if np.linalg.norm(racket_pos - self.curr_target[:3]) < 0.2 and error < 0.2:
         #     reward += 250
         # if self.current_step < 1 or self.current_step >299 :

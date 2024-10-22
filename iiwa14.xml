@@ -53,7 +53,9 @@
 
   <worldbody>
     <light name="top" pos="0 0 2" mode="trackcom"/>
-    <body name="base" childclass="iiwa">
+    <body name="base" childclass="iiwa" pos="0 0 0">
+      <!-- <joint name="base_x_joint" type="slide" axis="1 0 0" range="-1 0" />
+      <joint name="base_y_joint" type="slide" axis="0 1 0" range="-1 1" /> -->
       <inertial mass="5" pos="-0.1 0 0.07" diaginertia="0.05 0.06 0.03"/>
       <geom class="visual" mesh="link_0"/>
       <geom class="collision" size="0.12" pos="0 0 0.03"/>
@@ -140,7 +142,7 @@
                     <site pos="0 0 0.045" name="attachment_site"/>
 
                     <body name="tennis_racket" pos="0 0 0" quat="0 0.7068252 0 0.7073883">
-                      <geom type="cylinder" pos="0.1 0 0" size="0.10 0.015" rgba="0.8 0.2 0.2 1" material="black"/>
+                      <geom name="racket" type="cylinder" pos="0.1 0 0" size="0.10 0.015" rgba="0.8 0.2 0.2 1" material="black"/>
                     </body>
                   </body>
                 </body>
@@ -163,6 +165,8 @@
   </contact>
 
   <actuator>
+    <!-- <general name="base_x_motor" joint="base_x_joint"/>
+    <general name="base_y_motor" joint="base_y_joint"/> -->
     <general name="actuator1" joint="joint1" class="joint1"/>
     <general name="actuator2" joint="joint2" class="joint2"/>
     <general name="actuator3" joint="joint3" class="joint1"/>

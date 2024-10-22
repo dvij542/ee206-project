@@ -11,7 +11,7 @@ from scipy.spatial.transform import Rotation as R
 import numpy as np
 
 
-RATE = 20
+RATE = 60
 # Callback function for the subscriber
 def joint_state_callback(data):
     global current_positions, current_velocities, joint_names
@@ -70,14 +70,16 @@ def publish_trajectory_command():
     trajectory_point = JointTrajectoryPoint()
     # print(action[0],current_positions[0],current_velocities[0])
     new_positions = list(np.array(current_positions)+0.2*np.array(action))
+    env.prev_actions[:-1,:] = env.prev_actions[1:,:]
+    env.prev_actions[-1,:] = action
     new_positions[0] = restrict_range(new_positions[0],-2.96,2.96)
     new_positions[1] = restrict_range(new_positions[1],-2.09,2.09)
-    new_positions[2] = restrict_range(new_positions[2],-2.96,2.96)
+    new_positions[2] = restrict_range(new_positions[2],-2.94,2.94)
     new_positions[3] = restrict_range(new_positions[3],-2.09,2.09)
-    new_positions[4] = restrict_range(new_positions[4],-2.96,2.96)
+    new_positions[4] = restrict_range(new_positions[4],-2.94,2.94)
     new_positions[5] = restrict_range(new_positions[5],-2.09,2.09)
-    new_positions[6] = restrict_range(new_positions[6],-3.05,3.05)
-    
+    new_positions[6] = restrict_range(new_positions[6],-3,3)
+    print(new_positions)
     # print(new_positions[0])
     # new_positions[0] = 0
     # Copy the current positions as the desired positions (or modify them if needed)
@@ -99,7 +101,7 @@ if __name__ == '__main__':
         # Initialize the ROS node
         rospy.init_node('kuka_joint_controller', anonymous=True)
         env = KukaTennisEnv(proc_id=1)
-        model = PPO.load("logs/best_model/best_model")
+        model = PPO.load("logs/best_model1/best_model")
         obs, _ = env.reset()
         # Initialize the TransformListener
         listener = tf.TransformListener()
@@ -110,7 +112,7 @@ if __name__ == '__main__':
 
         # Publisher for the joint command topic
         trajectory_pub = rospy.Publisher('/lbr/PositionJointInterface_trajectory_controller/command', 
-                                         JointTrajectory, queue_size=10)
+                                         JointTrajectory)
 
         # Keep the node alive and processing callbacks
         # Set the rate for publishing (10 Hz = 0.1 seconds)

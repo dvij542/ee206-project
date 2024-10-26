@@ -68,7 +68,7 @@ passwd: dvij123
   
   ``` 
   source /opt/ros/noetic/setup.bash
-  source lbr_iiwa_ros/devel/setup.bash
+  source lbr_fri_ros_ws/devel/setup.bash
   roslaunch lbr_moveit moveit_planning_execution.launch model:=iiwa14 sim:=true 
   ```
   
@@ -76,7 +76,7 @@ passwd: dvij123
   
   ``` 
   source /opt/ros/noetic/setup.bash
-  source lbr_iiwa_ros/devel/setup.bash
+  source lbr_fri_ros_ws/devel/setup.bash
   python3 eval_ros.py [--ik_rl] [--ik] 
   ```
   

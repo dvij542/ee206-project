@@ -1,31 +1,91 @@
-# KUKA LBR iiwa 14 Description (MJCF)
+# EE206 class project
 
-Requires MuJoCo 2.3.3 or later.
-
-## Overview
-
-This package contains a simplified robot description (MJCF) of the [LBR iiwa](https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iiwa) 14kg developed
-by [KUKA Robotics](https://www.kuka.com/en-us). It is derived from the [publicly available](https://github.com/RobotLocomotion/drake/blob/master/manipulation/models/iiwa_description/urdf/iiwa14_spheres_dense_collision.urdf)
-URDF description created by the [Drake](https://github.com/RobotLocomotion/drake) developers.
+Control Kuka iiwa R820 arm to play ping pong
 
 <p float="left">
   <img src="iiwa_14.png" width="400">
 </p>
 
-## URDF → MJCF derivation steps
+## SSH into 337 cory lab machine
 
-1. Added `<mujoco> <compiler discardvisual="false"/> </mujoco>` to the
-   [URDF](https://github.com/RobotLocomotion/drake/blob/master/manipulation/models/iiwa_description/urdf/iiwa14_spheres_dense_collision.urdf)'s
-   `<robot>` clause in order to preserve visual geometries.
-2. Loaded the URDF into MuJoCo and saved a corresponding MJCF.
-3. Created base body and added its corresponding inertial properties.
-4. Added a tracking light to the base.
-5. Manually edited the MJCF to extract common properties into the `<default>` section.
-6.  Added `<exclude>` clauses to prevent collisions between `base` and `link1`.
-7.  Added actuators for the arm.
-8.  Added forcelimits to match the torque limits in the [spec sheet](https://www.reeco.co.uk/wp-content/uploads/2020/05/KUKA-LBR-iiwa-technical-data.pdf).
-9.  Added `scene.xml` which includes the robot, with a textured groundplane, skybox, and haze.
+```ssh dvij@10.41.45.23```
 
-## License
+passwd: dvij123
 
-This model is released under a [BSD-3-Clause License](LICENSE).
+## Installation on local machine
+
+1. Clone the repo
+
+``` git clone https://github.com/dvij542/ee206-project```
+
+2. Install dependencies
+
+``` pip install -r requirements.txt```
+
+OR 
+
+With conda:-
+
+```conda env create --name ee206 --file=environment.yml``` 
+
+3. Install ROS Noetic for ubuntu 20.04/ compatible ROS1 version based on your system: [Link](https://wiki.ros.org/noetic/Installation/Ubuntu)
+
+## Running
+
+1. (optional) To run training on any environment, specify the environment in train.py and run:-
+
+```python3 train.py```
+
+NOTE: This is not required as the trained models for each environemnt is already present under logs/
+
+2. To launch any environment and check it's performance, run:-
+
+```python3 eval.py [--gantry] [--table] [--render] [--ik_rl]```
+
+a. Enabling 'gantry' option will enable XY movement of the base. Note that we do not have a gantry for the robot yet (It has been ordered and may arrive in a month but should be fine without that)
+
+b. Enabling 'table' option will add the ping pong table to the environment with random generated ball throws towards the robot. It will also generate a target pose for the robot if able to be achieved in time, it will be able to return the ball to the center of the other side of the table. It woukd be in most cases
+
+c. Enabling 'render' option will render the environment
+
+d. Enabling 'ik_rl' option will use a more stable controller based on RL based IK solving to generate target robot pose. This is available for only without gantry for now
+
+To launch environment with gantry and table, run:-
+
+``` python3 eval.py --gantry --table --render```
+
+To launch environment without gantry and with table, run:-
+
+``` python3 eval.py --table --render```
+
+To launch environment without gantry and with table and with a more stable RL based IK solver, run:-
+
+``` python3 eval.py --table --ik_rl --render```
+
+3. To launch gazebo environment provided by Kuka iiwa and control the robot with our solvers, open 2 new terminals and follow these steps:-
+
+a. On terminal 1, source ROS1 noetic OR the distro installed on your system and then launch gazebo sim
+
+``` 
+source /opt/ros/noetic/setup.bash
+source lbr_iiwa_ros/devel/setup.bash
+roslaunch 
+```
+
+b. On terminal 2, source ROS1 noetic OR the distro installed on your system and then run eval_ros.py
+
+``` 
+source /opt/ros/noetic/setup.bash
+source lbr_iiwa_ros/devel/setup.bash
+python3 eval_ros.py [--ik_rl] [--ik] 
+```
+
+No options enabled will run the basic trained RL environment which may not run very well due to sim-to-real transfer. 'ik_rl' option will enable using RL based IK solver which will be more stable. 'ik' will enable traditional IK based solver
+
+## TODO:-
+
+1. (Setup ROS1 based twin simulator in mujoco)
+
+a. Subscribe to '\ball_pose' topic containing ball position and velocity. Write a separate node to predict the ball trajectory and target pose for the robot (Refer to moujoco_env_kuka_with_table.py.
+
+b. Control the robot through '' topic. Write a separate node which subscribes to '' topic and passes the commands to mujoco sim.

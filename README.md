@@ -8,7 +8,9 @@ Control Kuka iiwa R820 arm to play ping pong
 
 ## SSH into 337 cory lab machine
 
-```ssh dvij@10.41.45.23```
+```bash 
+ssh dvij@10.41.45.23
+```
 
 passwd: dvij123
 
@@ -16,31 +18,41 @@ passwd: dvij123
 
 1. Clone the repo
 
-    ``` git clone https://github.com/dvij542/ee206-project```
+    ```bash
+   git clone https://github.com/dvij542/ee206-project
+    ```
 
-2. Install dependencies
+3. Install dependencies
 
-    ``` pip install -r requirements.txt```
+    ```bash
+   pip install -r requirements.txt
+    ```
 
     OR 
     
     With conda:-
     
-    ```conda env create --name ee206 --file=environment.yml``` 
+    ```bash
+   conda env create --name ee206 --file=environment.yml
+    ``` 
 
-3. Install ROS Noetic for ubuntu 20.04/ compatible ROS1 version based on your system: [Link](https://wiki.ros.org/noetic/Installation/Ubuntu)
+5. Install ROS Noetic for ubuntu 20.04/ compatible ROS1 version based on your system: [Link](https://wiki.ros.org/noetic/Installation/Ubuntu)
 
 ## Running
 
 1. (optional) To run training on any environment, specify the environment in train.py and run:-
 
-    ```python3 train.py```
+    ```bash
+   python3 train.py
+    ```
     
     NOTE: This is not required as the trained models for each environemnt is already present under logs/
 
-2. To launch any environment and check it's performance, run:-
+3. To launch any environment and check it's performance, run:-
 
-    ```python3 eval.py [--gantry] [--table] [--render] [--ik_rl]```
+    ```bash
+   python3 eval.py [--gantry] [--table] [--render] [--ik_rl]
+    ```
   
     **a.** Enabling 'gantry' option will enable XY movement of the base. Note that we do not have a gantry for the robot yet (It has been ordered and may arrive in a month but should be fine without that)
     
@@ -52,21 +64,27 @@ passwd: dvij123
     
     To launch environment with gantry and table, run:-
     
-    ``` python3 eval.py --gantry --table --render```
+    ```bash
+   python3 eval.py --gantry --table --render
+    ```
     
     To launch environment without gantry and with table, run:-
     
-    ``` python3 eval.py --table --render```
+    ```bash
+   python3 eval.py --table --render
+    ```
     
     To launch environment without gantry and with table and with a more stable RL based IK solver, run:-
     
-    ``` python3 eval.py --table --ik_rl --render```
+    ```bash
+   python3 eval.py --table --ik_rl --render
+    ```
 
-3. To launch gazebo environment provided by Kuka iiwa and control the robot with our solvers, open 2 new terminals and follow these steps:-
+5. To launch gazebo environment provided by Kuka iiwa and control the robot with our solvers, open 2 new terminals and follow these steps:-
 
     **a.** On terminal 1, source ROS1 noetic OR the distro installed on your system and then launch gazebo sim
     
-    ``` 
+    ```bash 
     source /opt/ros/noetic/setup.bash
     source lbr_fri_ros_ws/devel/setup.bash
     roslaunch lbr_moveit moveit_planning_execution.launch model:=iiwa14 sim:=true 
@@ -74,7 +92,7 @@ passwd: dvij123
     
     **b.** On terminal 2, source ROS1 noetic OR the distro installed on your system and then run eval_ros.py
     
-    ``` 
+    ```bash 
     source /opt/ros/noetic/setup.bash
     source lbr_fri_ros_ws/devel/setup.bash
     python3 eval_ros.py [--ik_rl] [--ik] 

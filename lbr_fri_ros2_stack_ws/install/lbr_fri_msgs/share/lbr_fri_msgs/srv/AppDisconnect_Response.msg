@@ -1,3 +1,0 @@
-
-bool disconnected
-string message

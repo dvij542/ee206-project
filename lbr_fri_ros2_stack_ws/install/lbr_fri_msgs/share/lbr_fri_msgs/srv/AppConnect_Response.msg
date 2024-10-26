@@ -1,3 +1,0 @@
-
-bool connected
-string message

@@ -69,7 +69,7 @@ a. On terminal 1, source ROS1 noetic OR the distro installed on your system and 
 ``` 
 source /opt/ros/noetic/setup.bash
 source lbr_iiwa_ros/devel/setup.bash
-roslaunch 
+roslaunch lbr_moveit moveit_planning_execution.launch model:=iiwa14 sim:=true 
 ```
 
 b. On terminal 2, source ROS1 noetic OR the distro installed on your system and then run eval_ros.py

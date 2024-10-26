@@ -79,7 +79,7 @@ def publish_trajectory_command():
     new_positions[4] = restrict_range(new_positions[4],-2.94,2.94)
     new_positions[5] = restrict_range(new_positions[5],-2.09,2.09)
     new_positions[6] = restrict_range(new_positions[6],-3,3)
-    print(new_positions)
+    # print(new_positions)
     # print(new_positions[0])
     # new_positions[0] = 0
     # Copy the current positions as the desired positions (or modify them if needed)
@@ -101,7 +101,7 @@ if __name__ == '__main__':
         # Initialize the ROS node
         rospy.init_node('kuka_joint_controller', anonymous=True)
         env = KukaTennisEnv(proc_id=1)
-        model = PPO.load("logs/best_model1/best_model")
+        model = PPO.load("logs/best_model/best_model")
         obs, _ = env.reset()
         # Initialize the TransformListener
         listener = tf.TransformListener()

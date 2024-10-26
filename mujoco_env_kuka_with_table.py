@@ -8,7 +8,7 @@ import gymnasium as gym
 import mujoco_viewer
 from scipy.spatial.transform import Rotation as R
 
-TABLE_SHIFT = 1.65
+TABLE_SHIFT = 1.7
 # MuJoCo XML definition with Franka Panda robot and table tennis setup
 xml = """
 <mujoco model="table_tennis">
@@ -23,12 +23,12 @@ xml = """
             <geom name="handle" type="cylinder" pos="-0.05 0 0" size="0.02 0.05" quat="0 0.7068252 0 0.7073883" rgba="0 0 1 0.3" contype="0" conaffinity="0"/>
         </body>
         <!-- Table -->
-        <body name="table" pos="1.65 0 0.56">
+        <body name="table" pos="1.7 0 0.56">
             <!-- Table surface -->
             <geom name="table_top" type="box" size="1.37 0.7625 0.02" rgba="0 0 1 1" friction="0.2 0.2 0.1" solref="0.04 0.1" solimp="0.9 0.999 0.001" />
         </body>
 
-        <body name="net" pos="1.65 0 0.57" euler="0 0 0"> <!-- Position and rotate net -->
+        <body name="net" pos="1.7 0 0.57" euler="0 0 0"> <!-- Position and rotate net -->
             <!-- Net surface -->
             <geom name="net_geom" type="box" size="0.01 0.7625 0.1" rgba="1 1 1 1" friction="0 0 0" solref="0.00001 1" solimp="0.99 0.9999 0.00001" />
         </body>
@@ -100,7 +100,7 @@ class KukaTennisEnv(gym.Env):
         self.total_steps += 1
         # Apply action to actuators
         # self.data.ctrl[:] = np.array(action) + np.array(self.data.qpos[:7])
-        self.data.ctrl[:] = np.array(action) #+ np.array(self.data.qpos[:7])
+        self.data.ctrl[:] = np.array(action) + np.array(self.data.qpos[:7])
         # print(self.data.ctrl[:])
         # print(np.array(self.data.qvel[-6:-3]))
 
@@ -203,7 +203,7 @@ class KukaTennisEnv(gym.Env):
         ball_vel[:,0] = self.data.qvel[-6:-3]
         if ball_vel[0,0] > 0 or ball_pos[0] < 0.5 or ball_vel[2,0] > 15.:
             return
-        print("vel:",ball_vel[:,0])
+        # print("vel:",ball_vel[:,0])
         x = 0.
         T = (x - ball_pos[0])/ball_vel[0,0]
         y = ball_pos[1] + ball_vel[1,0]*T

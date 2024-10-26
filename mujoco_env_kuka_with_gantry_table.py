@@ -236,7 +236,7 @@ class KukaTennisEnv(gym.Env):
         costs = (x_hits-x_target)**2 + (y_hits-y_target)**2
         idx = np.argmin(costs)
         z_axis = xyzr[idx]
-        print("x:",x_hits[idx],"y:",y_hits[idx],"z:",z_axis,"t:",t_hits[idx])
+        # print("x:",x_hits[idx],"y:",y_hits[idx],"z:",z_axis,"t:",t_hits[idx])
         theta_z = np.arctan2(z,x)
         x_axis = np.array([0.,np.cos(theta_z),np.sin(theta_z)])
         x_axis[0] = (-x_axis[1]*z_axis[1] - x_axis[2]*z_axis[2])/z_axis[0]

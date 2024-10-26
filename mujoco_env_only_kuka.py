@@ -179,7 +179,7 @@ class KukaTennisEnv(gym.Env):
         if self.current_step >= self.max_episode_steps:
             self.current_step = 0
             done = True
-        print("Len: ",len(obs))
+        # print("Len: ",len(obs))
         return obs, curr_reward, done, False, {}
 
     def reset_target(self):

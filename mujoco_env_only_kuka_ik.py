@@ -120,17 +120,17 @@ class KukaTennisEnv(gym.Env):
         if self.proc_id == 1:
             tol = self.tolerance_range[1]
         
-        if reward > -tol and self.proc_id < 2:
+        # if reward > -tol and self.proc_id < 2:
         #     self.count -= 1
             
         # if self.count <= 0 :
         #     self.count = 10
-            if self.proc_id == 1: 
-                print("Reset target!", self.current_step)
-            self.reset_target()
-            reward = self._calculate_reward()
-            curr_reward = 0.
-            self.prev_reward = reward
+            # if self.proc_id == 1: 
+            #     print("Reset target!", self.current_step)
+            # self.reset_target()
+            # reward = self._calculate_reward()
+            # curr_reward = 0.
+            # self.prev_reward = reward
         # if reward < -14. :
         #     print("Wtf!!", self.current_step, reward)
         if self.current_step >= self.max_episode_steps:

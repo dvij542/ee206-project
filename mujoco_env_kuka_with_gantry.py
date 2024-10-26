@@ -12,7 +12,7 @@ TABLE_SHIFT = 1.5
 # MuJoCo XML definition with Franka Panda robot and table tennis setup
 xml = """
 <mujoco model="table_tennis">
-    <include file="iiwa14.xml"/>
+    <include file="iiwa14_gantry.xml"/>
     <compiler angle="radian" />
     <option timestep="0.0167" gravity="0 0 -9.81" />
     <worldbody>

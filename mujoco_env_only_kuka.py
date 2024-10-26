@@ -50,7 +50,7 @@ class KukaTennisEnv(gym.Env):
         self.orientation_K = 10.0
         self.dist_k = 10.0
         self.prev_reward = 0.
-        self.tolerance_range = [2.5,1.0]
+        self.tolerance_range = [2.5,1.5]
         self.tolerance_exp = 12_000_000/256
         self.total_steps = 0
         self.proc_id = proc_id

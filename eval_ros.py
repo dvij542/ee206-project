@@ -9,9 +9,47 @@ from copy import deepcopy
 import time
 from scipy.spatial.transform import Rotation as R
 import numpy as np
+import argparse
+from mujoco_env_only_kuka_ik import KukaTennisEnv as KukaTennisEnvIK
+import moveit_commander
+import math
+import copy
 
+parser = argparse.ArgumentParser()
+# parser.add_argument('--gantry', action='store_true', help='Enable gantry (XY movement)')
+# parser.add_argument('--table', action='store_true', help='Enable table in simulation')
+parser.add_argument('--render', action='store_true', help='Enable rendering')
+parser.add_argument('--ik_rl', action='store_true', help='Enable using RL based IK')
+parser.add_argument('--ik', action='store_true', help='Enable using traditional IK')
+
+args = parser.parse_args()
+
+if args.ik and args.ik_rl:
+    print("IK and IK RL cannot be enabled at the same time")
+    exit(0)
 
 RATE = 60
+
+def reset_target():
+    curr_target = np.array([0.,0.,0.,0.,0.,0.,0.])
+    curr_target[0] = np.random.uniform(-0.2,0.2)
+    curr_target[1] = np.random.uniform(-0.5,0.5)
+    curr_target[2] = np.random.uniform(0.75,1.05)
+    xr,yr,zr = np.random.uniform(-1,1,3)*0.5
+    z_axis = np.array([1.,yr,zr])
+    z_axis = z_axis/np.linalg.norm(z_axis)
+    theta_z = np.arctan2(curr_target[2],curr_target[1])+xr*0.5
+    x_axis = np.array([0.,np.cos(theta_z),np.sin(theta_z)])
+    x_axis[0] = (-x_axis[1]*z_axis[1] - x_axis[2]*z_axis[2])/z_axis[0]
+    x_axis = x_axis/np.linalg.norm(x_axis)
+
+    y_axis = np.cross(z_axis,x_axis)
+    Rot = np.array([x_axis,y_axis,z_axis]).T @ np.array([[0,0,1],[0,-1,0],[1,0,0]])
+    r = R.from_matrix(Rot)
+    q = r.as_quat()
+    curr_target[3:7] = q
+    return curr_target
+
 # Callback function for the subscriber
 def joint_state_callback(data):
     global current_positions, current_velocities, joint_names
@@ -29,7 +67,7 @@ def restrict_range(val, min_val, max_val):
     return min(max(val, min_val), max_val)
 
 def publish_trajectory_command():
-    global current_positions, current_velocities, listener, trajectory_pub, env, model
+    global current_positions, current_velocities, listener, trajectory_pub, env, model, env_ik, model_ik, obs_ik
     
     try:
         # Wait for the transform to be available, with a timeout of 1 second
@@ -52,13 +90,21 @@ def publish_trajectory_command():
     quat = R.from_matrix(new_rot_mat).as_quat()
     # Rotate the end effector by 90 degrees around the z axis
     joint_info = list(current_positions) + list(current_velocities)
-
+    if args.ik_rl:
+        env_ik.reset_pose(current_positions)
+        env_ik.set_target_pose(env.curr_target)
+        for j in range(50):
+            action_ik, _ = model_ik.predict(obs_ik, deterministic=True)
+            obs_ik, reward, done, _, info = env_ik.step(action_ik)
+        action = (env_ik.data.qpos[:7]- current_positions)
+    
     obs, _, done, _, info = env.step_from_robot(joint_info, t, quat)
     if done:
         obs, _ = env.reset()
     obs[:14] = joint_info
     # obs[7:14] = 0
-    action, _ = model.predict(obs, deterministic=True)
+    if not args.ik_rl:
+        action, _ = model.predict(obs, deterministic=True)
     # print(t,quat)
     # Create a new JointTrajectory message to command the robot
     trajectory_msg = JointTrajectory()
@@ -69,7 +115,10 @@ def publish_trajectory_command():
     # Create a JointTrajectoryPoint message
     trajectory_point = JointTrajectoryPoint()
     # print(action[0],current_positions[0],current_velocities[0])
-    new_positions = list(np.array(current_positions)+0.2*np.array(action))
+    if args.ik_rl:
+        new_positions = list(np.array(current_positions)+0.3*np.array(action))
+    else :
+        new_positions = list(np.array(current_positions)+0.2*np.array(action))
     env.prev_actions[:-1,:] = env.prev_actions[1:,:]
     env.prev_actions[-1,:] = action
     new_positions[0] = restrict_range(new_positions[0],-2.96,2.96)
@@ -88,7 +137,8 @@ def publish_trajectory_command():
     
     # Set a duration for reaching the target position
     trajectory_point.time_from_start = rospy.Duration(1/RATE)  # 0.1 second
-    env.render()
+    if args.render:
+        env.render()
 
     # Add the trajectory point to the trajectory message
     trajectory_msg.points.append(trajectory_point)
@@ -103,6 +153,11 @@ if __name__ == '__main__':
         env = KukaTennisEnv(proc_id=1)
         model = PPO.load("logs/best_model/best_model")
         obs, _ = env.reset()
+        
+        if args.ik_rl:
+            env_ik = KukaTennisEnvIK(proc_id=1)
+            model_ik = PPO.load("logs/best_model_ik1/best_model")
+            obs_ik, _ = env_ik.reset()
         # Initialize the TransformListener
         listener = tf.TransformListener()
         
@@ -117,11 +172,46 @@ if __name__ == '__main__':
         # Keep the node alive and processing callbacks
         # Set the rate for publishing (10 Hz = 0.1 seconds)
         rate = rospy.Rate(RATE)  # 10 Hz
+        if args.ik :
+            name = 'arm'
+            group = moveit_commander.MoveGroupCommander(name)
+            group.set_max_velocity_scaling_factor(0.3)
 
-        # Main loop to publish commands at 20 Hz
-        while not rospy.is_shutdown():
-            publish_trajectory_command()
-            rate.sleep()
+            # move to a named target
+            target = 'home'
+            group.set_named_target(target)
+            rospy.loginfo('Moving to named target "{}"...'.format(target))
+            group.go()
+            group.stop()
+            rospy.loginfo('Done.')   
+
+            for i in range(10):
+                # point to point motion (PTP)
+                pose = group.get_current_pose().pose
+                
+                waypoints = []
+
+                new_target = reset_target()
+                # move along negative x
+                pose.position.x = new_target[0]
+                pose.position.y = new_target[1]
+                pose.position.z = new_target[2]
+                pose.orientation.x = new_target[3]
+                pose.orientation.y = new_target[4]
+                pose.orientation.z = new_target[5]
+                pose.orientation.w = new_target[6]
+                waypoints.append(copy.deepcopy(pose))
+
+                plan, fraction = group.compute_cartesian_path(waypoints, eef_step=0.01, jump_threshold=0.)
+                rospy.loginfo('Moving along cartesian path...')
+                group.execute(plan)
+                group.stop()
+                rospy.loginfo('Done.')
+        else :
+            # Main loop to publish commands at 20 Hz
+            while not rospy.is_shutdown():
+                publish_trajectory_command()
+                rate.sleep()
 
         
 

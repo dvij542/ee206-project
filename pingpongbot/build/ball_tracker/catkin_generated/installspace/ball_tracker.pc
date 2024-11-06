@@ -1,0 +1,8 @@
+prefix=/home/anthonyyuen/ros_workspaces/pingpongbot/install
+
+Name: ball_tracker
+Description: Description of ball_tracker
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

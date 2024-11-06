@@ -1,0 +1,2 @@
+ball_tracker:robot_controller
+-DCATKIN_DEVEL_PREFIX=/home/anthonyyuen/ros_workspaces/pingpongbot/devel -DCMAKE_INSTALL_PREFIX=/home/anthonyyuen/ros_workspaces/pingpongbot/install -G Unix Makefiles

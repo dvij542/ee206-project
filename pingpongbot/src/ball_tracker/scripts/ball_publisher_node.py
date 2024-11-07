@@ -4,38 +4,37 @@ import rospy
 from geometry_msgs.msg import Twist
 import random
 
-def ball_publisher():
-    # Initialize the ROS node
-    rospy.init_node('ball_publisher', anonymous=True)
-
-    # Create a publisher to the /ball_pose topic
+def publish_random_ball_pose():
+    rospy.init_node('ball_pose_publisher', anonymous=True)
     pub = rospy.Publisher('/ball_pose', Twist, queue_size=10)
-
-    # Set the publishing rate
-    rate = rospy.Rate(1)  # 1 Hz (publishes once per second)
+    rate = rospy.Rate(10)  # Publish at 10 Hz
 
     while not rospy.is_shutdown():
-        # Create a Twist message to simulate ball position and velocity
-        ball_msg = Twist()
+        # Generate random ball position and velocity
+        ball_position = [
+            random.uniform(1.0, 3.0),  # x position between 1.0 and 3.0 meters
+            random.uniform(-0.5, 0.5), # y position between -0.5 and 0.5 meters
+            random.uniform(0.5, 2.0)   # z position between 0.5 and 2.0 meters
+        ]
+        
+        ball_velocity = [
+            random.uniform(-5.0, 5.0), # x velocity between -5.0 and 5.0 m/s
+            random.uniform(-2.0, 2.0), # y velocity between -2.0 and 2.0 m/s
+            random.uniform(-1.0, 3.0)  # z velocity between -1.0 and 3.0 m/s
+        ]
 
-        # Randomly simulate some ball position and velocity values
-        ball_msg.linear.x = random.uniform(0.0, 5.0)  # x position
-        ball_msg.linear.y = random.uniform(0.0, 5.0)  # y position
-        ball_msg.linear.z = random.uniform(0.0, 5.0)  # z position
+        # Create and populate the Twist message
+        msg = Twist()
+        msg.linear.x, msg.linear.y, msg.linear.z = ball_position
+        msg.angular.x, msg.angular.y, msg.angular.z = ball_velocity
 
-        ball_msg.angular.x = random.uniform(-1.0, 1.0)  # x velocity
-        ball_msg.angular.y = random.uniform(-1.0, 1.0)  # y velocity
-        ball_msg.angular.z = random.uniform(-1.0, 1.0)  # z velocity
-
-        # Publish the message
-        rospy.loginfo(f"Publishing ball position and velocity: {ball_msg}")
-        pub.publish(ball_msg)
-
-        # Sleep for the specified rate
+        # Log and publish the message
+        rospy.loginfo(f"Publishing random ball position: {ball_position} and velocity: {ball_velocity}")
+        pub.publish(msg)
         rate.sleep()
 
 if __name__ == '__main__':
     try:
-        ball_publisher()
+        publish_random_ball_pose()
     except rospy.ROSInterruptException:
         pass

@@ -1,61 +1,60 @@
 #!/usr/bin/env python3
 
 import rospy
-from std_msgs.msg import Float64MultiArray
 from sensor_msgs.msg import JointState
+from std_msgs.msg import Header
+from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 from geometry_msgs.msg import Twist
 
-# Placeholder function to simulate sending commands to MuJoCo
-def send_command_to_mujoco(joint_angles):
-    # Normally, you would use the MuJoCo Python API to set joint angles here.
-    # For example, you could use mujoco.sim.data.qpos[:] = joint_angles
-    rospy.loginfo(f"Setting MuJoCo joint angles to: {joint_angles}")
-    # Simulate robot state (angle + velocity)
-    return joint_angles, [0.0] * len(joint_angles)  # Velocity placeholders
+class RobotControlNode:
+    def __init__(self):
+        rospy.init_node('robot_control')
 
-# Placeholder function to get the ball's position from MuJoCo
-def get_ball_position():
-    # Normally, you would retrieve the actual ball position from the MuJoCo simulation
-    ball_position = Twist()
-    ball_position.linear.x = 1.0  # Example values
-    ball_position.linear.y = 1.5
-    ball_position.linear.z = 0.5
-    return ball_position
+        # Publisher to send robot state (joint positions, velocities) to the state topic
+        self.state_pub = rospy.Publisher('/lbr/PositionJointInterface_trajectory_controller/state', JointState, queue_size=10)
+        print("publish state")
+        # Publisher for ground truth ball position
+        self.ball_pose_pub = rospy.Publisher('/ball_pose', Twist, queue_size=10)
+        print("publish ball_pose")
 
-def command_callback(msg):
-    # Retrieve joint commands from the incoming message
-    joint_angles = msg.data
+        # Subscriber to receive joint commands
+        rospy.Subscriber('/lbr/PositionJointInterface_trajectory_controller/command', JointTrajectory, self.command_callback)
+        print("subscribe joint commands")
+        # Initialize joint state variables
+        self.joint_state = JointState()
+        self.joint_state.name = ["joint_1", "joint_2", "joint_3", "joint_4", "joint_5", "joint_6", "joint_7"]
+        self.joint_state.position = [0.0] * 7
+        self.joint_state.velocity = [0.0] * 7
 
-    # Send joint angles to MuJoCo and retrieve the simulated state
-    current_angles, current_velocities = send_command_to_mujoco(joint_angles)
+    def command_callback(self, msg):
+        # Update joint positions from the received command
+        if msg.points:
+            self.joint_state.position = msg.points[0].positions
+            self.joint_state.velocity = msg.points[0].velocities if msg.points[0].velocities else [0.0] * 7
 
-    # Publish the robot's current joint state
-    joint_state_msg = JointState()
-    joint_state_msg.position = current_angles
-    joint_state_msg.velocity = current_velocities
-    joint_state_publisher.publish(joint_state_msg)
+            # Publish to MuJoCo via the mujoco_control node
+            self.publish_to_mujoco()
+            print("publish to mujoco")
 
-    # Publish the current ball position as ground-truth data
-    ball_position = get_ball_position()
-    ball_pose_publisher.publish(ball_position)
+    def publish_to_mujoco(self):
+        # Publish the updated joint state to the /lbr/PositionJointInterface_trajectory_controller/state topic
+        self.joint_state.header = Header()
+        self.joint_state.header.stamp = rospy.Time.now()
+        self.state_pub.publish(self.joint_state)
 
-def robot_control_node():
-    # Initialize the node
-    rospy.init_node('robot_control_node')
-
-    # Subscribe to the command topic to receive joint angle commands
-    rospy.Subscriber('/lbr/PositionJointInterface_trajectory_controller/command', Float64MultiArray, command_callback)
-
-    # Publishers for robot state and ball position
-    global joint_state_publisher, ball_pose_publisher
-    joint_state_publisher = rospy.Publisher('/lbr/PositionJointInterface_trajectory_controller/state', JointState, queue_size=10)
-    ball_pose_publisher = rospy.Publisher('/ball_pose', Twist, queue_size=10)
-
-    # Keep the node running
-    rospy.spin()
+        # Publish the ground truth ball position (mock data for now)
+        ball_pose = Twist()
+        ball_pose.linear.x = 1.0  # Placeholder values
+        ball_pose.linear.y = 0.5
+        ball_pose.linear.z = 0.75
+        self.ball_pose_pub.publish(ball_pose)
+        print("publishing to mujoco")
+    def run(self):
+        rate = rospy.Rate(50)  # Control loop rate in Hz
+        while not rospy.is_shutdown():
+            self.publish_to_mujoco()
+            rate.sleep()
 
 if __name__ == '__main__':
-    try:
-        robot_control_node()
-    except rospy.ROSInterruptException:
-        pass
+    node = RobotControlNode()
+    node.run()

@@ -1,0 +1,5 @@
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")
+-- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3
+-- Found Python3: /home/dvij/anaconda3/include/python3.9 (found version "3.9.7") found components: Development NumPy Interpreter Development.Module Development.Embed
+-- Configuring incomplete, errors occurred!

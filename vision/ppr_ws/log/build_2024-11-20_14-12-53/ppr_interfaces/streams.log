@@ -1,0 +1,20 @@
+[0.020s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces': CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/ppr_interfaces -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/ppr_interfaces
+[0.142s] -- Configuring incomplete, errors occurred!
+[0.143s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.144s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.144s]   has asked CMake to find a package configuration file provided by
+[0.145s]   "ament_cmake", but CMake did not find one.
+[0.145s] 
+[0.145s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.145s]   any of the following names:
+[0.145s] 
+[0.145s]     ament_cmakeConfig.cmake
+[0.145s]     ament_cmake-config.cmake
+[0.145s] 
+[0.146s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.146s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.147s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.147s]   has been installed.
+[0.148s] 
+[0.148s] [0m
+[0.162s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/ppr_interfaces -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/ppr_interfaces

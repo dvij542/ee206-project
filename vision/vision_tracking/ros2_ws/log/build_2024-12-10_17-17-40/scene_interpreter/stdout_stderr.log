@@ -1,0 +1,53 @@
+running egg_info
+creating ../../build/scene_interpreter/scene_interpreter.egg-info
+writing ../../build/scene_interpreter/scene_interpreter.egg-info/PKG-INFO
+writing dependency_links to ../../build/scene_interpreter/scene_interpreter.egg-info/dependency_links.txt
+writing entry points to ../../build/scene_interpreter/scene_interpreter.egg-info/entry_points.txt
+writing requirements to ../../build/scene_interpreter/scene_interpreter.egg-info/requires.txt
+writing top-level names to ../../build/scene_interpreter/scene_interpreter.egg-info/top_level.txt
+writing manifest file '../../build/scene_interpreter/scene_interpreter.egg-info/SOURCES.txt'
+reading manifest file '../../build/scene_interpreter/scene_interpreter.egg-info/SOURCES.txt'
+writing manifest file '../../build/scene_interpreter/scene_interpreter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build
+creating /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib
+creating /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter
+copying scene_interpreter/ball_state_estimator_yolo.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter
+copying scene_interpreter/ball_detection_utils.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter
+copying scene_interpreter/NaiveBallDetector.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter
+copying scene_interpreter/__init__.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter
+copying scene_interpreter/BallDetector.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter
+copying scene_interpreter/ball_state_estimator.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter
+copying scene_interpreter/triangulation_utils.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter
+copying scene_interpreter/scene_interpreter.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter
+running install
+running install_lib
+creating /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/ball_state_estimator_yolo.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/ball_detection_utils.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/NaiveBallDetector.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/__init__.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/BallDetector.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/ball_state_estimator.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/triangulation_utils.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/scene_interpreter.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/ball_state_estimator_yolo.py to ball_state_estimator_yolo.cpython-38.pyc
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/ball_detection_utils.py to ball_detection_utils.cpython-38.pyc
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/NaiveBallDetector.py to NaiveBallDetector.cpython-38.pyc
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/BallDetector.py to BallDetector.cpython-38.pyc
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/ball_state_estimator.py to ball_state_estimator.cpython-38.pyc
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/triangulation_utils.py to triangulation_utils.cpython-38.pyc
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/scene_interpreter.py to scene_interpreter.cpython-38.pyc
+running install_data
+creating /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/share/ament_index
+creating /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/share/ament_index/resource_index
+creating /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/share/ament_index/resource_index/packages
+copying resource/scene_interpreter -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/share/ament_index/resource_index/packages
+copying package.xml -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/share/scene_interpreter
+running install_egg_info
+Copying ../../build/scene_interpreter/scene_interpreter.egg-info to /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter-0.0.0-py3.8.egg-info
+running install_scripts
+Installing scene_interpreter script to /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/scene_interpreter
+writing list of installed files to '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/install.log'

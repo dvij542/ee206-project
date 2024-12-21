@@ -1,0 +1,4 @@
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+-- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring incomplete, errors occurred!

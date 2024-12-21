@@ -1,0 +1,312 @@
+[0.000000] (-) TimerEvent: {}
+[0.000282] (-) JobUnselected: {'identifier': 'camera_feed'}
+[0.000325] (-) JobUnselected: {'identifier': 'my_sync_package'}
+[0.000351] (-) JobUnselected: {'identifier': 'scene_interpreter'}
+[0.000387] (interface) JobQueued: {'identifier': 'interface', 'dependencies': OrderedDict()}
+[0.000430] (interface) JobStarted: {'identifier': 'interface'}
+[0.005858] (interface) JobProgress: {'identifier': 'interface', 'progress': 'cmake'}
+[0.006089] (interface) Command: {'cmd': ['/usr/local/bin/cmake', '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/interface', '-DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface'], 'cwd': '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'dvij'), ('SSH_CLIENT', '10.41.207.41 47712 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/dvij/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('BROWSER', '/home/dvij/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dvij'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.95.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1005/vscode-ipc-a7d4c156-73b8-4a8e-ac94-d9fab735ecc8.sock'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dvij/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dvij/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dvij'), ('CONDA_ROOT', '/home/dvij/anaconda3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dvij/anaconda3/bin:/home/dvij/anaconda3/condabin:/home/dvij/anaconda3/bin:/home/dvij/anaconda3/condabin:/home/dvij/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/dvij/.local/bin:/opt/ros/foxy/bin:/home/dvij/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', 'localhost:10.0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1005/vscode-git-6452c200a5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/dvij/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/dvij/anaconda3/bin/conda'), ('SSH_CONNECTION', '10.41.207.41 47712 10.41.45.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/dvij/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.038626] (interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.080790] (interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.087087] (interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099821] (-) TimerEvent: {}
+[0.180060] (interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.197900] (interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.198081] (interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.198330] (interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.199867] (-) TimerEvent: {}
+[0.200375] (interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.246747] (interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.256257] (interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.256492] (interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.256765] (interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.257952] (interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.259928] (interface) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.259977] (interface) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.260007] (interface) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.260035] (interface) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.260062] (interface) StderrLine: {'line': b'\n'}
+[0.260093] (interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.260120] (interface) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.260150] (interface) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.260179] (interface) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.260206] (interface) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.260239] (interface) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.260269] (interface) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.260296] (interface) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.260325] (interface) StderrLine: {'line': b'\x1b[0m\n'}
+[0.275206] (interface) StdoutLine: {'line': b'-- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")\n'}
+[0.275290] (interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3\n'}
+[0.299941] (-) TimerEvent: {}
+[0.396014] (interface) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.400003] (-) TimerEvent: {}
+[0.411955] (interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.415180] (interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.468357] (interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")\n'}
+[0.488897] (interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include\n'}
+[0.500090] (-) TimerEvent: {}
+[0.534238] (interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.555634] (interface) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.600175] (-) TimerEvent: {}
+[0.609796] (interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.615173] (interface) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):\n'}
+[0.615230] (interface) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.615260] (interface) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.615288] (interface) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.615314] (interface) StderrLine: {'line': b'\n'}
+[0.615340] (interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.615366] (interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.615393] (interface) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[0.615419] (interface) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.615446] (interface) StderrLine: {'line': b'\x1b[0m\n'}
+[0.630095] (interface) StdoutLine: {'line': b'-- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found version "3.9.7")\n'}
+[0.700254] (-) TimerEvent: {}
+[0.763832] (interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.800341] (-) TimerEvent: {}
+[0.900567] (-) TimerEvent: {}
+[0.915771] (interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.977783] (interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.980066] (interface) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[0.980112] (interface) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.980142] (interface) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.980171] (interface) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.980200] (interface) StderrLine: {'line': b'\n'}
+[0.980234] (interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.980263] (interface) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[0.980291] (interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[0.980317] (interface) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[0.980344] (interface) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.980371] (interface) StderrLine: {'line': b'\x1b[0m\n'}
+[0.995343] (interface) StdoutLine: {'line': b'-- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3.5")\n'}
+[0.996076] (interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.996355] (interface) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):\n'}
+[0.996392] (interface) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.996419] (interface) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.996446] (interface) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.996473] (interface) StderrLine: {'line': b'\n'}
+[0.996500] (interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.996528] (interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[0.996555] (interface) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[0.996582] (interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[0.996608] (interface) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[0.996634] (interface) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.996659] (interface) StderrLine: {'line': b'\x1b[0m\n'}
+[1.000617] (-) TimerEvent: {}
+[1.011312] (interface) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):\n'}
+[1.011405] (interface) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.011434] (interface) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.011460] (interface) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.011488] (interface) StderrLine: {'line': b'\n'}
+[1.011514] (interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.011540] (interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[1.011567] (interface) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.011592] (interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.011619] (interface) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[1.011644] (interface) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.011669] (interface) StderrLine: {'line': b'\x1b[0m\n'}
+[1.013334] (interface) StdoutLine: {'line': b'-- Found PythonLibs: /home/dvij/anaconda3/lib/libpython3.9.so (found suitable version "3.9.7", minimum required is "3.5")\n'}
+[1.013429] (interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3\n'}
+[1.013465] (interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/dvij/anaconda3/include/python3.9\n'}
+[1.013491] (interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/dvij/anaconda3/lib/libpython3.9.so\n'}
+[1.028841] (interface) StdoutLine: {'line': b'-- Found PythonExtra: .so\n'}
+[1.072762] (interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.081367] (interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.081735] (interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.082832] (interface) StdoutLine: {'line': b'-- Configuring done (1.1s)\n'}
+[1.100689] (-) TimerEvent: {}
+[1.104165] (interface) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:235 (add_library):\n'}
+[1.104262] (interface) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[1.104298] (interface) StderrLine: {'line': b'  interface__rosidl_typesupport_fastrtps_c__pyext because files in some\n'}
+[1.104331] (interface) StderrLine: {'line': b'  directories may conflict with libraries in implicit directories:\n'}
+[1.104360] (interface) StderrLine: {'line': b'\n'}
+[1.104387] (interface) StderrLine: {'line': b'    runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.104413] (interface) StderrLine: {'line': b'      /home/dvij/anaconda3/lib\n'}
+[1.104439] (interface) StderrLine: {'line': b'    runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.104470] (interface) StderrLine: {'line': b'      /home/dvij/anaconda3/lib\n'}
+[1.104496] (interface) StderrLine: {'line': b'\n'}
+[1.104521] (interface) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.104547] (interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.104572] (interface) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.104597] (interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.104623] (interface) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[1.104648] (interface) StderrLine: {'line': b'\n'}
+[1.104674] (interface) StderrLine: {'line': b'\x1b[0m\n'}
+[1.109555] (interface) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.110995] (interface) StdoutLine: {'line': b'-- Build files have been written to: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface\n'}
+[1.119228] (interface) CommandEnded: {'returncode': 0}
+[1.119754] (interface) JobProgress: {'identifier': 'interface', 'progress': 'build'}
+[1.120139] (interface) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface', '--', '-j20', '-l20'], 'cwd': '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'dvij'), ('SSH_CLIENT', '10.41.207.41 47712 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/dvij/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('BROWSER', '/home/dvij/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dvij'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.95.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1005/vscode-ipc-a7d4c156-73b8-4a8e-ac94-d9fab735ecc8.sock'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dvij/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dvij/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dvij'), ('CONDA_ROOT', '/home/dvij/anaconda3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dvij/anaconda3/bin:/home/dvij/anaconda3/condabin:/home/dvij/anaconda3/bin:/home/dvij/anaconda3/condabin:/home/dvij/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/dvij/.local/bin:/opt/ros/foxy/bin:/home/dvij/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', 'localhost:10.0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1005/vscode-git-6452c200a5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/dvij/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/dvij/anaconda3/bin/conda'), ('SSH_CONNECTION', '10.41.207.41 47712 10.41.45.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/dvij/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.135420] (interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.139568] (interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.200791] (-) TimerEvent: {}
+[1.271413] (interface) StdoutLine: {'line': b'[  6%] Built target interface__cpp\n'}
+[1.274795] (interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/scene__functions.c.o\x1b[0m\n'}
+[1.275668] (interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.275778] (interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.275868] (interface) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.300897] (-) TimerEvent: {}
+[1.301322] (interface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libinterface__rosidl_generator_c.so\x1b[0m\n'}
+[1.321935] (interface) StdoutLine: {'line': b'[ 22%] Built target interface__rosidl_generator_c\n'}
+[1.326638] (interface) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.326792] (interface) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.401001] (-) TimerEvent: {}
+[1.403213] (interface) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/scene__type_support.cpp.o\x1b[0m\n'}
+[1.410350] (interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/msg/detail/scene__type_support.cpp.o\x1b[0m\n'}
+[1.411932] (interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface/msg/detail/dds_fastrtps/scene__type_support.cpp.o\x1b[0m\n'}
+[1.455660] (interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/msg/scene__type_support.cpp.o\x1b[0m\n'}
+[1.463901] (interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/msg/detail/scene__type_support.c.o\x1b[0m\n'}
+[1.473269] (interface) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.484024] (interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libinterface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.495317] (interface) StdoutLine: {'line': b'[ 51%] Built target interface__rosidl_typesupport_c\n'}
+[1.501092] (-) TimerEvent: {}
+[1.501456] (interface) StdoutLine: {'line': b'[ 51%] Built target interface__rosidl_typesupport_introspection_c\n'}
+[1.537474] (interface) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.559106] (interface) StdoutLine: {'line': b'[ 54%] Built target interface__rosidl_typesupport_cpp\n'}
+[1.581759] (interface) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.601182] (-) TimerEvent: {}
+[1.620808] (interface) StdoutLine: {'line': b'[ 58%] Built target interface__rosidl_typesupport_introspection_cpp\n'}
+[1.640878] (interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.686763] (interface) StdoutLine: {'line': b'[ 61%] Built target interface__rosidl_typesupport_fastrtps_cpp\n'}
+[1.691446] (interface) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.701230] (-) TimerEvent: {}
+[1.801465] (-) TimerEvent: {}
+[1.820663] (interface) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/msg/detail/scene__type_support_c.cpp.o\x1b[0m\n'}
+[1.901592] (-) TimerEvent: {}
+[1.979327] (interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.001664] (-) TimerEvent: {}
+[2.025599] (interface) StdoutLine: {'line': b'[ 70%] Built target interface__rosidl_typesupport_fastrtps_c\n'}
+[2.034473] (interface) StdoutLine: {'line': b'[ 70%] Built target interface\n'}
+[2.043154] (interface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.101750] (-) TimerEvent: {}
+[2.201965] (-) TimerEvent: {}
+[2.270782] (interface) StdoutLine: {'line': b'[ 74%] Built target interface__py\n'}
+[2.279050] (interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/interface__python.dir/rosidl_generator_py/interface/msg/_scene_s.c.o\x1b[0m\n'}
+[2.302063] (-) TimerEvent: {}
+[2.326941] (interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface/libinterface__python.so\x1b[0m\n'}
+[2.349363] (interface) StdoutLine: {'line': b'[ 80%] Built target interface__python\n'}
+[2.358183] (interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.358315] (interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.358399] (interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.400395] (interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.400550] (interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_introspection_c.cpython-39-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.400589] (interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.402128] (-) TimerEvent: {}
+[2.418670] (interface) StdoutLine: {'line': b'[100%] Built target interface__rosidl_typesupport_c__pyext\n'}
+[2.418825] (interface) StdoutLine: {'line': b'[100%] Built target interface__rosidl_typesupport_introspection_c__pyext\n'}
+[2.434869] (interface) StdoutLine: {'line': b'[100%] Built target interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.439630] (interface) CommandEnded: {'returncode': 0}
+[2.492167] (interface) JobProgress: {'identifier': 'interface', 'progress': 'install'}
+[2.495934] (interface) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface'], 'cwd': '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'dvij'), ('SSH_CLIENT', '10.41.207.41 47712 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/dvij/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('BROWSER', '/home/dvij/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dvij'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.95.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1005/vscode-ipc-a7d4c156-73b8-4a8e-ac94-d9fab735ecc8.sock'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dvij/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dvij/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dvij'), ('CONDA_ROOT', '/home/dvij/anaconda3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dvij/anaconda3/bin:/home/dvij/anaconda3/condabin:/home/dvij/anaconda3/bin:/home/dvij/anaconda3/condabin:/home/dvij/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/dvij/.local/bin:/opt/ros/foxy/bin:/home/dvij/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', 'localhost:10.0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1005/vscode-git-6452c200a5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/dvij/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/dvij/anaconda3/bin/conda'), ('SSH_CONNECTION', '10.41.207.41 47712 10.41.45.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/dvij/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.499659] (interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.499759] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/ament_index/resource_index/rosidl_interfaces/interface\n'}
+[2.499825] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface\n'}
+[2.499870] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg\n'}
+[2.499908] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.499947] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail\n'}
+[2.499986] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__functions.c\n'}
+[2.500023] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__type_support.h\n'}
+[2.500059] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__struct.h\n'}
+[2.500102] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__functions.h\n'}
+[2.500132] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/scene.h\n'}
+[2.500176] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/environment/library_path.sh\n'}
+[2.500435] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/environment/library_path.dsv\n'}
+[2.500485] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_generator_c.so\n'}
+[2.500529] (interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_generator_c.so" to ""\n'}
+[2.500558] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface\n'}
+[2.500596] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg\n'}
+[2.500624] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.500652] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail\n'}
+[2.500678] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__rosidl_typesupport_fastrtps_c.h\n'}
+[2.500714] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so\n'}
+[2.500759] (interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.500796] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface\n'}
+[2.500831] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg\n'}
+[2.500869] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.500904] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail\n'}
+[2.500933] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.500959] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/dds_fastrtps\n'}
+[2.500987] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.501025] (interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.501071] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface\n'}
+[2.501108] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg\n'}
+[2.501144] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.501179] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail\n'}
+[2.501215] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__type_support.c\n'}
+[2.501241] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__rosidl_typesupport_introspection_c.h\n'}
+[2.501269] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so\n'}
+[2.501310] (interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.501347] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_c.so\n'}
+[2.501421] (interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_c.so" to ""\n'}
+[2.501461] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface\n'}
+[2.501497] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg\n'}
+[2.501537] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.501573] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/scene.hpp\n'}
+[2.501609] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail\n'}
+[2.501650] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__builder.hpp\n'}
+[2.501679] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__type_support.hpp\n'}
+[2.501728] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__struct.hpp\n'}
+[2.501754] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__traits.hpp\n'}
+[2.501790] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface\n'}
+[2.501825] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg\n'}
+[2.501853] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail\n'}
+[2.501881] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__type_support.cpp\n'}
+[2.501908] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.501935] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so\n'}
+[2.501975] (interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.502003] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_cpp.so\n'}
+[2.502064] (interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_cpp.so" to ""\n'}
+[2.502102] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/environment/pythonpath.sh\n'}
+[2.502138] (-) TimerEvent: {}
+[2.502217] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/environment/pythonpath.dsv\n'}
+[2.502256] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.9/site-packages/interface/__init__.py\n'}
+[2.522756] (interface) StdoutLine: {'line': b"Compiling '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.9/site-packages/interface/__init__.py'...\n"}
+[2.525379] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.9/site-packages/interface/msg\n'}
+[2.525448] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.9/site-packages/interface/msg/_scene.py\n'}
+[2.525490] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.9/site-packages/interface/msg/_scene_s.c\n'}
+[2.525530] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.9/site-packages/interface/msg/__init__.py\n'}
+[2.525596] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.9/site-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so\n'}
+[2.525725] (interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.9/site-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so" to ""\n'}
+[2.525776] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.9/site-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-39-x86_64-linux-gnu.so\n'}
+[2.525889] (interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.9/site-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-39-x86_64-linux-gnu.so" to ""\n'}
+[2.525930] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.9/site-packages/interface/interface_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so\n'}
+[2.526032] (interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.9/site-packages/interface/interface_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so" to ""\n'}
+[2.526072] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__python.so\n'}
+[2.526176] (interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__python.so" to ""\n'}
+[2.526225] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/msg/Scene.idl\n'}
+[2.526272] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/msg/Scene.msg\n'}
+[2.526340] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/ament_index/resource_index/package_run_dependencies/interface\n'}
+[2.526400] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/ament_index/resource_index/parent_prefix_path/interface\n'}
+[2.526441] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/environment/ament_prefix_path.sh\n'}
+[2.526481] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/environment/ament_prefix_path.dsv\n'}
+[2.526521] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/environment/path.sh\n'}
+[2.526558] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/environment/path.dsv\n'}
+[2.526596] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/local_setup.bash\n'}
+[2.526635] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/local_setup.sh\n'}
+[2.526676] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/local_setup.zsh\n'}
+[2.526711] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/local_setup.dsv\n'}
+[2.526750] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/package.dsv\n'}
+[2.526799] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/ament_index/resource_index/packages/interface\n'}
+[2.526862] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_generator_cExport.cmake\n'}
+[2.526912] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.526959] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.527001] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.527048] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport.cmake\n'}
+[2.527089] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.527137] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_generator_cppExport.cmake\n'}
+[2.527186] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.527227] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.527272] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport.cmake\n'}
+[2.527314] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.527355] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/rosidl_cmake-extras.cmake\n'}
+[2.527398] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.527439] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.527480] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.527520] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.527560] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.527599] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.527639] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interfaceConfig.cmake\n'}
+[2.527677] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interfaceConfig-version.cmake\n'}
+[2.527714] (interface) StdoutLine: {'line': b'-- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/package.xml\n'}
+[2.528846] (interface) CommandEnded: {'returncode': 0}
+[2.593857] (interface) JobEnded: {'identifier': 'interface', 'rc': 0}
+[2.594445] (-) EventReactorShutdown: {}

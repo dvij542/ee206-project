@@ -9,3 +9,9 @@ pingpongbot/
 pingpongbot/build/
 pingpongbot/devel/
 pingpongbot/.catkin_workspace
+
+*.zip
+*.jpg
+*.avi
+*.png
+*.gif

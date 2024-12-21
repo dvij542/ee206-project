@@ -1,0 +1,21 @@
+[0.760s] Invoking command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/vision/visual_servo': PYTHONPATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/visual_servo/prefix_override:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/visual_servo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/visual_servo build --build-base /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/visual_servo/build install --record /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/visual_servo/install.log --install-scripts $base/lib/visual_servo --single-version-externally-managed
+[0.914s] running egg_info
+[0.914s] writing ../../../../build/visual_servo/visual_servo.egg-info/PKG-INFO
+[0.914s] writing dependency_links to ../../../../build/visual_servo/visual_servo.egg-info/dependency_links.txt
+[0.914s] writing entry points to ../../../../build/visual_servo/visual_servo.egg-info/entry_points.txt
+[0.914s] writing requirements to ../../../../build/visual_servo/visual_servo.egg-info/requires.txt
+[0.914s] writing top-level names to ../../../../build/visual_servo/visual_servo.egg-info/top_level.txt
+[1.176s] reading manifest file '../../../../build/visual_servo/visual_servo.egg-info/SOURCES.txt'
+[1.177s] writing manifest file '../../../../build/visual_servo/visual_servo.egg-info/SOURCES.txt'
+[1.177s] running build
+[1.177s] running build_py
+[1.177s] running install
+[1.178s] running install_lib
+[1.179s] running install_data
+[1.179s] running install_egg_info
+[1.180s] removing '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/visual_servo/lib/python3.8/site-packages/visual_servo-0.0.0-py3.8.egg-info' (and everything under it)
+[1.180s] Copying ../../../../build/visual_servo/visual_servo.egg-info to /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/visual_servo/lib/python3.8/site-packages/visual_servo-0.0.0-py3.8.egg-info
+[1.180s] running install_scripts
+[1.189s] Installing visual_servo script to /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/visual_servo/lib/visual_servo
+[1.189s] writing list of installed files to '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/visual_servo/install.log'
+[1.202s] Invoked command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/vision/visual_servo' returned '0': PYTHONPATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/visual_servo/prefix_override:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/visual_servo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/visual_servo build --build-base /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/visual_servo/build install --record /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/visual_servo/install.log --install-scripts $base/lib/visual_servo --single-version-externally-managed

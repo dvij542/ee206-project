@@ -1,0 +1,22 @@
+[0.000000] (-) TimerEvent: {}
+[0.000171] (-) JobUnselected: {'identifier': 'fri_vendor'}
+[0.000189] (-) JobUnselected: {'identifier': 'lbr_bringup'}
+[0.000199] (-) JobUnselected: {'identifier': 'lbr_demos_fri_ros2_advanced_python'}
+[0.000206] (-) JobUnselected: {'identifier': 'lbr_demos_fri_ros2_cpp'}
+[0.000213] (-) JobUnselected: {'identifier': 'lbr_demos_fri_ros2_python'}
+[0.000219] (-) JobUnselected: {'identifier': 'lbr_demos_ros2_control_cpp'}
+[0.000226] (-) JobUnselected: {'identifier': 'lbr_demos_ros2_control_python'}
+[0.000232] (-) JobUnselected: {'identifier': 'lbr_description'}
+[0.000238] (-) JobUnselected: {'identifier': 'lbr_fri_msgs'}
+[0.000245] (-) JobUnselected: {'identifier': 'lbr_fri_ros2'}
+[0.000251] (-) JobUnselected: {'identifier': 'lbr_fri_ros2_stack'}
+[0.000257] (-) JobUnselected: {'identifier': 'lbr_hardware_interface'}
+[0.000263] (-) JobUnselected: {'identifier': 'lbr_moveit'}
+[0.000270] (-) JobUnselected: {'identifier': 'workspace_controller'}
+[0.000279] (visual_servo) JobQueued: {'identifier': 'visual_servo', 'dependencies': OrderedDict([('fri_vendor', '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor'), ('lbr_description', '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description'), ('lbr_fri_msgs', '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs'), ('lbr_fri_ros2', '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2'), ('lbr_hardware_interface', '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_hardware_interface'), ('lbr_bringup', '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_bringup')])}
+[0.000474] (visual_servo) JobStarted: {'identifier': 'visual_servo'}
+[0.099854] (-) TimerEvent: {}
+[0.200093] (-) TimerEvent: {}
+[0.220918] (visual_servo) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 85, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 175, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'setup.py\', \'--help-commands\'] to pass: /usr/bin/python3: can\'t open file \'setup.py\': [Errno 2] No such file or directory\n\n'}
+[0.221228] (visual_servo) JobEnded: {'identifier': 'visual_servo', 'rc': 1}
+[0.231294] (-) EventReactorShutdown: {}

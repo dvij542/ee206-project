@@ -1,0 +1,33 @@
+[0.038s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/iiwa_moveit2': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/iiwa_moveit2 -- -j20 -l20
+[0.286s] [ 33%] Built target servo_controller_input
+[0.286s] [ 66%] Built target servo_node
+[0.286s] [100%] Built target pose_tracking_servo_node
+[0.287s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/iiwa_moveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/iiwa_moveit2 -- -j20 -l20
+[0.449s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/iiwa_moveit2': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --install /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/iiwa_moveit2
+[0.464s] -- Install configuration: "Release"
+[0.464s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/lib/iiwa_moveit2/pose_tracking_servo_node
+[0.465s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/lib/iiwa_moveit2/servo_node
+[0.465s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/lib/libservo_controller_input.so
+[0.465s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/library_path.sh
+[0.466s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/library_path.dsv
+[0.466s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/ament_index/resource_index/package_run_dependencies/iiwa_moveit2
+[0.466s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/ament_index/resource_index/parent_prefix_path/iiwa_moveit2
+[0.466s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/ament_prefix_path.sh
+[0.466s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/ament_prefix_path.dsv
+[0.466s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/path.sh
+[0.466s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/environment/path.dsv
+[0.466s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/local_setup.bash
+[0.466s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/local_setup.sh
+[0.467s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/local_setup.zsh
+[0.467s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/local_setup.dsv
+[0.467s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/package.dsv
+[0.467s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/ament_index/resource_index/packages/iiwa_moveit2
+[0.467s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/ament_index/resource_index/rclcpp_components/iiwa_moveit2
+[0.467s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/export_iiwa_moveit2Export.cmake
+[0.467s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/export_iiwa_moveit2Export-release.cmake
+[0.467s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/ament_cmake_export_targets-extras.cmake
+[0.467s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.467s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/iiwa_moveit2Config.cmake
+[0.468s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/cmake/iiwa_moveit2Config-version.cmake
+[0.468s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/share/iiwa_moveit2/package.xml
+[0.484s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/iiwa_moveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --install /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/iiwa_moveit2

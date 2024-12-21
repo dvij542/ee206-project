@@ -1,0 +1,5 @@
+  File "/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/workspace_controller/lib/python3.8/site-packages/workspace_controller/control_node.py", line 35
+    rot = np.array([np.sqrt(2) / 2, 0, 0, np.sqrt(2) / 2])] # -pi/2 z rotation
+                                                          ^
+SyntaxError: unmatched ']'
+

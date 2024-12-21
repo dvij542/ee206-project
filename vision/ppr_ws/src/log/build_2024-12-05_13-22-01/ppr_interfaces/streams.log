@@ -1,0 +1,41 @@
+[0.023s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/ppr_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/ppr_interfaces -- -j20 -l20
+[0.034s] [0mCMake Error: The current CMakeCache.txt directory /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/CMakeCache.txt is different than the directory /home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.058s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.077s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.077s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.078s] CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+[0.078s]   configure_file Problem configuring file
+[0.078s] Call Stack (most recent call first):
+[0.078s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:25 (stamp)
+[0.078s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.078s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.078s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.078s]   CMakeLists.txt:9 (find_package)
+[0.078s] 
+[0.078s] 
+[0.161s] Traceback (most recent call last):
+[0.161s]   File "/opt/ros/galactic/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 112, in <module>
+[0.161s]     main()
+[0.161s]   File "/opt/ros/galactic/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 55, in main
+[0.161s]     with open(args.outfile, 'w') as f:
+[0.161s] PermissionError: [Errno 13] Permission denied: '/home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/ament_cmake_package_templates/templates.cmake'
+[0.175s] CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.175s]   execute_process(/usr/bin/python3
+[0.175s]   /opt/ros/galactic/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.176s]   /home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/ament_cmake_package_templates/templates.cmake)
+[0.176s]   returned error code 1
+[0.176s] Call Stack (most recent call first):
+[0.176s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.176s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.176s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.176s]   CMakeLists.txt:9 (find_package)
+[0.176s] 
+[0.176s] 
+[0.176s] -- Configuring incomplete, errors occurred!
+[0.176s] See also "/home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/CMakeFiles/CMakeOutput.log".
+[0.176s] CMake Error: Cannot open file for write: /home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/CMakeCache.txt.tmp
+[0.176s] CMake Error: : System Error: Permission denied
+[0.176s] CMake Error: Unable to open cache file for save. /home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/CMakeCache.txt
+[0.176s] CMake Error: : System Error: Permission denied
+[0.177s] make: *** [Makefile:776: cmake_check_build_system] Error 1
+[0.178s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/ppr_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/ppr_interfaces -- -j20 -l20

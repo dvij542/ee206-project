@@ -1,0 +1,98 @@
+[0.090s] Invoking command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_ros2': AMENT_PREFIX_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor:/opt/ros/foxy LD_LIBRARY_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/lib/python3.8/site-packages:${PYTHONPATH} /home/pingpongproject/.local/bin/cmake /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/lbr_fri_ros2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2
+[0.132s] -- The C compiler identification is GNU 9.4.0
+[0.168s] -- The CXX compiler identification is GNU 9.4.0
+[0.173s] -- Detecting C compiler ABI info
+[0.203s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.212s] -- Detecting CXX compiler ABI info
+[0.246s] -- Detecting CXX compiler ABI info - done
+[0.252s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.253s] -- Detecting CXX compile features
+[0.253s] -- Detecting CXX compile features - done
+[0.254s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.269s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.269s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.368s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.391s] -- Found control_toolbox: 2.2.0 (/opt/ros/foxy/share/control_toolbox/cmake)
+[0.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.421s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.460s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.478s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.522s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.832s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.833s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.834s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.864s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.864s] -- Looking for pthread_create in pthreads
+[0.887s] -- Looking for pthread_create in pthreads - not found
+[0.887s] -- Looking for pthread_create in pthread
+[0.918s] -- Looking for pthread_create in pthread - found
+[0.918s] -- Found Threads: TRUE  
+[1.028s] -- Found fri_vendor: 1.0.0 (/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/fri_vendor/cmake)
+[1.029s] -- Found lbr_fri_msgs: 1.1.5 (/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake)
+[1.048s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.093s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[1.175s] -- Configuring done (1.1s)
+[1.198s] -- Generating done (0.0s)
+[1.199s] -- Build files have been written to: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_ros2
+[1.207s] Invoked command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_ros2' returned '0': AMENT_PREFIX_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor:/opt/ros/foxy LD_LIBRARY_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/lib/python3.8/site-packages:${PYTHONPATH} /home/pingpongproject/.local/bin/cmake /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/lbr_fri_ros2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2
+[1.209s] Invoking command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_ros2': AMENT_PREFIX_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor:/opt/ros/foxy LD_LIBRARY_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/lib/python3.8/site-packages:${PYTHONPATH} /home/pingpongproject/.local/bin/cmake --build /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_ros2 -- -j20 -l20
+[1.232s] [ 11%] [32mBuilding CXX object CMakeFiles/app.dir/rclcpp_components/node_main_app.cpp.o[0m
+[1.233s] [ 22%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/app.cpp.o[0m
+[1.233s] [ 44%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/client.cpp.o[0m
+[1.233s] [ 44%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/command_guard.cpp.o[0m
+[1.233s] [ 55%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/utils.cpp.o[0m
+[2.476s] [ 66%] [32m[1mLinking CXX executable app[0m
+[2.559s] [ 66%] Built target app
+[5.214s] [ 77%] [32m[1mLinking CXX shared library liblbr_fri_ros2.so[0m
+[5.301s] [ 77%] Built target lbr_fri_ros2
+[5.305s] [ 88%] [32mBuilding CXX object CMakeFiles/app_component.dir/src/app_component.cpp.o[0m
+[6.604s] [100%] [32m[1mLinking CXX shared library libapp_component.so[0m
+[6.663s] [100%] Built target app_component
+[6.667s] Invoked command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_ros2' returned '0': AMENT_PREFIX_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor:/opt/ros/foxy LD_LIBRARY_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/lib/python3.8/site-packages:${PYTHONPATH} /home/pingpongproject/.local/bin/cmake --build /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_ros2 -- -j20 -l20
+[6.695s] Invoking command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_ros2': AMENT_PREFIX_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor:/opt/ros/foxy LD_LIBRARY_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/lib/python3.8/site-packages:${PYTHONPATH} /home/pingpongproject/.local/bin/cmake --install /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_ros2
+[6.711s] -- Install configuration: "Release"
+[6.711s] -- Execute custom install script
+[6.711s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/library_path.sh
+[6.713s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/library_path.dsv
+[6.714s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/include/lbr_fri_ros2/app.hpp
+[6.715s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/include/lbr_fri_ros2/client.hpp
+[6.716s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/include/lbr_fri_ros2/command_guard.hpp
+[6.717s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/include/lbr_fri_ros2/utils.hpp
+[6.719s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/launch/app.launch.py
+[6.720s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/lbr_fri_ros2/app
+[6.721s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/libapp_component.so
+[6.723s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/launch/app.launch.py
+[6.723s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/lbr_fri_ros2/lbr_state_smoothing_node.py
+[6.724s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/pythonpath.sh
+[6.726s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/pythonpath.dsv
+[6.727s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/python3.8/site-packages/lbr_fri_ros2/__init__.py
+[6.729s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/python3.8/site-packages/lbr_fri_ros2/launch_mixin.py
+[6.730s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/ament_index/resource_index/package_run_dependencies/lbr_fri_ros2
+[6.731s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/ament_index/resource_index/parent_prefix_path/lbr_fri_ros2
+[6.732s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/ament_prefix_path.sh
+[6.734s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/ament_prefix_path.dsv
+[6.735s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/path.sh
+[6.736s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/path.dsv
+[6.737s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/local_setup.bash
+[6.738s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/local_setup.sh
+[6.739s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/local_setup.zsh
+[6.740s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/local_setup.dsv
+[6.742s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/package.dsv
+[6.743s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/ament_index/resource_index/packages/lbr_fri_ros2
+[6.744s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/ament_index/resource_index/rclcpp_components/lbr_fri_ros2
+[6.745s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/ament_cmake_export_targets-extras.cmake
+[6.746s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.748s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2Config.cmake
+[6.749s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2Config-version.cmake
+[6.750s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/package.xml
+[6.751s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/liblbr_fri_ros2.so
+[6.753s] -- Set runtime path of "/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/liblbr_fri_ros2.so" to ""
+[6.769s] Listing '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/python3.8/site-packages/lbr_fri_ros2'...
+[6.769s] Compiling '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/python3.8/site-packages/lbr_fri_ros2/__init__.py'...
+[6.769s] Compiling '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/python3.8/site-packages/lbr_fri_ros2/launch_mixin.py'...
+[6.771s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2_exportExport.cmake
+[6.771s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2_exportExport-release.cmake
+[6.774s] Invoked command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_ros2' returned '0': AMENT_PREFIX_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor:/opt/ros/foxy LD_LIBRARY_PATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/lib/python3.8/site-packages:${PYTHONPATH} /home/pingpongproject/.local/bin/cmake --install /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_ros2

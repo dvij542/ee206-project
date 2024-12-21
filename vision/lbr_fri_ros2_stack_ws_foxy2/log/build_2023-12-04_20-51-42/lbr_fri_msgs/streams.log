@@ -1,0 +1,161 @@
+[0.514s] Invoking command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_ros2_control_python:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_python:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_advanced_python:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_visualizer:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/foxy /home/pingpongproject/.local/bin/cmake --build /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_msgs -- -j20 -l20
+[0.549s] [  1%] Built target lbr_fri_msgs__cpp
+[0.554s] [ 12%] Built target lbr_fri_msgs__rosidl_generator_c
+[0.562s] [ 23%] Built target lbr_fri_msgs__rosidl_typesupport_c
+[0.563s] [ 34%] Built target lbr_fri_msgs__rosidl_typesupport_introspection_c
+[0.563s] [ 46%] Built target lbr_fri_msgs__rosidl_typesupport_fastrtps_cpp
+[0.564s] [ 57%] Built target lbr_fri_msgs__rosidl_typesupport_cpp
+[0.565s] [ 68%] Built target lbr_fri_msgs__rosidl_typesupport_introspection_cpp
+[0.575s] [ 79%] Built target lbr_fri_msgs__rosidl_typesupport_fastrtps_c
+[0.580s] [ 79%] Built target lbr_fri_msgs
+[0.586s] [ 80%] Built target lbr_fri_msgs__py
+[0.597s] [ 90%] Built target lbr_fri_msgs__python
+[0.606s] [ 93%] Built target lbr_fri_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.606s] [ 96%] Built target lbr_fri_msgs__rosidl_typesupport_introspection_c__pyext
+[0.606s] [100%] Built target lbr_fri_msgs__rosidl_typesupport_c__pyext
+[0.705s] Invoked command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_ros2_control_python:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_python:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_advanced_python:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_visualizer:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/foxy /home/pingpongproject/.local/bin/cmake --build /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_msgs -- -j20 -l20
+[0.815s] Invoking command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_ros2_control_python:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_python:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_advanced_python:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_visualizer:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/foxy /home/pingpongproject/.local/bin/cmake --install /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_msgs
+[0.838s] -- Install configuration: "Release"
+[0.839s] -- Execute custom install script
+[0.839s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/ament_index/resource_index/rosidl_interfaces/lbr_fri_msgs
+[0.839s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/joint_position_with_time__functions.h
+[0.839s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/joint_position_with_time__struct.h
+[0.839s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/joint_position_with_time__type_support.h
+[0.839s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_command__functions.h
+[0.839s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_command__struct.h
+[0.840s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_command__type_support.h
+[0.840s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_state__functions.h
+[0.840s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_state__struct.h
+[0.840s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_state__type_support.h
+[0.840s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/joint_position_with_time.h
+[0.840s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/lbr_command.h
+[0.840s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/lbr_state.h
+[0.840s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.840s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/app_connect.h
+[0.840s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/app_disconnect.h
+[0.840s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_connect__functions.h
+[0.840s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_connect__struct.h
+[0.840s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_connect__type_support.h
+[0.841s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_disconnect__functions.h
+[0.841s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_disconnect__struct.h
+[0.841s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_disconnect__type_support.h
+[0.841s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/environment/library_path.sh
+[0.841s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/environment/library_path.dsv
+[0.841s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/joint_position_with_time__rosidl_typesupport_fastrtps_c.h
+[0.841s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_command__rosidl_typesupport_fastrtps_c.h
+[0.841s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_state__rosidl_typesupport_fastrtps_c.h
+[0.841s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.841s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_connect__rosidl_typesupport_fastrtps_c.h
+[0.841s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_disconnect__rosidl_typesupport_fastrtps_c.h
+[0.841s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/liblbr_fri_msgs__rosidl_typesupport_fastrtps_c.so
+[0.841s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/joint_position_with_time__rosidl_typesupport_fastrtps_cpp.hpp
+[0.841s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.842s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.842s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.842s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_connect__rosidl_typesupport_fastrtps_cpp.hpp
+[0.842s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_disconnect__rosidl_typesupport_fastrtps_cpp.hpp
+[0.842s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/liblbr_fri_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.842s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/joint_position_with_time__rosidl_typesupport_introspection_c.h
+[0.842s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_command__rosidl_typesupport_introspection_c.h
+[0.842s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_state__rosidl_typesupport_introspection_c.h
+[0.842s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.842s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_connect__rosidl_typesupport_introspection_c.h
+[0.842s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_disconnect__rosidl_typesupport_introspection_c.h
+[0.843s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/joint_position_with_time__builder.hpp
+[0.843s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/joint_position_with_time__struct.hpp
+[0.843s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/joint_position_with_time__traits.hpp
+[0.843s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/joint_position_with_time__type_support.hpp
+[0.843s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_command__builder.hpp
+[0.843s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_command__struct.hpp
+[0.844s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_command__traits.hpp
+[0.844s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_command__type_support.hpp
+[0.844s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_state__builder.hpp
+[0.844s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_state__struct.hpp
+[0.844s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_state__traits.hpp
+[0.844s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_state__type_support.hpp
+[0.844s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/joint_position_with_time.hpp
+[0.844s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/lbr_command.hpp
+[0.844s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/lbr_state.hpp
+[0.844s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.845s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/app_connect.hpp
+[0.845s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/app_disconnect.hpp
+[0.845s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_connect__builder.hpp
+[0.845s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_connect__struct.hpp
+[0.845s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_connect__traits.hpp
+[0.845s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_connect__type_support.hpp
+[0.845s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_disconnect__builder.hpp
+[0.845s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_disconnect__struct.hpp
+[0.845s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_disconnect__traits.hpp
+[0.845s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_disconnect__type_support.hpp
+[0.845s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/joint_position_with_time__rosidl_typesupport_introspection_cpp.hpp
+[0.845s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_command__rosidl_typesupport_introspection_cpp.hpp
+[0.846s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/msg/detail/lbr_state__rosidl_typesupport_introspection_cpp.hpp
+[0.846s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_connect__rosidl_typesupport_introspection_cpp.hpp
+[0.846s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/include/lbr_fri_msgs/srv/detail/app_disconnect__rosidl_typesupport_introspection_cpp.hpp
+[0.846s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/environment/pythonpath.sh
+[0.846s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/environment/pythonpath.dsv
+[0.846s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages/lbr_fri_msgs/__init__.py
+[0.846s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages/lbr_fri_msgs/msg/__init__.py
+[0.846s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages/lbr_fri_msgs/msg/_joint_position_with_time.py
+[0.846s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages/lbr_fri_msgs/msg/_lbr_command.py
+[0.846s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages/lbr_fri_msgs/msg/_lbr_state.py
+[0.846s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages/lbr_fri_msgs/srv/__init__.py
+[0.846s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages/lbr_fri_msgs/srv/_app_connect.py
+[0.847s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages/lbr_fri_msgs/srv/_app_disconnect.py
+[0.847s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages/lbr_fri_msgs/lbr_fri_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.847s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages/lbr_fri_msgs/lbr_fri_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.847s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/python3.8/site-packages/lbr_fri_msgs/lbr_fri_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.847s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/liblbr_fri_msgs__python.so
+[0.847s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/msg/LBRCommand.idl
+[0.847s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/msg/LBRState.idl
+[0.847s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/msg/JointPositionWithTime.idl
+[0.847s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/srv/AppConnect.idl
+[0.847s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/srv/AppDisconnect.idl
+[0.847s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/msg/LBRCommand.msg
+[0.848s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/msg/LBRState.msg
+[0.848s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/msg/JointPositionWithTime.msg
+[0.848s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/srv/AppConnect.srv
+[0.848s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/srv/AppConnect_Request.msg
+[0.848s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/srv/AppConnect_Response.msg
+[0.848s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/srv/AppDisconnect.srv
+[0.848s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/srv/AppDisconnect_Request.msg
+[0.848s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/srv/AppDisconnect_Response.msg
+[0.848s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/ament_index/resource_index/package_run_dependencies/lbr_fri_msgs
+[0.848s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/ament_index/resource_index/parent_prefix_path/lbr_fri_msgs
+[0.848s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/environment/ament_prefix_path.sh
+[0.848s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/environment/ament_prefix_path.dsv
+[0.849s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/environment/path.sh
+[0.849s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/environment/path.dsv
+[0.849s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/local_setup.bash
+[0.849s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/local_setup.sh
+[0.849s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/local_setup.zsh
+[0.849s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/local_setup.dsv
+[0.849s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/package.dsv
+[0.850s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/ament_index/resource_index/packages/lbr_fri_msgs
+[0.850s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/rosidl_cmake-extras.cmake
+[0.850s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.850s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.851s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.853s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.853s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.853s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.853s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/lbr_fri_msgsConfig.cmake
+[0.853s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/lbr_fri_msgsConfig-version.cmake
+[0.853s] -- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/package.xml
+[0.853s] -- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/liblbr_fri_msgs__rosidl_generator_c.so
+[0.854s] -- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/liblbr_fri_msgs__rosidl_typesupport_introspection_c.so
+[0.854s] -- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/liblbr_fri_msgs__rosidl_typesupport_c.so
+[0.854s] -- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/liblbr_fri_msgs__rosidl_typesupport_introspection_cpp.so
+[0.854s] -- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/lib/liblbr_fri_msgs__rosidl_typesupport_cpp.so
+[0.879s] -- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/lbr_fri_msgs__rosidl_generator_cExport.cmake
+[0.879s] -- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/lbr_fri_msgs__rosidl_generator_cExport-release.cmake
+[0.879s] -- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/lbr_fri_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.879s] -- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/lbr_fri_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[0.879s] -- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/lbr_fri_msgs__rosidl_typesupport_cExport.cmake
+[0.879s] -- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/lbr_fri_msgs__rosidl_typesupport_cExport-release.cmake
+[0.880s] -- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/lbr_fri_msgs__rosidl_generator_cppExport.cmake
+[0.880s] -- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/lbr_fri_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.880s] -- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/lbr_fri_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.880s] -- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/lbr_fri_msgs__rosidl_typesupport_cppExport.cmake
+[0.880s] -- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake/lbr_fri_msgs__rosidl_typesupport_cppExport-release.cmake
+[0.989s] Invoked command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_ros2_control_python:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_python:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_advanced_python:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_visualizer:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/foxy /home/pingpongproject/.local/bin/cmake --install /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_msgs

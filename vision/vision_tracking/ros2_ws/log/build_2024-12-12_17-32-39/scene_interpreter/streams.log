@@ -1,0 +1,26 @@
+[0.518s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/scene_interpreter': PYTHONPATH=/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/scene_interpreter build --build-base /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build install --record /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/install.log --single-version-externally-managed install_data
+[0.665s] running egg_info
+[0.665s] writing ../../build/scene_interpreter/scene_interpreter.egg-info/PKG-INFO
+[0.665s] writing dependency_links to ../../build/scene_interpreter/scene_interpreter.egg-info/dependency_links.txt
+[0.665s] writing entry points to ../../build/scene_interpreter/scene_interpreter.egg-info/entry_points.txt
+[0.665s] writing requirements to ../../build/scene_interpreter/scene_interpreter.egg-info/requires.txt
+[0.665s] writing top-level names to ../../build/scene_interpreter/scene_interpreter.egg-info/top_level.txt
+[0.667s] reading manifest file '../../build/scene_interpreter/scene_interpreter.egg-info/SOURCES.txt'
+[0.667s] writing manifest file '../../build/scene_interpreter/scene_interpreter.egg-info/SOURCES.txt'
+[0.667s] running build
+[0.667s] running build_py
+[0.667s] copying scene_interpreter/ball_state_estimator_yolo.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter
+[0.668s] running install
+[0.668s] running install_lib
+[0.669s] copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/ball_state_estimator_yolo.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter
+[0.669s] byte-compiling /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/ball_state_estimator_yolo.py to ball_state_estimator_yolo.cpython-38.pyc
+[0.670s] running install_data
+[0.670s] running install_egg_info
+[0.671s] removing '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter-0.0.0-py3.8.egg-info' (and everything under it)
+[0.671s] Copying ../../build/scene_interpreter/scene_interpreter.egg-info to /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter-0.0.0-py3.8.egg-info
+[0.671s] running install_scripts
+[0.682s] Installing ball_pub_ros2 script to /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/scene_interpreter
+[0.682s] Installing mujoco_sim_mod script to /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/scene_interpreter
+[0.682s] Installing scene_interpreter script to /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/scene_interpreter
+[0.683s] writing list of installed files to '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/install.log'
+[0.696s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/scene_interpreter' returned '0': PYTHONPATH=/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/scene_interpreter build --build-base /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build install --record /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/install.log --single-version-externally-managed install_data

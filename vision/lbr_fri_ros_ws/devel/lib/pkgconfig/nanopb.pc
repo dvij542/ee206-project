@@ -1,0 +1,8 @@
+prefix=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros_ws/devel
+
+Name: nanopb
+Description: Description of nanopb
+Version: 0.0.0
+Cflags: -I/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros_ws/src/fri/nanopb/include
+Libs: -L${prefix}/lib -lnanopb
+Requires: 

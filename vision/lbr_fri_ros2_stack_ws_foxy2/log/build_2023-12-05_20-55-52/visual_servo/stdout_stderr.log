@@ -1,0 +1,9 @@
+running egg_info
+creating ../../../../build/visual_servo/visual_servo.egg-info
+writing ../../../../build/visual_servo/visual_servo.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/visual_servo/visual_servo.egg-info/dependency_links.txt
+writing entry points to ../../../../build/visual_servo/visual_servo.egg-info/entry_points.txt
+writing requirements to ../../../../build/visual_servo/visual_servo.egg-info/requires.txt
+writing top-level names to ../../../../build/visual_servo/visual_servo.egg-info/top_level.txt
+writing manifest file '../../../../build/visual_servo/visual_servo.egg-info/SOURCES.txt'
+error: package directory 'visual_servo' does not exist

@@ -1,0 +1,10 @@
+  File "/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/workspace_controller/lib/python3.8/site-packages/workspace_controller/controller.py", line 9
+    self,
+    ^
+SyntaxError: non-default argument follows default argument
+
+  File "/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/workspace_controller/lib/python3.8/site-packages/workspace_controller/control_node.py", line 25
+    self.world_config = kinpy.Transform()
+    ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,22 @@
+/home/dvij/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../build/ball_nodes/ball_nodes.egg-info/PKG-INFO
+writing dependency_links to ../../build/ball_nodes/ball_nodes.egg-info/dependency_links.txt
+writing entry points to ../../build/ball_nodes/ball_nodes.egg-info/entry_points.txt
+writing requirements to ../../build/ball_nodes/ball_nodes.egg-info/requires.txt
+writing top-level names to ../../build/ball_nodes/ball_nodes.egg-info/top_level.txt
+reading manifest file '../../build/ball_nodes/ball_nodes.egg-info/SOURCES.txt'
+writing manifest file '../../build/ball_nodes/ball_nodes.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/lib/python3.8/site-packages/ball_nodes-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/ball_nodes/ball_nodes.egg-info to /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/lib/python3.8/site-packages/ball_nodes-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ball_pub script to /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/lib/ball_nodes
+Installing ball_trajectory script to /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/lib/ball_nodes
+writing list of installed files to '/home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/ball_nodes/install.log'

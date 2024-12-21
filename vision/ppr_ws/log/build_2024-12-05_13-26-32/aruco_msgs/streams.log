@@ -1,0 +1,88 @@
+[0.036s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/aruco_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/aruco_ros2/aruco_msgs -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/aruco_msgs
+[0.267s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.268s] -- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")
+[0.268s] -- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3
+[0.268s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.268s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.268s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.268s]   the cmake_policy command to set the policy and suppress this warning.
+[0.268s] 
+[0.268s] Call Stack (most recent call first):
+[0.268s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.268s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.268s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.268s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.268s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.268s]   CMakeLists.txt:14 (find_package)
+[0.268s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.268s] [0m
+[0.275s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.276s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.478s] -- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+[0.505s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.534s] [33mCMake Warning (dev) at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[0.534s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.535s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.535s]   the cmake_policy command to set the policy and suppress this warning.
+[0.535s] 
+[0.535s] Call Stack (most recent call first):
+[0.535s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.535s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[0.535s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.535s] [0m
+[0.560s] -- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found version "3.9.7")
+[0.652s] [31mCMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.652s]   execute_process(/home/dvij/anaconda3/bin/python3 -m rosidl_adapter
+[0.652s]   --package-name aruco_msgs --arguments-file
+[0.652s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/aruco_msgs/rosidl_adapter__arguments__aruco_msgs.json
+[0.652s]   --output-dir
+[0.652s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/aruco_msgs/rosidl_adapter/aruco_msgs
+[0.652s]   --output-file
+[0.653s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/aruco_msgs/rosidl_adapter/aruco_msgs.idls)
+[0.653s]   returned error code 1:
+[0.653s] 
+[0.653s]   AttributeError processing template 'msg.idl.em'
+[0.653s] 
+[0.653s]   Traceback (most recent call last):
+[0.655s] 
+[0.656s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 51, in evaluate_template
+[0.656s]       em.BUFFERED_OPT: True,
+[0.656s] 
+[0.656s]   AttributeError: module 'em' has no attribute 'BUFFERED_OPT'
+[0.656s] 
+[0.656s] 
+[0.656s] 
+[0.656s]   During handling of the above exception, another exception occurred:
+[0.656s] 
+[0.656s] 
+[0.656s] 
+[0.656s]   Traceback (most recent call last):
+[0.656s] 
+[0.656s]     File "/home/dvij/anaconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+[0.656s]       return _run_code(code, main_globals, None,
+[0.656s]     File "/home/dvij/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code
+[0.657s]       exec(code, run_globals)
+[0.657s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.657s]       sys.exit(main())
+[0.657s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.657s]       abs_idl_file = convert_to_idl(
+[0.657s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.657s]       return convert_msg_to_idl(
+[0.657s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 39, in convert_msg_to_idl
+[0.657s]       expand_template('msg.idl.em', data, output_file, encoding='iso-8859-1')
+[0.657s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template
+[0.657s]       content = evaluate_template(template_name, data)
+[0.657s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template
+[0.657s]       _interpreter.shutdown()
+[0.657s] 
+[0.657s]   AttributeError: 'NoneType' object has no attribute 'shutdown'
+[0.657s] 
+[0.657s] Call Stack (most recent call first):
+[0.657s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.657s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[0.657s] 
+[0.657s] [0m
+[0.657s] -- Configuring incomplete, errors occurred!
+[0.678s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/aruco_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/aruco_ros2/aruco_msgs -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/aruco_msgs

@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000212] (-) JobUnselected: {'identifier': 'interface'}
+[0.000232] (-) JobUnselected: {'identifier': 'my_sync_package'}
+[0.000244] (-) JobUnselected: {'identifier': 'scene_interpreter'}
+[0.000256] (camera_feed) JobQueued: {'identifier': 'camera_feed', 'dependencies': OrderedDict([('interface', '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/install/interface'), ('my_sync_package', '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/install/my_sync_package')])}
+[0.000501] (camera_feed) JobStarted: {'identifier': 'camera_feed'}
+[0.006442] (camera_feed) JobEnded: {'identifier': 'camera_feed', 'rc': 1}
+[0.016832] (-) EventReactorShutdown: {}

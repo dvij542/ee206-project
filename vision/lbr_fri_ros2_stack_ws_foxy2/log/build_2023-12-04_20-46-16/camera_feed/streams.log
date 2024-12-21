@@ -1,0 +1,57 @@
+[0.854s] Invoking command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/vision/camera_feed': PYTHONPATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/prefix_override:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/camera_feed build --build-base /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build install --record /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/install.log --single-version-externally-managed
+[1.008s] running egg_info
+[1.008s] creating ../../../../build/camera_feed/camera_feed.egg-info
+[1.008s] writing ../../../../build/camera_feed/camera_feed.egg-info/PKG-INFO
+[1.008s] writing dependency_links to ../../../../build/camera_feed/camera_feed.egg-info/dependency_links.txt
+[1.008s] writing entry points to ../../../../build/camera_feed/camera_feed.egg-info/entry_points.txt
+[1.008s] writing requirements to ../../../../build/camera_feed/camera_feed.egg-info/requires.txt
+[1.008s] writing top-level names to ../../../../build/camera_feed/camera_feed.egg-info/top_level.txt
+[1.011s] writing manifest file '../../../../build/camera_feed/camera_feed.egg-info/SOURCES.txt'
+[1.350s] reading manifest file '../../../../build/camera_feed/camera_feed.egg-info/SOURCES.txt'
+[1.351s] writing manifest file '../../../../build/camera_feed/camera_feed.egg-info/SOURCES.txt'
+[1.351s] running build
+[1.351s] running build_py
+[1.351s] creating /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build
+[1.351s] creating /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build/lib
+[1.351s] creating /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build/lib/camera_feed
+[1.351s] copying camera_feed/trigger.py -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build/lib/camera_feed
+[1.351s] copying camera_feed/paddle_pose_trigger_sub.py -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build/lib/camera_feed
+[1.352s] copying camera_feed/__init__.py -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build/lib/camera_feed
+[1.352s] copying camera_feed/cam_pub.py -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build/lib/camera_feed
+[1.352s] copying camera_feed/cam_trigger_sub.py -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build/lib/camera_feed
+[1.352s] copying camera_feed/cam_sync_sub.py -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build/lib/camera_feed
+[1.352s] running install
+[1.352s] running install_lib
+[1.353s] creating /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[1.353s] copying /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build/lib/camera_feed/trigger.py -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[1.353s] copying /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build/lib/camera_feed/paddle_pose_trigger_sub.py -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[1.353s] copying /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build/lib/camera_feed/__init__.py -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[1.353s] copying /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build/lib/camera_feed/cam_pub.py -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[1.353s] copying /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build/lib/camera_feed/cam_trigger_sub.py -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[1.353s] copying /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build/lib/camera_feed/cam_sync_sub.py -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[1.353s] byte-compiling /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/python3.8/site-packages/camera_feed/trigger.py to trigger.cpython-38.pyc
+[1.354s] byte-compiling /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/python3.8/site-packages/camera_feed/paddle_pose_trigger_sub.py to paddle_pose_trigger_sub.cpython-38.pyc
+[1.354s] byte-compiling /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/python3.8/site-packages/camera_feed/__init__.py to __init__.cpython-38.pyc
+[1.354s] byte-compiling /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/python3.8/site-packages/camera_feed/cam_pub.py to cam_pub.cpython-38.pyc
+[1.355s] byte-compiling /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/python3.8/site-packages/camera_feed/cam_trigger_sub.py to cam_trigger_sub.cpython-38.pyc
+[1.355s] byte-compiling /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/python3.8/site-packages/camera_feed/cam_sync_sub.py to cam_sync_sub.cpython-38.pyc
+[1.356s] running install_data
+[1.356s] creating /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/share/ament_index
+[1.356s] creating /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/share/ament_index/resource_index
+[1.356s] creating /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/share/ament_index/resource_index/packages
+[1.356s] copying resource/camera_feed -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/share/ament_index/resource_index/packages
+[1.356s] copying package.xml -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/share/camera_feed
+[1.357s] copying launch/record_launch.py -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/share/camera_feed
+[1.357s] copying launch/triggered_feed_launch.py -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/share/camera_feed
+[1.357s] copying launch/camera_feed_launch.py -> /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/share/camera_feed
+[1.357s] running install_egg_info
+[1.357s] Copying ../../../../build/camera_feed/camera_feed.egg-info to /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/python3.8/site-packages/camera_feed-0.0.0-py3.8.egg-info
+[1.357s] running install_scripts
+[1.366s] Installing cam_pub script to /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/camera_feed
+[1.366s] Installing cam_sync_sub script to /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/camera_feed
+[1.366s] Installing cam_trigger_sub script to /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/camera_feed
+[1.366s] Installing message_counter script to /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/camera_feed
+[1.366s] Installing paddle_pose_trigger_sub script to /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/camera_feed
+[1.366s] Installing trigger script to /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/camera_feed
+[1.367s] writing list of installed files to '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/install.log'
+[1.379s] Invoked command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/vision/camera_feed' returned '0': PYTHONPATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/prefix_override:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/camera_feed/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/camera_feed build --build-base /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/build install --record /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/camera_feed/install.log --single-version-externally-managed

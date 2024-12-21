@@ -1,0 +1,6 @@
+source;share/iiwa_moveit2/hook/cmake_prefix_path.ps1
+source;share/iiwa_moveit2/hook/cmake_prefix_path.dsv
+source;share/iiwa_moveit2/hook/cmake_prefix_path.sh
+source;share/iiwa_moveit2/hook/ld_library_path_lib.ps1
+source;share/iiwa_moveit2/hook/ld_library_path_lib.dsv
+source;share/iiwa_moveit2/hook/ld_library_path_lib.sh

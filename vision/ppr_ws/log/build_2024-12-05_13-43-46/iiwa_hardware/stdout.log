@@ -1,0 +1,14 @@
+[  6%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/base/friClientApplication.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/src/IiwaFRIHardwareInterface.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/client_lbr/friLBRClient.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/client_lbr/friLBRCommand.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/client_lbr/friLBRState.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/connection/friUdpConnection.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/protobuf/friMonitoringMessageDecoder.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/protobuf/friCommandMessageEncoder.cpp.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/protobuf/pb_frimessages_callbacks.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/protobuf_gen/FRIMessages.pb.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/nanopb-0.2.8/pb_decode.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/nanopb-0.2.8/pb_encode.c.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/src/IRDFClient.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/client_trafo/friTransformationClient.cpp.o[0m

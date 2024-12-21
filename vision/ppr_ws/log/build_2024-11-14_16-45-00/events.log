@@ -1,0 +1,20 @@
+[0.000000] (-) TimerEvent: {}
+[0.000109] (-) JobUnselected: {'identifier': 'aruco'}
+[0.000187] (-) JobUnselected: {'identifier': 'aruco_msgs'}
+[0.000228] (-) JobUnselected: {'identifier': 'aruco_ros2'}
+[0.000411] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.000537] (-) JobUnselected: {'identifier': 'external_torque_sensor_broadcaster'}
+[0.000583] (-) JobUnselected: {'identifier': 'iiwa_bringup'}
+[0.000654] (-) JobUnselected: {'identifier': 'iiwa_description'}
+[0.000714] (-) JobUnselected: {'identifier': 'iiwa_hardware'}
+[0.000738] (-) JobUnselected: {'identifier': 'iiwa_moveit2'}
+[0.000758] (-) JobUnselected: {'identifier': 'impedance_controller'}
+[0.000820] (-) JobUnselected: {'identifier': 'ppr_interfaces'}
+[0.000842] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.000861] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.000890] (-) JobUnselected: {'identifier': 'scene_interpreter'}
+[0.000910] (-) JobUnselected: {'identifier': 'scene_visualizer'}
+[0.000952] (camera_feed) JobQueued: {'identifier': 'camera_feed', 'dependencies': OrderedDict([('cv_bridge', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/cv_bridge'), ('ppr_interfaces', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/ppr_interfaces')])}
+[0.000986] (camera_feed) JobStarted: {'identifier': 'camera_feed'}
+[0.004151] (camera_feed) JobEnded: {'identifier': 'camera_feed', 'rc': 1}
+[0.014388] (-) EventReactorShutdown: {}

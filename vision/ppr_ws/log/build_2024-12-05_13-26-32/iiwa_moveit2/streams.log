@@ -1,0 +1,10 @@
+[0.039s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/iiwa_moveit2': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/iiwa_moveit2 -- -j20 -l20
+[0.262s] [ 16%] [32mBuilding CXX object CMakeFiles/pose_tracking_servo_node.dir/src/pose_tracking_servo.cpp.o[0m
+[0.262s] [ 33%] [32mBuilding CXX object CMakeFiles/servo_controller_input.dir/src/joystick_servo.cpp.o[0m
+[0.262s] [ 50%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_node.cpp.o[0m
+[7.001s] [ 66%] [32m[1mLinking CXX executable servo_node[0m
+[7.329s] [ 66%] Built target servo_node
+[8.715s] [ 83%] [32m[1mLinking CXX shared library libservo_controller_input.so[0m
+[8.913s] [ 83%] Built target servo_controller_input
+[10.635s] [100%] [32m[1mLinking CXX executable pose_tracking_servo_node[0m
+[10.930s] [100%] Built target pose_tracking_servo_node

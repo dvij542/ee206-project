@@ -1,0 +1,20 @@
+[0.021s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/iiwa_moveit2': CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_moveit2 -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2
+[0.153s] -- Configuring incomplete, errors occurred!
+[0.153s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[0.154s]   By not providing "Findmoveit_common.cmake" in CMAKE_MODULE_PATH this
+[0.154s]   project has asked CMake to find a package configuration file provided by
+[0.154s]   "moveit_common", but CMake did not find one.
+[0.154s] 
+[0.154s]   Could not find a package configuration file provided by "moveit_common"
+[0.154s]   with any of the following names:
+[0.154s] 
+[0.154s]     moveit_commonConfig.cmake
+[0.154s]     moveit_common-config.cmake
+[0.154s] 
+[0.154s]   Add the installation prefix of "moveit_common" to CMAKE_PREFIX_PATH or set
+[0.154s]   "moveit_common_DIR" to a directory containing one of the above files.  If
+[0.154s]   "moveit_common" provides a separate development package or SDK, be sure it
+[0.154s]   has been installed.
+[0.154s] 
+[0.154s] [0m
+[0.156s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/iiwa_moveit2' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_moveit2 -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2

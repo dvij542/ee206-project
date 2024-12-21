@@ -1,0 +1,21 @@
+[0.841s] Invoking command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/control/workspace_controller': PYTHONPATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/workspace_controller/prefix_override:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/workspace_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/workspace_controller build --build-base /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/workspace_controller/build install --record /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/workspace_controller/install.log --install-scripts $base/lib/workspace_controller --single-version-externally-managed
+[1.006s] running egg_info
+[1.006s] writing ../../../../build/workspace_controller/workspace_controller.egg-info/PKG-INFO
+[1.006s] writing dependency_links to ../../../../build/workspace_controller/workspace_controller.egg-info/dependency_links.txt
+[1.006s] writing entry points to ../../../../build/workspace_controller/workspace_controller.egg-info/entry_points.txt
+[1.007s] writing requirements to ../../../../build/workspace_controller/workspace_controller.egg-info/requires.txt
+[1.007s] writing top-level names to ../../../../build/workspace_controller/workspace_controller.egg-info/top_level.txt
+[1.285s] reading manifest file '../../../../build/workspace_controller/workspace_controller.egg-info/SOURCES.txt'
+[1.286s] writing manifest file '../../../../build/workspace_controller/workspace_controller.egg-info/SOURCES.txt'
+[1.286s] running build
+[1.286s] running build_py
+[1.286s] running install
+[1.287s] running install_lib
+[1.289s] running install_data
+[1.289s] running install_egg_info
+[1.289s] removing '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/workspace_controller/lib/python3.8/site-packages/workspace_controller-0.0.0-py3.8.egg-info' (and everything under it)
+[1.290s] Copying ../../../../build/workspace_controller/workspace_controller.egg-info to /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/workspace_controller/lib/python3.8/site-packages/workspace_controller-0.0.0-py3.8.egg-info
+[1.291s] running install_scripts
+[1.300s] Installing control_node script to /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/workspace_controller/lib/workspace_controller
+[1.301s] writing list of installed files to '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/workspace_controller/install.log'
+[1.383s] Invoked command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/control/workspace_controller' returned '0': PYTHONPATH=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/workspace_controller/prefix_override:/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/workspace_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/workspace_controller build --build-base /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/workspace_controller/build install --record /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/workspace_controller/install.log --install-scripts $base/lib/workspace_controller --single-version-externally-managed

@@ -1,0 +1,60 @@
+running egg_info
+writing ../../build/scene_interpreter/scene_interpreter.egg-info/PKG-INFO
+writing dependency_links to ../../build/scene_interpreter/scene_interpreter.egg-info/dependency_links.txt
+writing entry points to ../../build/scene_interpreter/scene_interpreter.egg-info/entry_points.txt
+writing requirements to ../../build/scene_interpreter/scene_interpreter.egg-info/requires.txt
+writing top-level names to ../../build/scene_interpreter/scene_interpreter.egg-info/top_level.txt
+reading manifest file '../../build/scene_interpreter/scene_interpreter.egg-info/SOURCES.txt'
+writing manifest file '../../build/scene_interpreter/scene_interpreter.egg-info/SOURCES.txt'
+running build
+running build_py
+copying scene_interpreter/mujoco_sim_mod.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter
+copying scene_interpreter/mujoco_env_kuka_with_table.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter
+copying scene_interpreter/ball_pub_ros2.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter
+copying scene_interpreter/iiwa14.xml -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter
+creating /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets
+copying scene_interpreter/assets/link_4_orange.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets
+copying scene_interpreter/assets/link_1.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets
+copying scene_interpreter/assets/link_2_grey.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets
+copying scene_interpreter/assets/link_2_orange.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets
+copying scene_interpreter/assets/link_4_grey.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets
+copying scene_interpreter/assets/link_3.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets
+copying scene_interpreter/assets/link_6_grey.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets
+copying scene_interpreter/assets/link_0.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets
+copying scene_interpreter/assets/link_7.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets
+copying scene_interpreter/assets/link_6_orange.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets
+copying scene_interpreter/assets/link_5.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets
+copying scene_interpreter/assets/kuka.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets
+copying scene_interpreter/assets/band.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets
+running install
+running install_lib
+creating /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/assets
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets/link_4_orange.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/assets
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets/link_1.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/assets
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets/link_2_grey.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/assets
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets/link_2_orange.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/assets
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets/link_4_grey.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/assets
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets/link_3.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/assets
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets/link_6_grey.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/assets
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets/link_0.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/assets
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets/link_7.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/assets
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets/link_6_orange.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/assets
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets/link_5.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/assets
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets/kuka.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/assets
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/assets/band.obj -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/assets
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/mujoco_sim_mod.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/mujoco_env_kuka_with_table.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/ball_pub_ros2.py -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter
+copying /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/build/lib/scene_interpreter/iiwa14.xml -> /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/mujoco_sim_mod.py to mujoco_sim_mod.cpython-38.pyc
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/mujoco_env_kuka_with_table.py to mujoco_env_kuka_with_table.cpython-38.pyc
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter/ball_pub_ros2.py to ball_pub_ros2.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/scene_interpreter/scene_interpreter.egg-info to /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/python3.8/site-packages/scene_interpreter-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ball_pub_ros2 script to /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/scene_interpreter
+Installing mujoco_sim_mod script to /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/scene_interpreter
+Installing scene_interpreter script to /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/scene_interpreter/lib/scene_interpreter
+writing list of installed files to '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/scene_interpreter/install.log'

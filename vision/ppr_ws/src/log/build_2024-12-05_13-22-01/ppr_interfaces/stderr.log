@@ -1,0 +1,34 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/CMakeCache.txt is different than the directory /home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+  configure_file Problem configuring file
+Call Stack (most recent call first):
+  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:25 (stamp)
+  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:9 (find_package)
+
+
+Traceback (most recent call last):
+  File "/opt/ros/galactic/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 112, in <module>
+    main()
+  File "/opt/ros/galactic/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 55, in main
+    with open(args.outfile, 'w') as f:
+PermissionError: [Errno 13] Permission denied: '/home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/ament_cmake_package_templates/templates.cmake'
+CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+  execute_process(/usr/bin/python3
+  /opt/ros/galactic/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+  /home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/ament_cmake_package_templates/templates.cmake)
+  returned error code 1
+Call Stack (most recent call first):
+  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:9 (find_package)
+
+
+CMake Error: Cannot open file for write: /home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/CMakeCache.txt.tmp
+CMake Error: : System Error: Permission denied
+CMake Error: Unable to open cache file for save. /home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/CMakeCache.txt
+CMake Error: : System Error: Permission denied
+make: *** [Makefile:776: cmake_check_build_system] Error 1

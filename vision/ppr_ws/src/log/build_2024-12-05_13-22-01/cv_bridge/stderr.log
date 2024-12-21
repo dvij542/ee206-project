@@ -1,0 +1,40 @@
+[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/galactic/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:39 (find_package)
+  /opt/ros/galactic/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /opt/ros/galactic/share/ament_cmake_pytest/cmake/ament_cmake_pytest-extras.cmake:17 (find_package)
+  /opt/ros/galactic/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig.cmake:41 (include)
+  /opt/ros/galactic/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake:19 (find_package)
+  /opt/ros/galactic/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake:41 (include)
+  CMakeLists.txt:4 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[31mCMake Error at /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake:117 (find_package):
+  Found package configuration file:
+
+    /usr/lib/x86_64-linux-gnu/cmake/boost_python-1.71.0/boost_python-config.cmake
+
+  but it set boost_python_FOUND to FALSE so package "boost_python" is
+  considered to be NOT FOUND.  Reason given by package:
+
+  No suitable build variant has been found.
+
+  The following variants have been tried and rejected:
+
+  * libboost_python38.so.1.71.0 (3.8, Boost_PYTHON_VERSION=3.9)
+
+  * libboost_python38.a (3.8, Boost_PYTHON_VERSION=3.9)
+
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake:182 (boost_find_component)
+  /usr/local/share/cmake-3.29/Modules/FindBoost.cmake:594 (find_package)
+  CMakeLists.txt:31 (find_package)
+
+[0m

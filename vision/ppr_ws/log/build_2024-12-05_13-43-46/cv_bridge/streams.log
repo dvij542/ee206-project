@@ -1,0 +1,45 @@
+[0.036s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/cv_bridge
+[0.214s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[0.214s] -- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3
+[0.217s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.217s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.219s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.219s]   the cmake_policy command to set the policy and suppress this warning.
+[0.220s] 
+[0.220s] Call Stack (most recent call first):
+[0.220s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.222s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.222s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.223s]   /opt/ros/galactic/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:39 (find_package)
+[0.223s]   /opt/ros/galactic/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.223s]   /opt/ros/galactic/share/ament_cmake_pytest/cmake/ament_cmake_pytest-extras.cmake:17 (find_package)
+[0.223s]   /opt/ros/galactic/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig.cmake:41 (include)
+[0.224s]   /opt/ros/galactic/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake:19 (find_package)
+[0.225s]   /opt/ros/galactic/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake:41 (include)
+[0.225s]   CMakeLists.txt:4 (find_package)
+[0.226s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.226s] [0m
+[0.607s] [31mCMake Error at /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake:117 (find_package):
+[0.607s]   Found package configuration file:
+[0.607s] 
+[0.607s]     /usr/lib/x86_64-linux-gnu/cmake/boost_python-1.71.0/boost_python-config.cmake
+[0.607s] 
+[0.607s]   but it set boost_python_FOUND to FALSE so package "boost_python" is
+[0.607s]   considered to be NOT FOUND.  Reason given by package:
+[0.607s] 
+[0.607s]   No suitable build variant has been found.
+[0.607s] 
+[0.607s]   The following variants have been tried and rejected:
+[0.607s] 
+[0.607s]   * libboost_python38.so.1.71.0 (3.8, Boost_PYTHON_VERSION=3.9)
+[0.607s] 
+[0.607s]   * libboost_python38.a (3.8, Boost_PYTHON_VERSION=3.9)
+[0.607s] 
+[0.607s] Call Stack (most recent call first):
+[0.607s]   /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake:182 (boost_find_component)
+[0.607s]   /usr/local/share/cmake-3.29/Modules/FindBoost.cmake:594 (find_package)
+[0.607s]   CMakeLists.txt:31 (find_package)
+[0.607s] 
+[0.607s] [0m
+[0.607s] -- Configuring incomplete, errors occurred!
+[0.608s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/cv_bridge' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/cv_bridge

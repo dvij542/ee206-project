@@ -1,0 +1,88 @@
+[0.011s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/my_sync_package': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/interface:/home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control:/home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes:/opt/ros/foxy:/opt/ros/noetic /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/my_sync_package -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package
+[0.042s] -- The C compiler identification is GNU 9.4.0
+[0.072s] -- The CXX compiler identification is GNU 9.4.0
+[0.077s] -- Detecting C compiler ABI info
+[0.107s] -- Detecting C compiler ABI info - done
+[0.115s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.115s] -- Detecting C compile features
+[0.116s] -- Detecting C compile features - done
+[0.118s] -- Detecting CXX compiler ABI info
+[0.154s] -- Detecting CXX compiler ABI info - done
+[0.164s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.164s] -- Detecting CXX compile features
+[0.164s] -- Detecting CXX compile features - done
+[0.166s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.168s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.168s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.168s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.168s]   the cmake_policy command to set the policy and suppress this warning.
+[0.168s] 
+[0.168s] Call Stack (most recent call first):
+[0.168s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.168s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.169s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.169s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.169s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.169s]   CMakeLists.txt:9 (find_package)
+[0.169s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.169s] [0m
+[0.182s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[0.182s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.328s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.362s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.410s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[0.429s] -- Found FastRTPS: /opt/ros/foxy/include
+[0.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.533s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.533s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.533s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.567s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.568s] -- Looking for pthread_create in pthreads
+[0.594s] -- Looking for pthread_create in pthreads - not found
+[0.594s] -- Looking for pthread_create in pthread
+[0.626s] -- Looking for pthread_create in pthread - found
+[0.627s] -- Found Threads: TRUE
+[0.709s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[0.746s] -- Configuring done (0.7s)
+[0.753s] -- Generating done (0.0s)
+[0.754s] -- Build files have been written to: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/my_sync_package
+[0.758s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/my_sync_package' returned '0': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/interface:/home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control:/home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes:/opt/ros/foxy:/opt/ros/noetic /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/my_sync_package -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package
+[0.760s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/my_sync_package': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/interface:/home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control:/home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes:/opt/ros/foxy:/opt/ros/noetic /usr/local/bin/cmake --build /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/my_sync_package -- -j20 -l20
+[0.774s] [ 16%] [32mBuilding CXX object CMakeFiles/multi_publisher.dir/src/multi_publisher.cpp.o[0m
+[0.774s] [ 33%] [32mBuilding CXX object CMakeFiles/multi_subscriber.dir/src/multi_subscriber.cpp.o[0m
+[0.774s] [ 50%] [32mBuilding CXX object CMakeFiles/example_custom_synchronizer.dir/src/example_custom_synchronizer.cpp.o[0m
+[2.362s] [ 66%] [32m[1mLinking CXX executable multi_publisher[0m
+[2.436s] [ 66%] Built target multi_publisher
+[3.352s] [ 83%] [32m[1mLinking CXX executable example_custom_synchronizer[0m
+[3.468s] [ 83%] Built target example_custom_synchronizer
+[4.259s] [100%] [32m[1mLinking CXX executable multi_subscriber[0m
+[4.395s] [100%] Built target multi_subscriber
+[4.404s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/my_sync_package' returned '0': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/interface:/home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control:/home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes:/opt/ros/foxy:/opt/ros/noetic /usr/local/bin/cmake --build /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/my_sync_package -- -j20 -l20
+[4.417s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/my_sync_package': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/interface:/home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control:/home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes:/opt/ros/foxy:/opt/ros/noetic /usr/local/bin/cmake --install /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/my_sync_package
+[4.419s] -- Install configuration: ""
+[4.419s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/lib/my_sync_package/multi_publisher
+[4.420s] -- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/lib/my_sync_package/multi_publisher" to ""
+[4.420s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/lib/my_sync_package/multi_subscriber
+[4.421s] -- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/lib/my_sync_package/multi_subscriber" to ""
+[4.421s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/lib/my_sync_package/example_custom_synchronizer
+[4.422s] -- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/lib/my_sync_package/example_custom_synchronizer" to ""
+[4.422s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/my_sync_package/launch
+[4.422s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/my_sync_package/launch/multi_publisher_synchronizer_launch.py
+[4.422s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/ament_index/resource_index/package_run_dependencies/my_sync_package
+[4.422s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/ament_index/resource_index/parent_prefix_path/my_sync_package
+[4.422s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/my_sync_package/environment/ament_prefix_path.sh
+[4.422s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/my_sync_package/environment/ament_prefix_path.dsv
+[4.423s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/my_sync_package/environment/path.sh
+[4.423s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/my_sync_package/environment/path.dsv
+[4.423s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/my_sync_package/local_setup.bash
+[4.423s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/my_sync_package/local_setup.sh
+[4.423s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/my_sync_package/local_setup.zsh
+[4.423s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/my_sync_package/local_setup.dsv
+[4.423s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/my_sync_package/package.dsv
+[4.423s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/ament_index/resource_index/packages/my_sync_package
+[4.423s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/my_sync_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.423s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/my_sync_package/cmake/my_sync_packageConfig.cmake
+[4.423s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/my_sync_package/cmake/my_sync_packageConfig-version.cmake
+[4.423s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/my_sync_package/share/my_sync_package/package.xml
+[4.424s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/my_sync_package' returned '0': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/install/interface:/home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control:/home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes:/opt/ros/foxy:/opt/ros/noetic /usr/local/bin/cmake --install /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/build/my_sync_package

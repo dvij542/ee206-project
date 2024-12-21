@@ -1,0 +1,89 @@
+[0.032s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/ppr_interfaces -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/ppr_interfaces
+[0.238s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.238s] -- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")
+[0.238s] -- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3
+[0.238s] -- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+[0.238s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.238s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.238s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.238s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.238s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.238s]   the cmake_policy command to set the policy and suppress this warning.
+[0.238s] 
+[0.238s] Call Stack (most recent call first):
+[0.238s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.238s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.239s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.240s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.240s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.240s]   CMakeLists.txt:9 (find_package)
+[0.240s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.241s] [0m
+[0.286s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[0.334s] -- Found FastRTPS: /opt/ros/galactic/include
+[0.418s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.461s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.563s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.572s] [33mCMake Warning (dev) at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[0.572s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.572s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.572s]   the cmake_policy command to set the policy and suppress this warning.
+[0.572s] 
+[0.572s] Call Stack (most recent call first):
+[0.572s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.572s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.572s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.572s] [0m
+[0.596s] -- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found version "3.9.7")
+[0.638s] [31mCMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.638s]   execute_process(/home/dvij/anaconda3/bin/python3 -m rosidl_adapter
+[0.638s]   --package-name ppr_interfaces --arguments-file
+[0.638s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces/rosidl_adapter__arguments__ppr_interfaces.json
+[0.638s]   --output-dir
+[0.638s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces/rosidl_adapter/ppr_interfaces
+[0.638s]   --output-file
+[0.638s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces/rosidl_adapter/ppr_interfaces.idls)
+[0.638s]   returned error code 1:
+[0.639s] 
+[0.639s]   AttributeError processing template 'msg.idl.em'
+[0.639s] 
+[0.639s]   Traceback (most recent call last):
+[0.639s] 
+[0.639s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 51, in evaluate_template
+[0.639s]       em.BUFFERED_OPT: True,
+[0.639s] 
+[0.639s]   AttributeError: module 'em' has no attribute 'BUFFERED_OPT'
+[0.639s] 
+[0.639s] 
+[0.639s] 
+[0.639s]   During handling of the above exception, another exception occurred:
+[0.639s] 
+[0.639s] 
+[0.639s] 
+[0.639s]   Traceback (most recent call last):
+[0.639s] 
+[0.639s]     File "/home/dvij/anaconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+[0.639s]       return _run_code(code, main_globals, None,
+[0.639s]     File "/home/dvij/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code
+[0.639s]       exec(code, run_globals)
+[0.639s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.640s]       sys.exit(main())
+[0.640s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.640s]       abs_idl_file = convert_to_idl(
+[0.640s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.640s]       return convert_msg_to_idl(
+[0.640s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 39, in convert_msg_to_idl
+[0.640s]       expand_template('msg.idl.em', data, output_file, encoding='iso-8859-1')
+[0.640s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template
+[0.640s]       content = evaluate_template(template_name, data)
+[0.640s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template
+[0.640s]       _interpreter.shutdown()
+[0.640s] 
+[0.640s]   AttributeError: 'NoneType' object has no attribute 'shutdown'
+[0.640s] 
+[0.640s] Call Stack (most recent call first):
+[0.640s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.640s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.640s] 
+[0.640s] [0m
+[0.640s] -- Configuring incomplete, errors occurred!

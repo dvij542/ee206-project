@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000196] (-) JobUnselected: {'identifier': 'camera_feed'}
+[0.000216] (-) JobUnselected: {'identifier': 'interface'}
+[0.000226] (-) JobUnselected: {'identifier': 'my_sync_package'}
+[0.000234] (-) JobUnselected: {'identifier': 'scene_interpreter'}
+[0.000558] (-) EventReactorShutdown: {}

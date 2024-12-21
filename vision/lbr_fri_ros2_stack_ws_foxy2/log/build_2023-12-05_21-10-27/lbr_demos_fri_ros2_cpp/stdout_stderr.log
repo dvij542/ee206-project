@@ -1,0 +1,26 @@
+[100%] Built target joint_sine_overlay_node
+[100%] Built target wrench_sine_overlay_node
+[100%] Built target torque_sine_overlay_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/lib/lbr_demos_fri_ros2_cpp/joint_sine_overlay_node
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/lib/lbr_demos_fri_ros2_cpp/torque_sine_overlay_node
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/lib/lbr_demos_fri_ros2_cpp/wrench_sine_overlay_node
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/lbr_demos_fri_ros2_cpp/launch/joint_sine_overlay.launch.py
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/lbr_demos_fri_ros2_cpp/launch/torque_sine_overlay.launch.py
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/lbr_demos_fri_ros2_cpp/launch/wrench_sine_overlay.launch.py
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/ament_index/resource_index/package_run_dependencies/lbr_demos_fri_ros2_cpp
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/ament_index/resource_index/parent_prefix_path/lbr_demos_fri_ros2_cpp
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/lbr_demos_fri_ros2_cpp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/lbr_demos_fri_ros2_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/lbr_demos_fri_ros2_cpp/environment/path.sh
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/lbr_demos_fri_ros2_cpp/environment/path.dsv
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/lbr_demos_fri_ros2_cpp/local_setup.bash
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/lbr_demos_fri_ros2_cpp/local_setup.sh
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/lbr_demos_fri_ros2_cpp/local_setup.zsh
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/lbr_demos_fri_ros2_cpp/local_setup.dsv
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/lbr_demos_fri_ros2_cpp/package.dsv
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/ament_index/resource_index/packages/lbr_demos_fri_ros2_cpp
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/lbr_demos_fri_ros2_cpp/cmake/lbr_demos_fri_ros2_cppConfig.cmake
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/lbr_demos_fri_ros2_cpp/cmake/lbr_demos_fri_ros2_cppConfig-version.cmake
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_demos_fri_ros2_cpp/share/lbr_demos_fri_ros2_cpp/package.xml

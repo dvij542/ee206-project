@@ -1,0 +1,4 @@
+[0.037s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/external_torque_sensor_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/external_torque_sensor_broadcaster -- -j20 -l20
+[0.265s] [ 50%] [32mBuilding CXX object CMakeFiles/external_torque_sensor_broadcaster.dir/src/external_torque_sensor_broadcaster.cpp.o[0m
+[2.818s] [100%] [32m[1mLinking CXX shared library libexternal_torque_sensor_broadcaster.so[0m
+[2.970s] [100%] Built target external_torque_sensor_broadcaster

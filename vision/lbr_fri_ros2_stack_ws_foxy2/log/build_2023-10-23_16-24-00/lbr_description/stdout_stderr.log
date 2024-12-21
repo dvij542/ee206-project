@@ -1,0 +1,121 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_pytest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_pytest/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_description
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/config/config.rviz
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/gazebo/lbr.gazebo.xacro
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/launch/view_robot.launch.py
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa14/collision/link_0.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa14/collision/link_1.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa14/collision/link_2.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa14/collision/link_3.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa14/collision/link_4.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa14/collision/link_5.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa14/collision/link_6.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa14/collision/link_7.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa14/visual/link_0.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa14/visual/link_1.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa14/visual/link_2.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa14/visual/link_3.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa14/visual/link_4.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa14/visual/link_5.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa14/visual/link_6.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa14/visual/link_7.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa7/collision/link_0.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa7/collision/link_1.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa7/collision/link_2.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa7/collision/link_3.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa7/collision/link_4.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa7/collision/link_5.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa7/collision/link_6.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa7/collision/link_7.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa7/visual/link_0.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa7/visual/link_1.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa7/visual/link_2.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa7/visual/link_3.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa7/visual/link_4.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa7/visual/link_5.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa7/visual/link_6.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/iiwa7/visual/link_7.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med14/collision/link_0.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med14/collision/link_1.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med14/collision/link_2.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med14/collision/link_3.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med14/collision/link_4.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med14/collision/link_5.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med14/collision/link_6.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med14/collision/link_7.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med14/visual/link_0.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med14/visual/link_1.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med14/visual/link_2.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med14/visual/link_3.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med14/visual/link_4.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med14/visual/link_5.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med14/visual/link_6.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med14/visual/link_7.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med7/collision/link_0.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med7/collision/link_1.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med7/collision/link_2.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med7/collision/link_3.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med7/collision/link_4.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med7/collision/link_5.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med7/collision/link_6.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med7/collision/link_7.stl
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med7/visual/link_0.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med7/visual/link_1.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med7/visual/link_2.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med7/visual/link_3.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med7/visual/link_4.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med7/visual/link_5.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med7/visual/link_6.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/meshes/med7/visual/link_7.dae
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/ros2_control/lbr.ros2_control.xacro
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/urdf/iiwa14/iiwa14.urdf.xacro
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/urdf/iiwa14/iiwa14_description.urdf.xacro
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/urdf/iiwa7/iiwa7.urdf.xacro
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/urdf/iiwa7/iiwa7_description.urdf.xacro
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/urdf/med14/med14.urdf.xacro
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/urdf/med14/med14_description.urdf.xacro
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/urdf/med7/med7.urdf.xacro
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/urdf/med7/med7_description.urdf.xacro
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/environment/lbr_description.dsv
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/environment/pythonpath.sh
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/environment/pythonpath.dsv
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/lib/python3.8/site-packages/lbr_description/__init__.py
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/lib/python3.8/site-packages/lbr_description/launch_mixin.py
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/ament_index/resource_index/package_run_dependencies/lbr_description
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/ament_index/resource_index/parent_prefix_path/lbr_description
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/environment/path.sh
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/environment/path.dsv
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/local_setup.bash
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/local_setup.sh
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/local_setup.zsh
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/local_setup.dsv
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/package.dsv
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/ament_index/resource_index/packages/lbr_description
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/cmake/lbr_descriptionConfig.cmake
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/cmake/lbr_descriptionConfig-version.cmake
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/share/lbr_description/package.xml
+Listing '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/lib/python3.8/site-packages/lbr_description'...
+Compiling '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/lib/python3.8/site-packages/lbr_description/__init__.py'...
+Compiling '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_description/lib/python3.8/site-packages/lbr_description/launch_mixin.py'...

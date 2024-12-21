@@ -1,0 +1,8 @@
+[33mCMake Warning:
+  Ignoring extra path from command line:
+
+   "/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/vision/visual_servo"
+
+[0m
+[0mCMake Error: The source directory "/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/vision/visual_servo" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.[0m

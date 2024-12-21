@@ -1,0 +1,164 @@
+[0.013s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/iiwa_hardware': AMENT_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_description:/opt/ros/foxy:/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/iiwa_hardware -- -j20 -l20
+[0.040s] [  6%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/base/friClientApplication.cpp.o[0m
+[0.040s] [ 13%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/src/IiwaFRIHardwareInterface.cpp.o[0m
+[0.040s] [ 20%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/client_lbr/friLBRClient.cpp.o[0m
+[0.040s] [ 26%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/client_lbr/friLBRCommand.cpp.o[0m
+[0.040s] [ 33%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/client_lbr/friLBRState.cpp.o[0m
+[0.041s] [ 40%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/connection/friUdpConnection.cpp.o[0m
+[0.041s] [ 46%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/protobuf/friMonitoringMessageDecoder.cpp.o[0m
+[0.041s] [ 53%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/protobuf/friCommandMessageEncoder.cpp.o[0m
+[0.043s] [ 60%] [32mBuilding C object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/protobuf/pb_frimessages_callbacks.c.o[0m
+[0.046s] [ 66%] [32mBuilding C object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/protobuf_gen/FRIMessages.pb.c.o[0m
+[0.047s] [ 73%] [32mBuilding C object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/nanopb-0.2.8/pb_decode.c.o[0m
+[0.049s] [ 80%] [32mBuilding C object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/nanopb-0.2.8/pb_encode.c.o[0m
+[0.057s] [ 86%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/src/IRDFClient.cpp.o[0m
+[0.062s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/external/libFRI/src/protobuf/pb_frimessages_callbacks.c:[m[K In function ‘[01m[Kdecode_repeatedDouble[m[K’:
+[0.062s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/external/libFRI/src/protobuf/pb_frimessages_callbacks.c:101:50:[m[K [01;31m[Kerror: [m[Kparameter name omitted
+[0.062s]   101 | bool decode_repeatedDouble(pb_istream_t *stream, [01;31m[Kconst pb_field_t *[m[K /* field */, void **arg)
+[0.062s]       |                                                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.062s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/external/libFRI/src/protobuf/pb_frimessages_callbacks.c:[m[K In function ‘[01m[Kdecode_repeatedInt[m[K’:
+[0.062s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/external/libFRI/src/protobuf/pb_frimessages_callbacks.c:163:47:[m[K [01;31m[Kerror: [m[Kparameter name omitted
+[0.062s]   163 | bool decode_repeatedInt(pb_istream_t *stream, [01;31m[Kconst pb_field_t *[m[K /* field */, void **arg)
+[0.063s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.065s] make[2]: *** [CMakeFiles/iiwa_hardware.dir/build.make:188: CMakeFiles/iiwa_hardware.dir/external/libFRI/src/protobuf/pb_frimessages_callbacks.c.o] Error 1
+[0.065s] make[2]: *** Waiting for unfinished jobs....
+[0.070s] [ 93%] [32mBuilding CXX object CMakeFiles/iiwa_hardware.dir/external/libFRI/src/client_trafo/friTransformationClient.cpp.o[0m
+[0.684s] In file included from [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:15[m[K:
+[0.684s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:33:42:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_interfaces[m[K’ in namespace ‘[01m[Krclcpp_lifecycle[m[K’ does not name a type
+[0.684s]    33 | using CallbackReturn = rclcpp_lifecycle::[01;31m[Knode_interfaces[m[K::LifecycleNodeInterface::CallbackReturn;
+[0.684s]       |                                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.687s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:43:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+[0.687s]    43 |   [01;31m[KCallbackReturn[m[K on_init(const hardware_interface::HardwareInfo & info) override;
+[0.687s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.689s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:52:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+[0.689s]    52 |   [01;31m[KCallbackReturn[m[K on_activate(const rclcpp_lifecycle::State & previous_state) override;
+[0.689s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.691s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:55:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+[0.691s]    55 |   [01;31m[KCallbackReturn[m[K on_deactivate(const rclcpp_lifecycle::State & previous_state) override;
+[0.691s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.691s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:59:11:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[0.691s]    59 |     const [01;31m[Krclcpp[m[K::Time & time,
+[0.692s]       |           [01;31m[K^~~~~~[m[K
+[0.692s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:59:24:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[0.692s]    59 |     const rclcpp::Time [01;31m[K&[m[K time,
+[0.692s]       |                        [01;31m[K^[m[K
+[0.692s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:59:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[0.692s]    59 |     const rclcpp::Time[01;31m[K [m[K[32m[K&[m[K time,
+[0.692s]       |                       [01;31m[K^[m[K[32m[K~[m[K
+[0.692s]       |                       [32m[K)[m[K
+[0.692s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:58:39:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[0.692s]    58 |   hardware_interface::return_type read[01;36m[K([m[K
+[0.692s]       |                                       [01;36m[K^[m[K
+[0.692s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:59:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[0.692s]    59 |     const rclcpp::Time [01;31m[K&[m[K time,
+[0.692s]       |                        [01;31m[K^[m[K
+[0.692s]       |                         [32m[K;[m[K
+[0.692s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:59:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime[m[K’ does not name a type
+[0.692s]    59 |     const rclcpp::Time & [01;31m[Ktime[m[K,
+[0.692s]       |                          [01;31m[K^~~~[m[K
+[0.693s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:64:11:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[0.693s]    64 |     const [01;31m[Krclcpp[m[K::Time & time,
+[0.693s]       |           [01;31m[K^~~~~~[m[K
+[0.693s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:64:24:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[0.693s]    64 |     const rclcpp::Time [01;31m[K&[m[K time,
+[0.693s]       |                        [01;31m[K^[m[K
+[0.693s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:64:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[0.693s]    64 |     const rclcpp::Time[01;31m[K [m[K[32m[K&[m[K time,
+[0.693s]       |                       [01;31m[K^[m[K[32m[K~[m[K
+[0.693s]       |                       [32m[K)[m[K
+[0.693s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:63:40:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[0.693s]    63 |   hardware_interface::return_type write[01;36m[K([m[K
+[0.693s]       |                                        [01;36m[K^[m[K
+[0.693s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:64:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[0.693s]    64 |     const rclcpp::Time [01;31m[K&[m[K time,
+[0.693s]       |                        [01;31m[K^[m[K
+[0.693s]       |                         [32m[K;[m[K
+[0.693s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:64:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime[m[K’ does not name a type
+[0.693s]    64 |     const rclcpp::Time & [01;31m[Ktime[m[K,
+[0.693s]       |                          [01;31m[K^~~~[m[K
+[1.104s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:21:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+[1.104s]    21 | [01;31m[KCallbackReturn[m[K IiwaFRIHardwareInterface::on_init(
+[1.104s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.106s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> iiwa_hardware::IiwaFRIHardwareInterface::export_state_interfaces()[m[K’:
+[1.106s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:105:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+[1.106s]   105 |   for (uint i = 0; i < [01;31m[Kinfo_[m[K.joints.size(); i++) {
+[1.106s]       |                        [01;31m[K^~~~~[m[K
+[1.107s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:111:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+[1.107s]   111 |   for (uint i = 0; i < [01;31m[Kinfo_[m[K.joints.size(); i++) {
+[1.107s]       |                        [01;31m[K^~~~~[m[K
+[1.108s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:117:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+[1.108s]   117 |   for (uint i = 0; i < [01;31m[Kinfo_[m[K.joints.size(); i++) {
+[1.108s]       |                        [01;31m[K^~~~~[m[K
+[1.109s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:123:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+[1.109s]   123 |   for (uint i = 0; i < [01;31m[Kinfo_[m[K.sensors[0].state_interfaces.size(); i++) {
+[1.109s]       |                        [01;31m[K^~~~~[m[K
+[1.111s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> iiwa_hardware::IiwaFRIHardwareInterface::export_command_interfaces()[m[K’:
+[1.111s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:138:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+[1.111s]   138 |   for (uint i = 0; i < [01;31m[Kinfo_[m[K.joints.size(); i++) {
+[1.111s]       |                        [01;31m[K^~~~~[m[K
+[1.113s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:[m[K At global scope:
+[1.113s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:157:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+[1.113s]   157 | [01;31m[KCallbackReturn[m[K IiwaFRIHardwareInterface::on_activate(const rclcpp_lifecycle::State & /* previous_state */)
+[1.113s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.115s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:189:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+[1.115s]   189 | [01;31m[KCallbackReturn[m[K IiwaFRIHardwareInterface::on_deactivate(
+[1.115s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.115s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:202:33:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::return_type iiwa_hardware::IiwaFRIHardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[1.115s]   202 | hardware_interface::return_type [01;31m[KIiwaFRIHardwareInterface[m[K::read(
+[1.115s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.115s] In file included from [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:15[m[K:
+[1.115s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:58:35:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Khardware_interface::return_type iiwa_hardware::IiwaFRIHardwareInterface::read(...) &[m[K’
+[1.115s]    58 |   hardware_interface::return_type [01;36m[Kread[m[K(
+[1.115s]       |                                   [01;36m[K^~~~[m[K
+[1.115s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:37:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass iiwa_hardware::IiwaFRIHardwareInterface[m[K’ defined here
+[1.115s]    37 | class [01;36m[KIiwaFRIHardwareInterface[m[K : public hardware_interface::SystemInterface
+[1.115s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.115s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:227:33:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::return_type iiwa_hardware::IiwaFRIHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[1.115s]   227 | hardware_interface::return_type [01;31m[KIiwaFRIHardwareInterface[m[K::write(
+[1.115s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.115s] In file included from [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:15[m[K:
+[1.115s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:63:35:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Khardware_interface::return_type iiwa_hardware::IiwaFRIHardwareInterface::write(...) &[m[K’
+[1.115s]    63 |   hardware_interface::return_type [01;36m[Kwrite[m[K(
+[1.115s]       |                                   [01;36m[K^~~~~[m[K
+[1.115s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:37:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass iiwa_hardware::IiwaFRIHardwareInterface[m[K’ defined here
+[1.115s]    37 | class [01;36m[KIiwaFRIHardwareInterface[m[K : public hardware_interface::SystemInterface
+[1.115s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.387s] In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+[1.387s]                  from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+[1.387s]                  from [01m[K/opt/ros/foxy/include/pluginlib/class_list_macros.hpp:40[m[K,
+[1.387s]                  from [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:262[m[K:
+[1.387s] /opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = iiwa_hardware::IiwaFRIHardwareInterface; B = hardware_interface::SystemInterface][m[K’:
+[1.387s] [01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[1.387s] [01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kiiwa_hardware::IiwaFRIHardwareInterface[m[K’
+[1.387s]   218 |     return [01;31m[Knew C[m[K;
+[1.387s]       |            [01;31m[K^~~~~[m[K
+[1.387s] In file included from [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:15[m[K:
+[1.387s] [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:37:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kiiwa_hardware::IiwaFRIHardwareInterface[m[K’:
+[1.387s]    37 | class [01;36m[KIiwaFRIHardwareInterface[m[K : public hardware_interface::SystemInterface
+[1.387s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.387s] In file included from [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/include/iiwa_hardware/IiwaFRIHardwareInterface.hpp:24[m[K,
+[1.387s]                  from [01m[K/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_hardware/src/IiwaFRIHardwareInterface.cpp:15[m[K:
+[1.387s] [01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:48:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::configure(const hardware_interface::HardwareInfo&)[m[K’
+[1.388s]    48 |   virtual return_type [01;36m[Kconfigure[m[K(const HardwareInfo & system_info) = 0;
+[1.388s]       |                       [01;36m[K^~~~~~~~~[m[K
+[1.388s] [01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:116:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::start()[m[K’
+[1.388s]   116 |   virtual return_type [01;36m[Kstart[m[K() = 0;
+[1.388s]       |                       [01;36m[K^~~~~[m[K
+[1.388s] [01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:122:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::stop()[m[K’
+[1.388s]   122 |   virtual return_type [01;36m[Kstop[m[K() = 0;
+[1.388s]       |                       [01;36m[K^~~~[m[K
+[1.388s] [01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:128:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::string hardware_interface::SystemInterface::get_name() const[m[K’
+[1.388s]   128 |   virtual std::string [01;36m[Kget_name[m[K() const = 0;
+[1.388s]       |                       [01;36m[K^~~~~~~~[m[K
+[1.388s] [01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:134:18:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::status hardware_interface::SystemInterface::get_status() const[m[K’
+[1.388s]   134 |   virtual status [01;36m[Kget_status[m[K() const = 0;
+[1.388s]       |                  [01;36m[K^~~~~~~~~~[m[K
+[1.388s] [01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:144:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::read()[m[K’
+[1.388s]   144 |   virtual return_type [01;36m[Kread[m[K() = 0;
+[1.388s]       |                       [01;36m[K^~~~[m[K
+[1.388s] [01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:153:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::write()[m[K’
+[1.388s]   153 |   virtual return_type [01;36m[Kwrite[m[K() = 0;
+[1.388s]       |                       [01;36m[K^~~~~[m[K
+[1.422s] make[2]: *** [CMakeFiles/iiwa_hardware.dir/build.make:76: CMakeFiles/iiwa_hardware.dir/src/IiwaFRIHardwareInterface.cpp.o] Error 1
+[1.422s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/iiwa_hardware.dir/all] Error 2
+[1.422s] make: *** [Makefile:146: all] Error 2

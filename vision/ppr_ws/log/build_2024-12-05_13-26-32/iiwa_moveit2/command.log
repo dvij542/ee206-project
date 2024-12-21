@@ -1,0 +1,1 @@
+Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/iiwa_moveit2': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/iiwa_moveit2 -- -j20 -l20

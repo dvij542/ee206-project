@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000154] (-) JobUnselected: {'identifier': 'aruco'}
+[0.000197] (-) JobUnselected: {'identifier': 'aruco_msgs'}
+[0.000207] (-) JobUnselected: {'identifier': 'aruco_ros2'}
+[0.000214] (-) JobUnselected: {'identifier': 'camera_feed'}
+[0.000221] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.000228] (-) JobUnselected: {'identifier': 'external_torque_sensor_broadcaster'}
+[0.000235] (-) JobUnselected: {'identifier': 'iiwa_bringup'}
+[0.000242] (-) JobUnselected: {'identifier': 'iiwa_description'}
+[0.000248] (-) JobUnselected: {'identifier': 'iiwa_hardware'}
+[0.000256] (-) JobUnselected: {'identifier': 'iiwa_moveit2'}
+[0.000262] (-) JobUnselected: {'identifier': 'impedance_controller'}
+[0.000269] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.000275] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.000282] (-) JobUnselected: {'identifier': 'scene_visualizer'}
+[0.000290] (ppr_interfaces) JobQueued: {'identifier': 'ppr_interfaces', 'dependencies': OrderedDict()}
+[0.000299] (scene_interpreter) JobQueued: {'identifier': 'scene_interpreter', 'dependencies': OrderedDict([('ppr_interfaces', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/ppr_interfaces')])}
+[0.000399] (ppr_interfaces) JobStarted: {'identifier': 'ppr_interfaces'}
+[0.007871] (ppr_interfaces) JobProgress: {'identifier': 'ppr_interfaces', 'progress': 'cmake'}
+[0.012224] (ppr_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/ppr_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/ppr_interfaces'], 'cwd': '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dvij'), ('SSH_CLIENT', '10.41.224.31 53193 22'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/lib:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2/lib:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/external_torque_sensor_broadcaster/lib:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu::/home/dvij/.mpi-is/pam/install/lib:/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('BROWSER', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dvij'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1005/vscode-ipc-3ff8e0f1-a2c9-4dc5-b863-bff05f7d9b99.sock'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('UBUNTU_MENUPROXY', '1'), ('COLCON_PREFIX_PATH', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dvij'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '200'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/galactic/bin:/opt/ros/noetic/bin:/home/dvij/anaconda3/condabin:/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/home/dvij/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dvij/.mpi-is/pam/install/bin'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1005/vscode-git-1effcbcc6d.sock'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_description:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/external_torque_sensor_broadcaster:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/camera_feed:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/interface:/opt/ros/foxy:/opt/ros/galactic'), ('CONDA_PYTHON_EXE', '/home/dvij/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/dvij/anaconda3/bin/conda'), ('SSH_CONNECTION', '10.41.224.31 53193 10.41.45.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_interpreter/lib/python3.8/site-packages:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/camera_feed/lib/python3.8/site-packages:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_description:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/external_torque_sensor_broadcaster:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/camera_feed:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/interface:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/foxy:/opt/ros/galactic:/opt/ros/noetic')]), 'shell': False}
+[0.039161] (ppr_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.042035] (ppr_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.042116] (ppr_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.042149] (ppr_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.042176] (ppr_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.042201] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.042227] (ppr_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.042254] (ppr_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.042279] (ppr_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.042305] (ppr_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.042330] (ppr_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.042356] (ppr_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.042381] (ppr_interfaces) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.042405] (ppr_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.042429] (ppr_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.059303] (ppr_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")\n'}
+[0.059386] (ppr_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3\n'}
+[0.099869] (-) TimerEvent: {}
+[0.200092] (-) TimerEvent: {}
+[0.220272] (ppr_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)\n'}
+[0.242878] (ppr_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.245790] (ppr_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.300175] (-) TimerEvent: {}
+[0.346900] (ppr_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.371121] (ppr_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[0.400234] (-) TimerEvent: {}
+[0.427912] (ppr_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[0.434559] (ppr_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):\n'}
+[0.434623] (ppr_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.434655] (ppr_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.434681] (ppr_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.434707] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.434732] (ppr_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.434759] (ppr_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.434785] (ppr_interfaces) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[0.434811] (ppr_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.434836] (ppr_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.451088] (ppr_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found version "3.9.7")\n'}
+[0.486327] (ppr_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[0.486442] (ppr_interfaces) StderrLine: {'line': b'  execute_process(/home/dvij/anaconda3/bin/python3 -m rosidl_adapter\n'}
+[0.486484] (ppr_interfaces) StderrLine: {'line': b'  --package-name ppr_interfaces --arguments-file\n'}
+[0.486513] (ppr_interfaces) StderrLine: {'line': b'  /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces/rosidl_adapter__arguments__ppr_interfaces.json\n'}
+[0.486549] (ppr_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.486576] (ppr_interfaces) StderrLine: {'line': b'  /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces/rosidl_adapter/ppr_interfaces\n'}
+[0.486605] (ppr_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.486631] (ppr_interfaces) StderrLine: {'line': b'  /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces/rosidl_adapter/ppr_interfaces.idls)\n'}
+[0.486657] (ppr_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.486682] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.486708] (ppr_interfaces) StderrLine: {'line': b"  AttributeError processing template 'msg.idl.em'\n"}
+[0.486733] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.486756] (ppr_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.486780] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.486803] (ppr_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 51, in evaluate_template\n'}
+[0.486826] (ppr_interfaces) StderrLine: {'line': b'      em.BUFFERED_OPT: True,\n'}
+[0.486850] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.486876] (ppr_interfaces) StderrLine: {'line': b"  AttributeError: module 'em' has no attribute 'BUFFERED_OPT'\n"}
+[0.486900] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.486923] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.486946] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.486970] (ppr_interfaces) StderrLine: {'line': b'  During handling of the above exception, another exception occurred:\n'}
+[0.486994] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.487019] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.487043] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.487067] (ppr_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.487091] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.487114] (ppr_interfaces) StderrLine: {'line': b'    File "/home/dvij/anaconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main\n'}
+[0.487139] (ppr_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.487163] (ppr_interfaces) StderrLine: {'line': b'    File "/home/dvij/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code\n'}
+[0.487192] (ppr_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.487216] (ppr_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.487241] (ppr_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.487265] (ppr_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.487290] (ppr_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.487313] (ppr_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.487338] (ppr_interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.487362] (ppr_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 39, in convert_msg_to_idl\n'}
+[0.487389] (ppr_interfaces) StderrLine: {'line': b"      expand_template('msg.idl.em', data, output_file, encoding='iso-8859-1')\n"}
+[0.487412] (ppr_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template\n'}
+[0.487437] (ppr_interfaces) StderrLine: {'line': b'      content = evaluate_template(template_name, data)\n'}
+[0.487460] (ppr_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template\n'}
+[0.487485] (ppr_interfaces) StderrLine: {'line': b'      _interpreter.shutdown()\n'}
+[0.487509] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.487532] (ppr_interfaces) StderrLine: {'line': b"  AttributeError: 'NoneType' object has no attribute 'shutdown'\n"}
+[0.487556] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.487581] (ppr_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.487605] (ppr_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.487629] (ppr_interfaces) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[0.487653] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.487676] (ppr_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.487700] (ppr_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.490725] (ppr_interfaces) CommandEnded: {'returncode': 1}
+[0.500468] (-) TimerEvent: {}
+[0.501922] (ppr_interfaces) JobEnded: {'identifier': 'ppr_interfaces', 'rc': 1}
+[0.512180] (scene_interpreter) JobSkipped: {'identifier': 'scene_interpreter'}
+[0.512202] (-) EventReactorShutdown: {}

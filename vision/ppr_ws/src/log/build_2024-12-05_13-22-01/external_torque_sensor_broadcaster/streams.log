@@ -1,0 +1,52 @@
+[0.020s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/external_torque_sensor_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_controllers/external_torque_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/external_torque_sensor_broadcaster
+[0.055s] -- The C compiler identification is GNU 9.4.0
+[0.093s] -- The CXX compiler identification is GNU 9.4.0
+[0.103s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.161s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.165s] -- Detecting CXX compiler ABI info
+[0.232s] -- Detecting CXX compiler ABI info - done
+[0.250s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.250s] -- Detecting CXX compile features
+[0.251s] -- Detecting CXX compile features - done
+[0.253s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.256s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.257s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.257s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.257s]   the cmake_policy command to set the policy and suppress this warning.
+[0.257s] 
+[0.257s] Call Stack (most recent call first):
+[0.257s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.257s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.257s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.257s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.257s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.257s]   CMakeLists.txt:14 (find_package)
+[0.258s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.258s] [0m
+[0.283s] -- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")
+[0.283s] -- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3
+[0.378s] -- Found controller_interface: 1.6.0 (/opt/ros/galactic/share/controller_interface/cmake)
+[0.409s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.413s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.498s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[0.528s] -- Found FastRTPS: /opt/ros/galactic/include
+[0.582s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.849s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.851s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.860s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.861s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.917s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.917s] -- Looking for pthread_create in pthreads
+[0.957s] -- Looking for pthread_create in pthreads - not found
+[0.957s] -- Looking for pthread_create in pthread
+[1.015s] -- Looking for pthread_create in pthread - found
+[1.016s] -- Found Threads: TRUE
+[1.178s] -- Found realtime_tools: 2.2.0 (/opt/ros/galactic/share/realtime_tools/cmake)
+[1.247s] -- Found ament_cmake_gtest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+[1.248s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.384s] -- Configuring done (1.4s)
+[1.396s] -- Generating done (0.0s)
+[1.398s] -- Build files have been written to: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/external_torque_sensor_broadcaster

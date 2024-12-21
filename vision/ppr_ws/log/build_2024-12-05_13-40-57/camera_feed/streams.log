@@ -1,0 +1,75 @@
+[0.626s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/camera_feed': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_feed build --build-base /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build install --record /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/install.log --single-version-externally-managed install_data
+[0.778s] running egg_info
+[0.778s] creating ../../build/camera_feed/camera_feed.egg-info
+[0.788s] writing ../../build/camera_feed/camera_feed.egg-info/PKG-INFO
+[0.788s] writing dependency_links to ../../build/camera_feed/camera_feed.egg-info/dependency_links.txt
+[0.788s] writing entry points to ../../build/camera_feed/camera_feed.egg-info/entry_points.txt
+[0.788s] writing requirements to ../../build/camera_feed/camera_feed.egg-info/requires.txt
+[0.788s] writing top-level names to ../../build/camera_feed/camera_feed.egg-info/top_level.txt
+[0.876s] writing manifest file '../../build/camera_feed/camera_feed.egg-info/SOURCES.txt'
+[0.897s] reading manifest file '../../build/camera_feed/camera_feed.egg-info/SOURCES.txt'
+[0.897s] writing manifest file '../../build/camera_feed/camera_feed.egg-info/SOURCES.txt'
+[0.898s] running build
+[0.898s] running build_py
+[0.898s] creating /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build
+[0.898s] creating /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib
+[0.898s] creating /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed
+[0.898s] copying camera_feed/train_test.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed
+[0.898s] copying camera_feed/test.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed
+[0.898s] copying camera_feed/cam_pub_copy.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed
+[0.898s] copying camera_feed/calibratetest.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed
+[0.898s] copying camera_feed/match_maker.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed
+[0.898s] copying camera_feed/__init__.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed
+[0.899s] copying camera_feed/new_cal.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed
+[0.899s] copying camera_feed/photoselection.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed
+[0.899s] copying camera_feed/cam_pub.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed
+[0.899s] copying camera_feed/utils.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed
+[0.899s] copying camera_feed/cam_sync_sub.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed
+[0.899s] copying camera_feed/phototaking.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed
+[0.899s] copying camera_feed/cv2test.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed
+[0.899s] copying camera_feed/utilscopy.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed
+[0.899s] running install
+[0.901s] running install_lib
+[0.912s] creating /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[0.912s] copying /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed/train_test.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[0.912s] copying /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed/test.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[0.912s] copying /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed/cam_pub_copy.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[0.912s] copying /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed/calibratetest.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[0.912s] copying /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed/match_maker.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[0.912s] copying /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed/__init__.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[0.912s] copying /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed/new_cal.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[0.912s] copying /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed/photoselection.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[0.912s] copying /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed/cam_pub.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[0.912s] copying /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed/utils.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[0.912s] copying /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed/cam_sync_sub.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[0.912s] copying /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed/phototaking.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[0.912s] copying /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed/cv2test.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[0.913s] copying /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build/lib/camera_feed/utilscopy.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed
+[0.913s] byte-compiling /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed/train_test.py to train_test.cpython-38.pyc
+[0.913s] byte-compiling /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed/test.py to test.cpython-38.pyc
+[0.913s] byte-compiling /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed/cam_pub_copy.py to cam_pub_copy.cpython-38.pyc
+[0.914s] byte-compiling /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed/calibratetest.py to calibratetest.cpython-38.pyc
+[0.914s] byte-compiling /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed/match_maker.py to match_maker.cpython-38.pyc
+[0.914s] byte-compiling /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed/__init__.py to __init__.cpython-38.pyc
+[0.914s] byte-compiling /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed/new_cal.py to new_cal.cpython-38.pyc
+[0.915s] byte-compiling /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed/photoselection.py to photoselection.cpython-38.pyc
+[0.916s] byte-compiling /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed/cam_pub.py to cam_pub.cpython-38.pyc
+[0.916s] byte-compiling /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed/utils.py to utils.cpython-38.pyc
+[0.916s] byte-compiling /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed/cam_sync_sub.py to cam_sync_sub.cpython-38.pyc
+[0.917s] byte-compiling /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed/phototaking.py to phototaking.cpython-38.pyc
+[0.917s] byte-compiling /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed/cv2test.py to cv2test.cpython-38.pyc
+[0.918s] byte-compiling /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed/utilscopy.py to utilscopy.cpython-38.pyc
+[0.918s] running install_data
+[0.918s] creating /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/share/ament_index
+[0.918s] creating /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/share/ament_index/resource_index
+[0.918s] creating /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/share/ament_index/resource_index/packages
+[0.918s] copying resource/camera_feed -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/share/ament_index/resource_index/packages
+[0.919s] copying package.xml -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/share/camera_feed
+[0.919s] copying launch/camera_feed_launch.py -> /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/share/camera_feed
+[0.919s] running install_egg_info
+[0.930s] Copying ../../build/camera_feed/camera_feed.egg-info to /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages/camera_feed-0.0.0-py3.8.egg-info
+[0.930s] running install_scripts
+[0.958s] Installing cam_pub script to /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/camera_feed
+[0.958s] Installing cam_sync_sub script to /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/camera_feed
+[0.958s] writing list of installed files to '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/install.log'
+[0.972s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/camera_feed' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_feed build --build-base /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/build install --record /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/camera_feed/install.log --single-version-externally-managed install_data

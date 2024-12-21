@@ -1,0 +1,66 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found control_toolbox: 2.2.0 (/opt/ros/foxy/share/control_toolbox/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found fri_vendor: 1.0.0 (/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/fri_vendor/cmake)
+-- Found lbr_fri_msgs: 1.1.5 (/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_msgs/share/lbr_fri_msgs/cmake)
+-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/lbr_fri_ros2
+[ 22%] Built target app
+[ 33%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/app.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/client.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/command_guard.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/lbr_fri_ros2.dir/src/utils.cpp.o[0m
+[ 77%] [32m[1mLinking CXX shared library liblbr_fri_ros2.so[0m
+[ 77%] Built target lbr_fri_ros2
+[ 88%] [32mBuilding CXX object CMakeFiles/app_component.dir/src/app_component.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libapp_component.so[0m
+[100%] Built target app_component
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/library_path.sh
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/library_path.dsv
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/include/lbr_fri_ros2/app.hpp
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/include/lbr_fri_ros2/client.hpp
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/include/lbr_fri_ros2/command_guard.hpp
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/include/lbr_fri_ros2/utils.hpp
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/launch/app.launch.py
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/lbr_fri_ros2/app
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/libapp_component.so
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/launch/app.launch.py
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/lbr_fri_ros2/lbr_state_smoothing_node.py
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/pythonpath.sh
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/python3.8/site-packages/lbr_fri_ros2/__init__.py
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/python3.8/site-packages/lbr_fri_ros2/launch_mixin.py
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/ament_index/resource_index/package_run_dependencies/lbr_fri_ros2
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/ament_index/resource_index/parent_prefix_path/lbr_fri_ros2
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/path.sh
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/environment/path.dsv
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/local_setup.bash
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/local_setup.sh
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/local_setup.zsh
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/local_setup.dsv
+-- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/package.dsv
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/ament_index/resource_index/packages/lbr_fri_ros2
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/ament_index/resource_index/rclcpp_components/lbr_fri_ros2
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2Config.cmake
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2Config-version.cmake
+-- Up-to-date symlink: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/package.xml
+-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/liblbr_fri_ros2.so
+-- Set runtime path of "/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/liblbr_fri_ros2.so" to ""
+Listing '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/lib/python3.8/site-packages/lbr_fri_ros2'...
+-- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2_exportExport.cmake
+-- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/lbr_fri_ros2/share/lbr_fri_ros2/cmake/lbr_fri_ros2_exportExport-release.cmake

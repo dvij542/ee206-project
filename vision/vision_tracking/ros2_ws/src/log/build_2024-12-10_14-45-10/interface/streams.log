@@ -1,0 +1,199 @@
+[0.013s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface -- -j20 -l20
+[0.022s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.023s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.023s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.023s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.023s]   the cmake_policy command to set the policy and suppress this warning.
+[0.023s] 
+[0.023s] Call Stack (most recent call first):
+[0.023s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.024s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.024s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.024s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.024s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.024s]   CMakeLists.txt:8 (find_package)
+[0.024s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.024s] [0m
+[0.035s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[0.035s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.152s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.165s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.257s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.312s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.317s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[0.317s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.317s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.317s]   the cmake_policy command to set the policy and suppress this warning.
+[0.317s] 
+[0.317s] Call Stack (most recent call first):
+[0.317s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.317s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.317s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.317s] [0m
+[0.329s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
+[0.472s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.617s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.683s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.686s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[0.686s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.686s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.686s]   the cmake_policy command to set the policy and suppress this warning.
+[0.686s] 
+[0.686s] Call Stack (most recent call first):
+[0.686s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.686s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[0.686s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.686s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.686s] [0m
+[0.698s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5")
+[0.698s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.698s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):
+[0.698s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.698s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.698s]   the cmake_policy command to set the policy and suppress this warning.
+[0.698s] 
+[0.698s] Call Stack (most recent call first):
+[0.698s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[0.698s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.698s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[0.698s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.698s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.698s] [0m
+[0.710s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):
+[0.710s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.710s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.710s]   the cmake_policy command to set the policy and suppress this warning.
+[0.710s] 
+[0.710s] Call Stack (most recent call first):
+[0.710s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[0.710s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.710s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[0.710s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.710s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.710s] [0m
+[0.711s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.711s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.711s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.741s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.747s] -- Added test 'lint_cmake' to check CMake code style
+[0.748s] -- Added test 'xmllint' to check XML markup files
+[0.749s] -- Configuring done (0.7s)
+[0.777s] -- Generating done (0.0s)
+[0.779s] -- Build files have been written to: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface
+[0.789s] [  3%] Built target interface__cpp
+[0.789s] [ 12%] Built target interface__rosidl_generator_c
+[0.795s] [ 22%] Built target interface__rosidl_typesupport_c
+[0.795s] [ 32%] Built target interface__rosidl_typesupport_introspection_c
+[0.795s] [ 41%] Built target interface__rosidl_typesupport_cpp
+[0.796s] [ 51%] Built target interface__rosidl_typesupport_introspection_cpp
+[0.796s] [ 61%] Built target interface__rosidl_typesupport_fastrtps_cpp
+[0.803s] [ 70%] Built target interface__rosidl_typesupport_fastrtps_c
+[0.811s] [ 70%] Built target interface
+[0.818s] [ 74%] Built target interface__py
+[0.825s] [ 80%] Built target interface__python
+[0.831s] [100%] Built target interface__rosidl_typesupport_c__pyext
+[0.831s] [100%] Built target interface__rosidl_typesupport_introspection_c__pyext
+[0.831s] [100%] Built target interface__rosidl_typesupport_fastrtps_c__pyext
+[0.835s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface -- -j20 -l20
+[0.853s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface
+[0.855s] -- Install configuration: ""
+[0.855s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/ament_index/resource_index/rosidl_interfaces/interface
+[0.855s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface
+[0.855s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/rosidl_generator_c__visibility_control.h
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__functions.c
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__type_support.h
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__struct.h
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__functions.h
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/scene.h
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/environment/library_path.sh
+[0.856s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/environment/library_path.dsv
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_generator_c.so
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__rosidl_typesupport_fastrtps_c.h
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface
+[0.856s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg
+[0.857s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.857s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail
+[0.857s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__rosidl_typesupport_fastrtps_cpp.hpp
+[0.857s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/dds_fastrtps
+[0.857s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so
+[0.857s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface
+[0.857s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg
+[0.857s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.857s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail
+[0.857s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__type_support.c
+[0.857s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__rosidl_typesupport_introspection_c.h
+[0.857s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so
+[0.858s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_c.so
+[0.858s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface
+[0.858s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg
+[0.858s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.858s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/scene.hpp
+[0.858s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail
+[0.858s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__builder.hpp
+[0.858s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__type_support.hpp
+[0.858s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__struct.hpp
+[0.858s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__traits.hpp
+[0.858s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface
+[0.858s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg
+[0.858s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail
+[0.858s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__type_support.cpp
+[0.858s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/include/interface/msg/detail/scene__rosidl_typesupport_introspection_cpp.hpp
+[0.858s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so
+[0.859s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__rosidl_typesupport_cpp.so
+[0.859s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/environment/pythonpath.sh
+[0.859s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/environment/pythonpath.dsv
+[0.859s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.8/site-packages/interface/__init__.py
+[0.875s] Compiling '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.8/site-packages/interface/__init__.py'...
+[0.878s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.8/site-packages/interface/msg
+[0.878s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.8/site-packages/interface/msg/_scene.py
+[0.878s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.8/site-packages/interface/msg/_scene_s.c
+[0.878s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.8/site-packages/interface/msg/__init__.py
+[0.878s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.8/site-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.878s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.8/site-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.878s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/python3.8/site-packages/interface/interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.879s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/lib/libinterface__python.so
+[0.879s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/msg/Scene.idl
+[0.879s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/msg/Scene.msg
+[0.879s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/ament_index/resource_index/package_run_dependencies/interface
+[0.879s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/ament_index/resource_index/parent_prefix_path/interface
+[0.879s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/environment/ament_prefix_path.sh
+[0.879s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/environment/ament_prefix_path.dsv
+[0.879s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/environment/path.sh
+[0.879s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/environment/path.dsv
+[0.879s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/local_setup.bash
+[0.879s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/local_setup.sh
+[0.879s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/local_setup.zsh
+[0.879s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/local_setup.dsv
+[0.879s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/package.dsv
+[0.879s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/ament_index/resource_index/packages/interface
+[0.880s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_generator_cExport.cmake
+[0.880s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_generator_cExport-noconfig.cmake
+[0.880s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport.cmake
+[0.880s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.880s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport.cmake
+[0.880s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport-noconfig.cmake
+[0.880s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_generator_cppExport.cmake
+[0.880s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport.cmake
+[0.880s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.881s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport.cmake
+[0.881s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport-noconfig.cmake
+[0.881s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/rosidl_cmake-extras.cmake
+[0.881s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.881s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.881s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/ament_cmake_export_targets-extras.cmake
+[0.881s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.881s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.881s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.881s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interfaceConfig.cmake
+[0.881s] -- Up-to-date: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/cmake/interfaceConfig-version.cmake
+[0.881s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/install/interface/share/interface/package.xml
+[0.882s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/dvij/ee206-project/ping-pong-robot/vision_tracking/ros2_ws/src/build/interface

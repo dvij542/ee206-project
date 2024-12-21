@@ -1,0 +1,211 @@
+[0.000000] (-) TimerEvent: {}
+[0.000191] (-) JobUnselected: {'identifier': 'camera_feed'}
+[0.000243] (-) JobUnselected: {'identifier': 'fri_vendor'}
+[0.000347] (-) JobUnselected: {'identifier': 'lbr_bringup'}
+[0.000355] (-) JobUnselected: {'identifier': 'lbr_demos_fri_ros2_advanced_python'}
+[0.000363] (-) JobUnselected: {'identifier': 'lbr_demos_fri_ros2_cpp'}
+[0.000370] (-) JobUnselected: {'identifier': 'lbr_demos_fri_ros2_python'}
+[0.000376] (-) JobUnselected: {'identifier': 'lbr_demos_ros2_control_cpp'}
+[0.000383] (-) JobUnselected: {'identifier': 'lbr_demos_ros2_control_python'}
+[0.000389] (-) JobUnselected: {'identifier': 'lbr_description'}
+[0.000396] (-) JobUnselected: {'identifier': 'lbr_fri_msgs'}
+[0.000402] (-) JobUnselected: {'identifier': 'lbr_fri_ros2'}
+[0.000408] (-) JobUnselected: {'identifier': 'lbr_fri_ros2_stack'}
+[0.000415] (-) JobUnselected: {'identifier': 'lbr_hardware_interface'}
+[0.000421] (-) JobUnselected: {'identifier': 'lbr_moveit'}
+[0.000428] (-) JobUnselected: {'identifier': 'ppr_interfaces'}
+[0.000434] (-) JobUnselected: {'identifier': 'scene_interpreter'}
+[0.000441] (-) JobUnselected: {'identifier': 'workspace_controller'}
+[0.000449] (cv_bridge) JobQueued: {'identifier': 'cv_bridge', 'dependencies': OrderedDict()}
+[0.000458] (cv_bridge) JobStarted: {'identifier': 'cv_bridge'}
+[0.099887] (-) TimerEvent: {}
+[0.129467] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'cmake'}
+[0.129828] (cv_bridge) Command: {'cmd': ['/home/pingpongproject/.local/bin/cmake', '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/vision/cv_bridge', '-DCMAKE_INSTALL_PREFIX=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge'], 'cwd': '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/cv_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pingpongproject'), ('SSH_AGENT_PID', '2884'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/ppr_interfaces/lib:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/pingpongproject'), ('OLDPWD', '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/vision'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module'), ('MANAGERPID', '1684'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pingpongproject/code/ping-pong-robot/ppr_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pingpongproject'), ('JOURNAL_STREAM', '8:1894961111'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pingpongproject'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda/bin:/home/pingpongproject/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sastry-ma-MS-7D25:@/tmp/.ICE-unix/3130124,unix/sastry-ma-MS-7D25:/tmp/.ICE-unix/3130124'), ('INVOCATION_ID', '95683aa421ae4df581e7e3b9792392a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9d15a99_fe63_4399_a149_6d6d8d762af5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_visualizer:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/camera_feed:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/ppr_interfaces:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/iiwa_description:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/cv_bridge:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/cv_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pingpongproject/code/ping-pong-robot/ppr_ws/build/scene_visualizer:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_visualizer/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/ppr_ws/build/scene_interpreter:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_interpreter/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/ppr_interfaces/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/home/pingpongproject/code/ping-pong-robot/vision'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/ppr_interfaces:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/iiwa_description:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/cv_bridge:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_visualizer:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/foxy')]), 'shell': False}
+[0.200016] (-) TimerEvent: {}
+[0.245578] (cv_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300118] (-) TimerEvent: {}
+[0.316463] (cv_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.325666] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.361109] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.366979] (cv_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.367304] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.367648] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.370082] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400193] (-) TimerEvent: {}
+[0.406510] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.412801] (cv_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.412973] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.413286] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.417151] (cv_bridge) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.447270] (cv_bridge) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.447408] (cv_bridge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.500273] (-) TimerEvent: {}
+[0.600488] (-) TimerEvent: {}
+[0.700702] (-) TimerEvent: {}
+[0.800936] (-) TimerEvent: {}
+[0.901183] (-) TimerEvent: {}
+[1.001410] (-) TimerEvent: {}
+[1.101654] (-) TimerEvent: {}
+[1.201858] (-) TimerEvent: {}
+[1.302074] (-) TimerEvent: {}
+[1.329350] (cv_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/include/python3.8 (found version "3.8.10") found components: Development NumPy Interpreter Development.Module Development.Embed \n'}
+[1.348795] (cv_bridge) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: python38 \n'}
+[1.350929] (cv_bridge) StdoutLine: {'line': b'-- Found rcpputils: 1.3.2 (/opt/ros/foxy/share/rcpputils/cmake)\n'}
+[1.362743] (cv_bridge) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.378337] (cv_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.384610] (cv_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.402152] (-) TimerEvent: {}
+[1.443559] (cv_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.464645] (cv_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.502239] (-) TimerEvent: {}
+[1.515938] (cv_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.602332] (-) TimerEvent: {}
+[1.641612] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[1.678085] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[1.678857] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[1.702416] (-) TimerEvent: {}
+[1.717900] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[1.718185] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[1.755115] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[1.758845] (cv_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.802501] (-) TimerEvent: {}
+[1.822741] (cv_bridge) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.825460] (cv_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.864557] (cv_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.864706] (cv_bridge) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[1.897671] (cv_bridge) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[1.898421] (cv_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.902570] (-) TimerEvent: {}
+[2.002759] (-) TimerEvent: {}
+[2.102969] (-) TimerEvent: {}
+[2.203173] (-) TimerEvent: {}
+[2.303394] (-) TimerEvent: {}
+[2.403625] (-) TimerEvent: {}
+[2.503910] (-) TimerEvent: {}
+[2.604167] (-) TimerEvent: {}
+[2.704380] (-) TimerEvent: {}
+[2.804638] (-) TimerEvent: {}
+[2.904891] (-) TimerEvent: {}
+[3.005109] (-) TimerEvent: {}
+[3.080798] (cv_bridge) StdoutLine: {'line': b'-- Configuring done (2.9s)\n'}
+[3.091172] (cv_bridge) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.092445] (cv_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/cv_bridge\n'}
+[3.100013] (cv_bridge) CommandEnded: {'returncode': 0}
+[3.100589] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'build'}
+[3.101026] (cv_bridge) Command: {'cmd': ['/home/pingpongproject/.local/bin/cmake', '--build', '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/cv_bridge', '--', '-j20', '-l20'], 'cwd': '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/cv_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pingpongproject'), ('SSH_AGENT_PID', '2884'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/ppr_interfaces/lib:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/pingpongproject'), ('OLDPWD', '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/vision'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module'), ('MANAGERPID', '1684'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pingpongproject/code/ping-pong-robot/ppr_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pingpongproject'), ('JOURNAL_STREAM', '8:1894961111'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pingpongproject'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda/bin:/home/pingpongproject/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sastry-ma-MS-7D25:@/tmp/.ICE-unix/3130124,unix/sastry-ma-MS-7D25:/tmp/.ICE-unix/3130124'), ('INVOCATION_ID', '95683aa421ae4df581e7e3b9792392a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9d15a99_fe63_4399_a149_6d6d8d762af5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_visualizer:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/camera_feed:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/ppr_interfaces:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/iiwa_description:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/cv_bridge:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/cv_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pingpongproject/code/ping-pong-robot/ppr_ws/build/scene_visualizer:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_visualizer/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/ppr_ws/build/scene_interpreter:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_interpreter/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/ppr_interfaces/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/home/pingpongproject/code/ping-pong-robot/vision'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/ppr_interfaces:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/iiwa_description:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/cv_bridge:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_visualizer:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/foxy')]), 'shell': False}
+[3.105173] (-) TimerEvent: {}
+[3.130970] (cv_bridge) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o\x1b[0m\n'}
+[3.131139] (cv_bridge) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o\x1b[0m\n'}
+[3.131191] (cv_bridge) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[3.131231] (cv_bridge) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[3.205263] (-) TimerEvent: {}
+[3.305509] (-) TimerEvent: {}
+[3.405746] (-) TimerEvent: {}
+[3.501575] (cv_bridge) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.505843] (-) TimerEvent: {}
+[3.509363] (cv_bridge) StdoutLine: {'line': b'[ 31%] Built target gtest_main\n'}
+[3.605950] (-) TimerEvent: {}
+[3.706234] (-) TimerEvent: {}
+[3.806499] (-) TimerEvent: {}
+[3.906746] (-) TimerEvent: {}
+[4.007030] (-) TimerEvent: {}
+[4.107278] (-) TimerEvent: {}
+[4.207517] (-) TimerEvent: {}
+[4.307802] (-) TimerEvent: {}
+[4.408060] (-) TimerEvent: {}
+[4.508325] (-) TimerEvent: {}
+[4.608609] (-) TimerEvent: {}
+[4.708859] (-) TimerEvent: {}
+[4.809150] (-) TimerEvent: {}
+[4.858060] (cv_bridge) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[4.877060] (cv_bridge) StdoutLine: {'line': b'[ 37%] Built target gtest\n'}
+[4.909255] (-) TimerEvent: {}
+[5.009527] (-) TimerEvent: {}
+[5.109748] (-) TimerEvent: {}
+[5.209966] (-) TimerEvent: {}
+[5.310189] (-) TimerEvent: {}
+[5.410427] (-) TimerEvent: {}
+[5.508496] (cv_bridge) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libcv_bridge.so\x1b[0m\n'}
+[5.510494] (-) TimerEvent: {}
+[5.593674] (cv_bridge) StdoutLine: {'line': b'[ 43%] Built target cv_bridge\n'}
+[5.598347] (cv_bridge) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o\x1b[0m\n'}
+[5.598566] (cv_bridge) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o\x1b[0m\n'}
+[5.598648] (cv_bridge) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o\x1b[0m\n'}
+[5.598697] (cv_bridge) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o\x1b[0m\n'}
+[5.598735] (cv_bridge) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o\x1b[0m\n'}
+[5.598851] (cv_bridge) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o\x1b[0m\n'}
+[5.598995] (cv_bridge) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o\x1b[0m\n'}
+[5.610600] (-) TimerEvent: {}
+[5.710859] (-) TimerEvent: {}
+[5.811132] (-) TimerEvent: {}
+[5.911431] (-) TimerEvent: {}
+[6.011728] (-) TimerEvent: {}
+[6.112021] (-) TimerEvent: {}
+[6.212306] (-) TimerEvent: {}
+[6.312576] (-) TimerEvent: {}
+[6.412797] (-) TimerEvent: {}
+[6.513028] (-) TimerEvent: {}
+[6.613248] (-) TimerEvent: {}
+[6.713470] (-) TimerEvent: {}
+[6.813699] (-) TimerEvent: {}
+[6.847181] (cv_bridge) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable cv_bridge-utest\x1b[0m\n'}
+[6.913808] (-) TimerEvent: {}
+[7.014097] (-) TimerEvent: {}
+[7.114374] (-) TimerEvent: {}
+[7.177116] (cv_bridge) StdoutLine: {'line': b'[ 93%] Built target cv_bridge-utest\n'}
+[7.214471] (-) TimerEvent: {}
+[7.314711] (-) TimerEvent: {}
+[7.414992] (-) TimerEvent: {}
+[7.515232] (-) TimerEvent: {}
+[7.542541] (cv_bridge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared module boost/cv_bridge_boost.so\x1b[0m\n'}
+[7.595243] (cv_bridge) StdoutLine: {'line': b'[100%] Built target cv_bridge_boost\n'}
+[7.600383] (cv_bridge) CommandEnded: {'returncode': 0}
+[7.615344] (-) TimerEvent: {}
+[7.629432] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'install'}
+[7.652062] (cv_bridge) Command: {'cmd': ['/home/pingpongproject/.local/bin/cmake', '--install', '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/cv_bridge'], 'cwd': '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/cv_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pingpongproject'), ('SSH_AGENT_PID', '2884'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/ppr_interfaces/lib:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/pingpongproject'), ('OLDPWD', '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/vision'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module'), ('MANAGERPID', '1684'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pingpongproject/code/ping-pong-robot/ppr_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pingpongproject'), ('JOURNAL_STREAM', '8:1894961111'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pingpongproject'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda/bin:/home/pingpongproject/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sastry-ma-MS-7D25:@/tmp/.ICE-unix/3130124,unix/sastry-ma-MS-7D25:/tmp/.ICE-unix/3130124'), ('INVOCATION_ID', '95683aa421ae4df581e7e3b9792392a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9d15a99_fe63_4399_a149_6d6d8d762af5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_visualizer:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/camera_feed:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/ppr_interfaces:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/iiwa_description:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/cv_bridge:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/cv_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pingpongproject/code/ping-pong-robot/ppr_ws/build/scene_visualizer:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_visualizer/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/ppr_ws/build/scene_interpreter:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_interpreter/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/camera_feed/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/ppr_interfaces/lib/python3.8/site-packages:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages::/home/pingpongproject/code/ping-pong-robot/vision'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/ppr_interfaces:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/iiwa_description:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/cv_bridge:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_visualizer:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/pingpongproject/code/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/foxy')]), 'shell': False}
+[7.672406] (cv_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.672583] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh\n'}
+[7.672624] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv\n'}
+[7.672679] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/lib/python3.8/site-packages/cv_bridge\n'}
+[7.672706] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/__init__.py\n'}
+[7.672732] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/core.py\n'}
+[7.694184] (cv_bridge) StdoutLine: {'line': b"Listing '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/lib/python3.8/site-packages/cv_bridge'...\n"}
+[7.694307] (cv_bridge) StdoutLine: {'line': b"Compiling '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/__init__.py'...\n"}
+[7.694340] (cv_bridge) StdoutLine: {'line': b"Compiling '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/core.py'...\n"}
+[7.696645] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/lib/libcv_bridge.so\n'}
+[7.697502] (cv_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/lib/libcv_bridge.so" to ""\n'}
+[7.697553] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h\n'}
+[7.697613] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost/cv_bridge_boost.so\n'}
+[7.697874] (cv_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost/cv_bridge_boost.so" to ""\n'}
+[7.698026] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/include/cv_bridge\n'}
+[7.698087] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/include/cv_bridge/cv_bridge\n'}
+[7.698113] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h\n'}
+[7.698139] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h\n'}
+[7.698181] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/lib/libcv_bridge.so\n'}
+[7.698264] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge\n'}
+[7.698315] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge\n'}
+[7.698372] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh\n'}
+[7.698432] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv\n'}
+[7.698458] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/environment/path.sh\n'}
+[7.698510] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/environment/path.dsv\n'}
+[7.698538] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/local_setup.bash\n'}
+[7.698589] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/local_setup.sh\n'}
+[7.698619] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/local_setup.zsh\n'}
+[7.698672] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/local_setup.dsv\n'}
+[7.698699] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/package.dsv\n'}
+[7.698745] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge\n'}
+[7.698818] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake\n'}
+[7.698871] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake\n'}
+[7.698936] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake\n'}
+[7.698995] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.699025] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.699087] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake\n'}
+[7.699115] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake\n'}
+[7.699139] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/cv_bridge/share/cv_bridge/package.xml\n'}
+[7.702200] (cv_bridge) CommandEnded: {'returncode': 0}
+[7.715430] (-) TimerEvent: {}
+[7.815772] (-) TimerEvent: {}
+[7.916425] (-) TimerEvent: {}
+[8.017560] (-) TimerEvent: {}
+[8.101337] (cv_bridge) JobEnded: {'identifier': 'cv_bridge', 'rc': 0}
+[8.101895] (-) EventReactorShutdown: {}

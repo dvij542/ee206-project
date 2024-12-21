@@ -1,0 +1,30 @@
+[100%] Built target impedance_controller
+-- Install configuration: ""
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/impedance_plugin.xml
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/include
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/include/impedance_controller
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/include/impedance_controller/impedance_controller.hpp
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/include/impedance_controller/visibility_control.h
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/lib/libimpedance_controller.so
+-- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/lib/libimpedance_controller.so" to ""
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/environment/library_path.sh
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/environment/library_path.dsv
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/ament_index/resource_index/package_run_dependencies/impedance_controller
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/ament_index/resource_index/parent_prefix_path/impedance_controller
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/environment/ament_prefix_path.sh
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/environment/path.sh
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/environment/path.dsv
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/local_setup.bash
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/local_setup.sh
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/local_setup.zsh
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/local_setup.dsv
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/package.dsv
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/ament_index/resource_index/packages/impedance_controller
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/impedance_controller
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/cmake/impedance_controllerConfig.cmake
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/cmake/impedance_controllerConfig-version.cmake
+-- Installing: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller/share/impedance_controller/package.xml

@@ -1,0 +1,71 @@
+running egg_info
+creating ../../build/robot_control/robot_control.egg-info
+writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control
+copying robot_control/mujoco_env_only_kuka.py -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control
+copying robot_control/__init__.py -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control
+copying robot_control/robot_control_ros2.py -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control
+copying robot_control/iiwa14.xml -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets
+copying robot_control/assets/link_4_orange.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets
+copying robot_control/assets/link_1.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets
+copying robot_control/assets/link_2_grey.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets
+copying robot_control/assets/link_2_orange.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets
+copying robot_control/assets/link_4_grey.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets
+copying robot_control/assets/link_3.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets
+copying robot_control/assets/link_6_grey.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets
+copying robot_control/assets/link_0.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets
+copying robot_control/assets/link_7.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets
+copying robot_control/assets/link_6_orange.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets
+copying robot_control/assets/link_5.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets
+copying robot_control/assets/kuka.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets
+copying robot_control/assets/band.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets
+running install
+running install_lib
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/mujoco_env_only_kuka.py -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/__init__.py -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/assets
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets/link_4_orange.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/assets
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets/link_1.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/assets
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets/link_2_grey.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/assets
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets/link_2_orange.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/assets
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets/link_4_grey.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/assets
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets/link_3.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/assets
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets/link_6_grey.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/assets
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets/link_0.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/assets
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets/link_7.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/assets
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets/link_6_orange.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/assets
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets/link_5.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/assets
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets/kuka.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/assets
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/assets/band.obj -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/assets
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/iiwa14.xml -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/build/lib/robot_control/robot_control_ros2.py -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/mujoco_env_only_kuka.py to mujoco_env_only_kuka.cpython-38.pyc
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control/robot_control_ros2.py to robot_control_ros2.cpython-38.pyc
+running install_data
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/share/ament_index
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/share/ament_index/resource_index
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/share/ament_index/resource_index/packages
+copying resource/robot_control -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/share/robot_control
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/share/robot_control/logs
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/share/robot_control/logs/best_model
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/share/robot_control/logs/best_model_ik1
+running install_egg_info
+Copying ../../build/robot_control/robot_control.egg-info to /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/python3.8/site-packages/robot_control-0.0.0-py3.8.egg-info
+running install_scripts
+Installing robot_control script to /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/robot_control/lib/robot_control
+writing list of installed files to '/home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/robot_control/install.log'

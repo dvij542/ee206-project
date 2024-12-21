@@ -1,0 +1,10 @@
+[0.058s] Invoking command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/visual_servo': /home/pingpongproject/.local/bin/cmake /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/vision/visual_servo -DCMAKE_INSTALL_PREFIX=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/visual_servo
+[0.072s] [33mCMake Warning:
+[0.072s]   Ignoring extra path from command line:
+[0.072s] 
+[0.072s]    "/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/vision/visual_servo"
+[0.072s] 
+[0.072s] [0m
+[0.073s] [0mCMake Error: The source directory "/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/vision/visual_servo" does not appear to contain CMakeLists.txt.
+[0.073s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.075s] Invoked command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/visual_servo' returned '1': /home/pingpongproject/.local/bin/cmake /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/lbr_fri_ros2_stack/vision/visual_servo -DCMAKE_INSTALL_PREFIX=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/visual_servo

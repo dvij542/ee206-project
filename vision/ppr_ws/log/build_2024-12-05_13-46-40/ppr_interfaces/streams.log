@@ -1,0 +1,87 @@
+[0.034s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/ppr_interfaces -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/ppr_interfaces
+[0.287s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.288s] -- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")
+[0.289s] -- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3
+[0.289s] -- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+[0.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.290s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.298s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.298s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.298s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.298s]   the cmake_policy command to set the policy and suppress this warning.
+[0.298s] 
+[0.298s] Call Stack (most recent call first):
+[0.298s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.298s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.298s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.298s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.298s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.298s]   CMakeLists.txt:9 (find_package)
+[0.298s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.298s] [0m
+[0.345s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.380s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.444s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.454s] [33mCMake Warning (dev) at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[0.454s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.454s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.454s]   the cmake_policy command to set the policy and suppress this warning.
+[0.454s] 
+[0.454s] Call Stack (most recent call first):
+[0.454s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.454s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.454s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.454s] [0m
+[0.506s] -- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found version "3.9.7")
+[0.563s] [31mCMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.564s]   execute_process(/home/dvij/anaconda3/bin/python3 -m rosidl_adapter
+[0.564s]   --package-name ppr_interfaces --arguments-file
+[0.564s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces/rosidl_adapter__arguments__ppr_interfaces.json
+[0.564s]   --output-dir
+[0.564s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces/rosidl_adapter/ppr_interfaces
+[0.564s]   --output-file
+[0.564s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces/rosidl_adapter/ppr_interfaces.idls)
+[0.564s]   returned error code 1:
+[0.564s] 
+[0.564s]   AttributeError processing template 'msg.idl.em'
+[0.564s] 
+[0.564s]   Traceback (most recent call last):
+[0.564s] 
+[0.564s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 51, in evaluate_template
+[0.565s]       em.BUFFERED_OPT: True,
+[0.565s] 
+[0.565s]   AttributeError: module 'em' has no attribute 'BUFFERED_OPT'
+[0.565s] 
+[0.565s] 
+[0.565s] 
+[0.565s]   During handling of the above exception, another exception occurred:
+[0.565s] 
+[0.565s] 
+[0.565s] 
+[0.565s]   Traceback (most recent call last):
+[0.565s] 
+[0.565s]     File "/home/dvij/anaconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+[0.565s]       return _run_code(code, main_globals, None,
+[0.565s]     File "/home/dvij/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code
+[0.565s]       exec(code, run_globals)
+[0.565s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.565s]       sys.exit(main())
+[0.566s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.566s]       abs_idl_file = convert_to_idl(
+[0.566s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.566s]       return convert_msg_to_idl(
+[0.566s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 39, in convert_msg_to_idl
+[0.566s]       expand_template('msg.idl.em', data, output_file, encoding='iso-8859-1')
+[0.566s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template
+[0.566s]       content = evaluate_template(template_name, data)
+[0.566s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template
+[0.566s]       _interpreter.shutdown()
+[0.566s] 
+[0.566s]   AttributeError: 'NoneType' object has no attribute 'shutdown'
+[0.566s] 
+[0.567s] Call Stack (most recent call first):
+[0.567s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.567s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.567s] 
+[0.567s] [0m
+[0.567s] -- Configuring incomplete, errors occurred!

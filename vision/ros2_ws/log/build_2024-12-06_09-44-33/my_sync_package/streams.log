@@ -1,0 +1,88 @@
+[0.011s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ros2_ws/build/my_sync_package': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/camera_feed:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/interface:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_description:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/external_torque_sensor_broadcaster:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/foxy:/opt/ros/galactic:/opt/ros/noetic /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ros2_ws/src/my_sync_package -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package
+[0.102s] -- The C compiler identification is GNU 9.4.0
+[0.166s] -- The CXX compiler identification is GNU 9.4.0
+[0.188s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.244s] -- Detecting C compile features
+[0.245s] -- Detecting C compile features - done
+[0.248s] -- Detecting CXX compiler ABI info
+[0.299s] -- Detecting CXX compiler ABI info - done
+[0.309s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.309s] -- Detecting CXX compile features
+[0.309s] -- Detecting CXX compile features - done
+[0.313s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.318s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.319s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.319s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.319s]   the cmake_policy command to set the policy and suppress this warning.
+[0.319s] 
+[0.319s] Call Stack (most recent call first):
+[0.319s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.319s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.319s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.319s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.319s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.319s]   CMakeLists.txt:9 (find_package)
+[0.319s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.319s] [0m
+[0.333s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[0.333s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.501s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.534s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.538s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.614s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[0.637s] -- Found FastRTPS: /opt/ros/foxy/include
+[0.697s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.734s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.735s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.737s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.789s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.790s] -- Looking for pthread_create in pthreads
+[0.829s] -- Looking for pthread_create in pthreads - not found
+[0.829s] -- Looking for pthread_create in pthread
+[0.876s] -- Looking for pthread_create in pthread - found
+[0.877s] -- Found Threads: TRUE
+[0.964s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[1.004s] -- Configuring done (1.0s)
+[1.012s] -- Generating done (0.0s)
+[1.013s] -- Build files have been written to: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/build/my_sync_package
+[1.020s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/ros2_ws/build/my_sync_package' returned '0': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/camera_feed:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/interface:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_description:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/external_torque_sensor_broadcaster:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/foxy:/opt/ros/galactic:/opt/ros/noetic /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ros2_ws/src/my_sync_package -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package
+[1.022s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ros2_ws/build/my_sync_package': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/camera_feed:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/interface:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_description:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/external_torque_sensor_broadcaster:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/foxy:/opt/ros/galactic:/opt/ros/noetic /usr/local/bin/cmake --build /home/dvij/ee206-project/ping-pong-robot/ros2_ws/build/my_sync_package -- -j20 -l20
+[1.044s] [ 50%] [32mBuilding CXX object CMakeFiles/example_custom_synchronizer.dir/src/example_custom_synchronizer.cpp.o[0m
+[1.044s] [ 50%] [32mBuilding CXX object CMakeFiles/multi_publisher.dir/src/multi_publisher.cpp.o[0m
+[1.044s] [ 50%] [32mBuilding CXX object CMakeFiles/multi_subscriber.dir/src/multi_subscriber.cpp.o[0m
+[2.973s] [ 66%] [32m[1mLinking CXX executable multi_publisher[0m
+[3.067s] [ 66%] Built target multi_publisher
+[4.113s] [ 83%] [32m[1mLinking CXX executable example_custom_synchronizer[0m
+[4.246s] [ 83%] Built target example_custom_synchronizer
+[5.071s] [100%] [32m[1mLinking CXX executable multi_subscriber[0m
+[5.218s] [100%] Built target multi_subscriber
+[5.228s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/ros2_ws/build/my_sync_package' returned '0': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/camera_feed:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/interface:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_description:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/external_torque_sensor_broadcaster:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/foxy:/opt/ros/galactic:/opt/ros/noetic /usr/local/bin/cmake --build /home/dvij/ee206-project/ping-pong-robot/ros2_ws/build/my_sync_package -- -j20 -l20
+[5.260s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ros2_ws/build/my_sync_package': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/camera_feed:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/interface:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_description:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/external_torque_sensor_broadcaster:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/foxy:/opt/ros/galactic:/opt/ros/noetic /usr/local/bin/cmake --install /home/dvij/ee206-project/ping-pong-robot/ros2_ws/build/my_sync_package
+[5.263s] -- Install configuration: ""
+[5.263s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/lib/my_sync_package/multi_publisher
+[5.264s] -- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/lib/my_sync_package/multi_publisher" to ""
+[5.264s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/lib/my_sync_package/multi_subscriber
+[5.265s] -- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/lib/my_sync_package/multi_subscriber" to ""
+[5.265s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/lib/my_sync_package/example_custom_synchronizer
+[5.266s] -- Set non-toolchain portion of runtime path of "/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/lib/my_sync_package/example_custom_synchronizer" to ""
+[5.266s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/my_sync_package/launch
+[5.266s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/my_sync_package/launch/multi_publisher_synchronizer_launch.py
+[5.266s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/ament_index/resource_index/package_run_dependencies/my_sync_package
+[5.267s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/ament_index/resource_index/parent_prefix_path/my_sync_package
+[5.267s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/my_sync_package/environment/ament_prefix_path.sh
+[5.267s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/my_sync_package/environment/ament_prefix_path.dsv
+[5.267s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/my_sync_package/environment/path.sh
+[5.267s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/my_sync_package/environment/path.dsv
+[5.267s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/my_sync_package/local_setup.bash
+[5.267s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/my_sync_package/local_setup.sh
+[5.267s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/my_sync_package/local_setup.zsh
+[5.267s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/my_sync_package/local_setup.dsv
+[5.267s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/my_sync_package/package.dsv
+[5.268s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/ament_index/resource_index/packages/my_sync_package
+[5.268s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/my_sync_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.268s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/my_sync_package/cmake/my_sync_packageConfig.cmake
+[5.268s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/my_sync_package/cmake/my_sync_packageConfig-version.cmake
+[5.268s] -- Installing: /home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package/share/my_sync_package/package.xml
+[5.270s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/ros2_ws/build/my_sync_package' returned '0': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/camera_feed:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/interface:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_description:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/external_torque_sensor_broadcaster:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/foxy:/opt/ros/galactic:/opt/ros/noetic /usr/local/bin/cmake --install /home/dvij/ee206-project/ping-pong-robot/ros2_ws/build/my_sync_package

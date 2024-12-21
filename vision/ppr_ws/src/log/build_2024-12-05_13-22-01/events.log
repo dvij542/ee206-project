@@ -1,0 +1,529 @@
+[0.000000] (-) TimerEvent: {}
+[0.000200] (aruco_msgs) JobQueued: {'identifier': 'aruco_msgs', 'dependencies': OrderedDict()}
+[0.000225] (cv_bridge) JobQueued: {'identifier': 'cv_bridge', 'dependencies': OrderedDict()}
+[0.000235] (external_torque_sensor_broadcaster) JobQueued: {'identifier': 'external_torque_sensor_broadcaster', 'dependencies': OrderedDict()}
+[0.000243] (iiwa_description) JobQueued: {'identifier': 'iiwa_description', 'dependencies': OrderedDict()}
+[0.000249] (iiwa_moveit2) JobQueued: {'identifier': 'iiwa_moveit2', 'dependencies': OrderedDict()}
+[0.000269] (impedance_controller) JobQueued: {'identifier': 'impedance_controller', 'dependencies': OrderedDict()}
+[0.000276] (ppr_interfaces) JobQueued: {'identifier': 'ppr_interfaces', 'dependencies': OrderedDict()}
+[0.000283] (aruco) JobQueued: {'identifier': 'aruco', 'dependencies': OrderedDict([('cv_bridge', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/cv_bridge')])}
+[0.000291] (camera_feed) JobQueued: {'identifier': 'camera_feed', 'dependencies': OrderedDict([('cv_bridge', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/cv_bridge'), ('ppr_interfaces', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/ppr_interfaces')])}
+[0.000301] (iiwa_bringup) JobQueued: {'identifier': 'iiwa_bringup', 'dependencies': OrderedDict([('iiwa_description', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/iiwa_description')])}
+[0.000328] (scene_interpreter) JobQueued: {'identifier': 'scene_interpreter', 'dependencies': OrderedDict([('ppr_interfaces', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/ppr_interfaces')])}
+[0.000335] (scene_visualizer) JobQueued: {'identifier': 'scene_visualizer', 'dependencies': OrderedDict([('ppr_interfaces', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/ppr_interfaces')])}
+[0.000342] (aruco_ros2) JobQueued: {'identifier': 'aruco_ros2', 'dependencies': OrderedDict([('aruco_msgs', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/aruco_msgs'), ('cv_bridge', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/cv_bridge'), ('aruco', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/aruco')])}
+[0.000351] (iiwa_hardware) JobQueued: {'identifier': 'iiwa_hardware', 'dependencies': OrderedDict([('iiwa_description', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/iiwa_description'), ('iiwa_bringup', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/iiwa_bringup')])}
+[0.000359] (cv_bridge) JobStarted: {'identifier': 'cv_bridge'}
+[0.003932] (ppr_interfaces) JobStarted: {'identifier': 'ppr_interfaces'}
+[0.006785] (iiwa_description) JobStarted: {'identifier': 'iiwa_description'}
+[0.009538] (aruco_msgs) JobStarted: {'identifier': 'aruco_msgs'}
+[0.012469] (external_torque_sensor_broadcaster) JobStarted: {'identifier': 'external_torque_sensor_broadcaster'}
+[0.015100] (iiwa_moveit2) JobStarted: {'identifier': 'iiwa_moveit2'}
+[0.017663] (impedance_controller) JobStarted: {'identifier': 'impedance_controller'}
+[0.021821] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'cmake'}
+[0.021958] (cv_bridge) Command: {'cmd': ['/usr/local/bin/cmake', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/cv_bridge', '-DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/cv_bridge'], 'cwd': '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/cv_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'dvij'), ('SSH_CLIENT', '10.41.224.31 64883 22'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu::/home/dvij/.mpi-is/pam/install/lib:/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('BROWSER', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dvij'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1005/vscode-ipc-d9408f31-056c-4586-989e-7ce36ea79e6f.sock'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'dvij'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '419'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/opt/ros/noetic/bin:/home/dvij/anaconda3/bin:/home/dvij/anaconda3/condabin:/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/home/dvij/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dvij/.mpi-is/pam/install/bin'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1005/vscode-git-253b3829e3.sock'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('CONDA_PYTHON_EXE', '/home/dvij/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/cv_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/dvij/anaconda3/bin/conda'), ('SSH_CONNECTION', '10.41.224.31 64883 10.41.45.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('CONDA_PREFIX', '/home/dvij/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic:/opt/ros/noetic')]), 'shell': False}
+[0.024930] (ppr_interfaces) JobProgress: {'identifier': 'ppr_interfaces', 'progress': 'cmake'}
+[0.025668] (ppr_interfaces) JobProgress: {'identifier': 'ppr_interfaces', 'progress': 'build'}
+[0.026033] (ppr_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/ppr_interfaces', '--', '-j20', '-l20'], 'cwd': '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/ppr_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'dvij'), ('SSH_CLIENT', '10.41.224.31 64883 22'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu::/home/dvij/.mpi-is/pam/install/lib:/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('BROWSER', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dvij'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1005/vscode-ipc-d9408f31-056c-4586-989e-7ce36ea79e6f.sock'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'dvij'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '419'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/opt/ros/noetic/bin:/home/dvij/anaconda3/bin:/home/dvij/anaconda3/condabin:/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/home/dvij/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dvij/.mpi-is/pam/install/bin'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1005/vscode-git-253b3829e3.sock'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('CONDA_PYTHON_EXE', '/home/dvij/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/ppr_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/dvij/anaconda3/bin/conda'), ('SSH_CONNECTION', '10.41.224.31 64883 10.41.45.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('CONDA_PREFIX', '/home/dvij/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic:/opt/ros/noetic')]), 'shell': False}
+[0.027788] (iiwa_description) JobProgress: {'identifier': 'iiwa_description', 'progress': 'cmake'}
+[0.028013] (iiwa_description) Command: {'cmd': ['/usr/local/bin/cmake', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_description', '-DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/iiwa_description'], 'cwd': '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/iiwa_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'dvij'), ('SSH_CLIENT', '10.41.224.31 64883 22'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu::/home/dvij/.mpi-is/pam/install/lib:/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('BROWSER', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dvij'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1005/vscode-ipc-d9408f31-056c-4586-989e-7ce36ea79e6f.sock'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'dvij'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '419'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/opt/ros/noetic/bin:/home/dvij/anaconda3/bin:/home/dvij/anaconda3/condabin:/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/home/dvij/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dvij/.mpi-is/pam/install/bin'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1005/vscode-git-253b3829e3.sock'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('CONDA_PYTHON_EXE', '/home/dvij/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/iiwa_description'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/dvij/anaconda3/bin/conda'), ('SSH_CONNECTION', '10.41.224.31 64883 10.41.45.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('CONDA_PREFIX', '/home/dvij/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic:/opt/ros/noetic')]), 'shell': False}
+[0.029672] (aruco_msgs) JobProgress: {'identifier': 'aruco_msgs', 'progress': 'cmake'}
+[0.029883] (aruco_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/aruco_ros2/aruco_msgs', '-DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/aruco_msgs'], 'cwd': '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/aruco_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'dvij'), ('SSH_CLIENT', '10.41.224.31 64883 22'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu::/home/dvij/.mpi-is/pam/install/lib:/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('BROWSER', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dvij'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1005/vscode-ipc-d9408f31-056c-4586-989e-7ce36ea79e6f.sock'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'dvij'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '419'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/opt/ros/noetic/bin:/home/dvij/anaconda3/bin:/home/dvij/anaconda3/condabin:/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/home/dvij/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dvij/.mpi-is/pam/install/bin'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1005/vscode-git-253b3829e3.sock'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('CONDA_PYTHON_EXE', '/home/dvij/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/aruco_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/dvij/anaconda3/bin/conda'), ('SSH_CONNECTION', '10.41.224.31 64883 10.41.45.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('CONDA_PREFIX', '/home/dvij/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic:/opt/ros/noetic')]), 'shell': False}
+[0.031630] (external_torque_sensor_broadcaster) JobProgress: {'identifier': 'external_torque_sensor_broadcaster', 'progress': 'cmake'}
+[0.031861] (external_torque_sensor_broadcaster) Command: {'cmd': ['/usr/local/bin/cmake', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_controllers/external_torque_sensor_broadcaster', '-DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/external_torque_sensor_broadcaster'], 'cwd': '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/external_torque_sensor_broadcaster', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'dvij'), ('SSH_CLIENT', '10.41.224.31 64883 22'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu::/home/dvij/.mpi-is/pam/install/lib:/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('BROWSER', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dvij'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1005/vscode-ipc-d9408f31-056c-4586-989e-7ce36ea79e6f.sock'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'dvij'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '419'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/opt/ros/noetic/bin:/home/dvij/anaconda3/bin:/home/dvij/anaconda3/condabin:/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/home/dvij/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dvij/.mpi-is/pam/install/bin'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1005/vscode-git-253b3829e3.sock'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('CONDA_PYTHON_EXE', '/home/dvij/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/external_torque_sensor_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/dvij/anaconda3/bin/conda'), ('SSH_CONNECTION', '10.41.224.31 64883 10.41.45.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('CONDA_PREFIX', '/home/dvij/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic:/opt/ros/noetic')]), 'shell': False}
+[0.033660] (iiwa_moveit2) JobProgress: {'identifier': 'iiwa_moveit2', 'progress': 'cmake'}
+[0.033890] (iiwa_moveit2) Command: {'cmd': ['/usr/local/bin/cmake', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_moveit2', '-DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/iiwa_moveit2'], 'cwd': '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/iiwa_moveit2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'dvij'), ('SSH_CLIENT', '10.41.224.31 64883 22'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu::/home/dvij/.mpi-is/pam/install/lib:/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('BROWSER', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dvij'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1005/vscode-ipc-d9408f31-056c-4586-989e-7ce36ea79e6f.sock'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'dvij'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '419'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/opt/ros/noetic/bin:/home/dvij/anaconda3/bin:/home/dvij/anaconda3/condabin:/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/home/dvij/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dvij/.mpi-is/pam/install/bin'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1005/vscode-git-253b3829e3.sock'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('CONDA_PYTHON_EXE', '/home/dvij/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/iiwa_moveit2'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/dvij/anaconda3/bin/conda'), ('SSH_CONNECTION', '10.41.224.31 64883 10.41.45.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('CONDA_PREFIX', '/home/dvij/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic:/opt/ros/noetic')]), 'shell': False}
+[0.037966] (ppr_interfaces) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/CMakeCache.txt is different than the directory /home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.040027] (impedance_controller) JobProgress: {'identifier': 'impedance_controller', 'progress': 'cmake'}
+[0.041357] (impedance_controller) Command: {'cmd': ['/usr/local/bin/cmake', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/iiwa_ros2/iiwa_controllers/impedance_controller', '-DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/install/impedance_controller'], 'cwd': '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/impedance_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'dvij'), ('SSH_CLIENT', '10.41.224.31 64883 22'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu::/home/dvij/.mpi-is/pam/install/lib:/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('BROWSER', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dvij'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1005/vscode-ipc-d9408f31-056c-4586-989e-7ce36ea79e6f.sock'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'dvij'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '419'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/opt/ros/noetic/bin:/home/dvij/anaconda3/bin:/home/dvij/anaconda3/condabin:/home/dvij/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/home/dvij/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dvij/.mpi-is/pam/install/bin'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1005/vscode-git-253b3829e3.sock'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('CONDA_PYTHON_EXE', '/home/dvij/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/impedance_controller'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/dvij/anaconda3/bin/conda'), ('SSH_CONNECTION', '10.41.224.31 64883 10.41.45.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('CONDA_PREFIX', '/home/dvij/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic:/opt/ros/noetic')]), 'shell': False}
+[0.058700] (cv_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.061997] (ppr_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.062380] (aruco_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.063193] (iiwa_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.067239] (iiwa_moveit2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.067434] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.080842] (ppr_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.081026] (ppr_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.082150] (ppr_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[0.082286] (ppr_interfaces) StderrLine: {'line': b'  configure_file Problem configuring file\n'}
+[0.082330] (ppr_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.082371] (ppr_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:25 (stamp)\n'}
+[0.082411] (ppr_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.082449] (ppr_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.082484] (ppr_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.082520] (ppr_interfaces) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.082556] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.082592] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.083459] (impedance_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099527] (-) TimerEvent: {}
+[0.101027] (cv_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.103809] (iiwa_moveit2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.104023] (iiwa_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.105910] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.108774] (aruco_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.110959] (iiwa_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.111174] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.112207] (iiwa_moveit2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.115265] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.117224] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.121987] (impedance_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.130926] (impedance_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.156950] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.157108] (iiwa_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.157190] (iiwa_moveit2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.163904] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.165014] (ppr_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.165165] (ppr_interfaces) StderrLine: {'line': b'  File "/opt/ros/galactic/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 112, in <module>\n'}
+[0.165228] (ppr_interfaces) StderrLine: {'line': b'    main()\n'}
+[0.165275] (ppr_interfaces) StderrLine: {'line': b'  File "/opt/ros/galactic/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 55, in main\n'}
+[0.165321] (ppr_interfaces) StderrLine: {'line': b"    with open(args.outfile, 'w') as f:\n"}
+[0.165365] (ppr_interfaces) StderrLine: {'line': b"PermissionError: [Errno 13] Permission denied: '/home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/ament_cmake_package_templates/templates.cmake'\n"}
+[0.167450] (cv_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.167626] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.167860] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.168260] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.170134] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.172418] (iiwa_moveit2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.172690] (iiwa_moveit2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.173091] (iiwa_moveit2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.173551] (iiwa_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.173821] (iiwa_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.173951] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.174200] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.174287] (iiwa_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.174585] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.176664] (iiwa_moveit2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.177710] (iiwa_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.177789] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.179362] (ppr_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.179543] (ppr_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.179636] (ppr_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.179721] (ppr_interfaces) StderrLine: {'line': b'  /home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/ament_cmake_package_templates/templates.cmake)\n'}
+[0.179892] (ppr_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[0.179939] (ppr_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.179983] (ppr_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.180020] (ppr_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.180056] (ppr_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.180092] (ppr_interfaces) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.180128] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.180163] (ppr_interfaces) StderrLine: {'line': b'\n'}
+[0.180198] (ppr_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.180240] (ppr_interfaces) StdoutLine: {'line': b'See also "/home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.180280] (ppr_interfaces) StderrLine: {'line': b'CMake Error: Cannot open file for write: /home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/CMakeCache.txt.tmp\n'}
+[0.180317] (ppr_interfaces) StderrLine: {'line': b'CMake Error: : System Error: Permission denied\n'}
+[0.180353] (ppr_interfaces) StderrLine: {'line': b'CMake Error: Unable to open cache file for save. /home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/CMakeCache.txt\n'}
+[0.180388] (ppr_interfaces) StderrLine: {'line': b'CMake Error: : System Error: Permission denied\n'}
+[0.181165] (ppr_interfaces) StderrLine: {'line': b'make: *** [Makefile:776: cmake_check_build_system] Error 1\n'}
+[0.181527] (aruco_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.181745] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.182142] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.182537] (ppr_interfaces) CommandEnded: {'returncode': 2}
+[0.184948] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.186734] (impedance_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199400] (impedance_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.199603] (-) TimerEvent: {}
+[0.199857] (impedance_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.200025] (impedance_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.202835] (impedance_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.237520] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.243798] (iiwa_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.244653] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.249530] (iiwa_moveit2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.253486] (cv_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.253758] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.254226] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.255724] (iiwa_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.255915] (iiwa_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.256082] (cv_bridge) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[0.256213] (iiwa_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.257906] (iiwa_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.260303] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.260955] (iiwa_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.261111] (iiwa_description) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.261164] (iiwa_description) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.261205] (iiwa_description) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.261243] (iiwa_description) StderrLine: {'line': b'\n'}
+[0.261280] (iiwa_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.261317] (iiwa_description) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.261356] (iiwa_description) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.261394] (iiwa_description) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.261431] (iiwa_description) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.261468] (iiwa_description) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.261504] (iiwa_description) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[0.261540] (iiwa_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.261576] (iiwa_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.262648] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.262888] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.263384] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.265599] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.265837] (cv_bridge) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.265971] (cv_bridge) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.266030] (cv_bridge) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.266077] (cv_bridge) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.266121] (cv_bridge) StderrLine: {'line': b'\n'}
+[0.266206] (cv_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.266250] (cv_bridge) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.266295] (cv_bridge) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.266338] (cv_bridge) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.266386] (cv_bridge) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:39 (find_package)\n'}
+[0.266430] (cv_bridge) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)\n'}
+[0.266473] (cv_bridge) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_pytest/cmake/ament_cmake_pytest-extras.cmake:17 (find_package)\n'}
+[0.266528] (cv_bridge) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig.cmake:41 (include)\n'}
+[0.266578] (cv_bridge) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake:19 (find_package)\n'}
+[0.266662] (cv_bridge) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake:41 (include)\n'}
+[0.266944] (cv_bridge) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.267059] (cv_bridge) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.267149] (cv_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[0.267673] (iiwa_moveit2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.268014] (iiwa_moveit2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.268477] (iiwa_moveit2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.269170] (external_torque_sensor_broadcaster) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.269304] (external_torque_sensor_broadcaster) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.269397] (external_torque_sensor_broadcaster) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.269487] (external_torque_sensor_broadcaster) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.269577] (external_torque_sensor_broadcaster) StderrLine: {'line': b'\n'}
+[0.269653] (external_torque_sensor_broadcaster) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.269724] (external_torque_sensor_broadcaster) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.269800] (external_torque_sensor_broadcaster) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.269880] (external_torque_sensor_broadcaster) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.269962] (external_torque_sensor_broadcaster) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.270044] (external_torque_sensor_broadcaster) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.270130] (external_torque_sensor_broadcaster) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.270339] (external_torque_sensor_broadcaster) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.270428] (external_torque_sensor_broadcaster) StderrLine: {'line': b'\x1b[0m\n'}
+[0.270476] (iiwa_moveit2) StdoutLine: {'line': b'-- Found moveit_common: 2.3.4 (/opt/ros/galactic/share/moveit_common/cmake)\n'}
+[0.271901] (iiwa_moveit2) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.274510] (iiwa_moveit2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.274905] (iiwa_moveit2) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.275058] (iiwa_moveit2) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.275129] (iiwa_moveit2) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.275206] (iiwa_moveit2) StderrLine: {'line': b'\n'}
+[0.275261] (iiwa_moveit2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.275411] (iiwa_moveit2) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.275465] (iiwa_moveit2) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.275511] (iiwa_moveit2) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.275558] (iiwa_moveit2) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.275611] (iiwa_moveit2) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.275665] (iiwa_moveit2) StderrLine: {'line': b'  /opt/ros/galactic/share/moveit_common/cmake/moveit_package.cmake:32 (find_package)\n'}
+[0.275709] (iiwa_moveit2) StderrLine: {'line': b'  CMakeLists.txt:19 (moveit_package)\n'}
+[0.275795] (iiwa_moveit2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.275857] (iiwa_moveit2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.275907] (impedance_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.277791] (aruco_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.279045] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.279655] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.279959] (iiwa_description) StdoutLine: {'line': b'-- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")\n'}
+[0.280447] (iiwa_description) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3\n'}
+[0.280786] (aruco_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.284341] (aruco_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.284558] (aruco_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.284639] (aruco_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.284699] (aruco_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.284744] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.284788] (aruco_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.284835] (aruco_msgs) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.284903] (aruco_msgs) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.284958] (aruco_msgs) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.285009] (aruco_msgs) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.285067] (aruco_msgs) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.285122] (aruco_msgs) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.285174] (aruco_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.285221] (aruco_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.286579] (impedance_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.286871] (impedance_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.287401] (ppr_interfaces) JobEnded: {'identifier': 'ppr_interfaces', 'rc': 2}
+[0.287788] (impedance_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.289387] (impedance_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.293124] (iiwa_moveit2) StdoutLine: {'line': b'-- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")\n'}
+[0.293411] (impedance_controller) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.293518] (impedance_controller) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.293572] (impedance_controller) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.293628] (impedance_controller) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.293677] (impedance_controller) StderrLine: {'line': b'\n'}
+[0.293721] (impedance_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.293763] (impedance_controller) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.293824] (impedance_controller) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.293873] (impedance_controller) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.293919] (impedance_controller) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.293971] (impedance_controller) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.294021] (impedance_controller) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.294072] (impedance_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.294118] (impedance_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.294161] (iiwa_moveit2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3\n'}
+[0.295203] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")\n'}
+[0.295365] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3\n'}
+[0.296936] (cv_bridge) StdoutLine: {'line': b'-- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")\n'}
+[0.297104] (cv_bridge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3\n'}
+[0.299709] (-) TimerEvent: {}
+[0.304765] (aruco_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")\n'}
+[0.304965] (aruco_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3\n'}
+[0.312035] (impedance_controller) StdoutLine: {'line': b'-- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")\n'}
+[0.312291] (impedance_controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3\n'}
+[0.336517] (iiwa_description) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)\n'}
+[0.338386] (iiwa_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[0.371591] (aruco_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[0.373254] (aruco_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.376941] (aruco_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.389718] (impedance_controller) StdoutLine: {'line': b'-- Found controller_interface: 1.6.0 (/opt/ros/galactic/share/controller_interface/cmake)\n'}
+[0.390673] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found controller_interface: 1.6.0 (/opt/ros/galactic/share/controller_interface/cmake)\n'}
+[0.399803] (-) TimerEvent: {}
+[0.421855] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.425600] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.427083] (impedance_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.428546] (iiwa_moveit2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.428743] (iiwa_moveit2) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (libdw) does\n'}
+[0.428841] (iiwa_moveit2) StderrLine: {'line': b'  not match the name of the calling package (backward_ros).  This can lead to\n'}
+[0.428910] (iiwa_moveit2) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.428970] (iiwa_moveit2) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.429018] (iiwa_moveit2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.429062] (iiwa_moveit2) StderrLine: {'line': b'  /opt/ros/galactic/share/backward_ros/cmake/BackwardConfig.cmake:55 (find_package_handle_standard_args)\n'}
+[0.429104] (iiwa_moveit2) StderrLine: {'line': b'  /opt/ros/galactic/share/backward_ros/cmake/backward_rosConfig.cmake:41 (include)\n'}
+[0.429146] (iiwa_moveit2) StderrLine: {'line': b'  /opt/ros/galactic/share/moveit_common/cmake/moveit_package.cmake:36 (find_package)\n'}
+[0.429192] (iiwa_moveit2) StderrLine: {'line': b'  CMakeLists.txt:19 (moveit_package)\n'}
+[0.429231] (iiwa_moveit2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.429274] (iiwa_moveit2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.429318] (iiwa_moveit2) StdoutLine: {'line': b'-- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so\n'}
+[0.431215] (iiwa_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.433944] (iiwa_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.434174] (impedance_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.435430] (iiwa_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.435734] (iiwa_moveit2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.435839] (iiwa_moveit2) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (libbfd)\n'}
+[0.435950] (iiwa_moveit2) StderrLine: {'line': b'  does not match the name of the calling package (backward_ros).  This can\n'}
+[0.436003] (iiwa_moveit2) StderrLine: {'line': b'  lead to problems in calling code that expects `find_package` result\n'}
+[0.436062] (iiwa_moveit2) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.436114] (iiwa_moveit2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.436168] (iiwa_moveit2) StderrLine: {'line': b'  /opt/ros/galactic/share/backward_ros/cmake/BackwardConfig.cmake:66 (find_package_handle_standard_args)\n'}
+[0.436227] (iiwa_moveit2) StderrLine: {'line': b'  /opt/ros/galactic/share/backward_ros/cmake/backward_rosConfig.cmake:41 (include)\n'}
+[0.436318] (iiwa_moveit2) StderrLine: {'line': b'  /opt/ros/galactic/share/moveit_common/cmake/moveit_package.cmake:36 (find_package)\n'}
+[0.436366] (iiwa_moveit2) StderrLine: {'line': b'  CMakeLists.txt:19 (moveit_package)\n'}
+[0.436411] (iiwa_moveit2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.436453] (iiwa_moveit2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.436497] (iiwa_moveit2) StdoutLine: {'line': b'-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) \n'}
+[0.436551] (iiwa_moveit2) StdoutLine: {'line': b'-- BACKWARD_HAS_UNWIND=1\n'}
+[0.436592] (iiwa_moveit2) StdoutLine: {'line': b'-- BACKWARD_HAS_BACKTRACE=0\n'}
+[0.436636] (iiwa_moveit2) StdoutLine: {'line': b'-- BACKWARD_HAS_BACKTRACE_SYMBOL=0\n'}
+[0.436683] (iiwa_moveit2) StdoutLine: {'line': b'-- BACKWARD_HAS_DW=1\n'}
+[0.436747] (iiwa_moveit2) StdoutLine: {'line': b'-- BACKWARD_HAS_BFD=0\n'}
+[0.436892] (iiwa_description) StdoutLine: {'line': b'-- Configuring done (0.4s)\n'}
+[0.436955] (iiwa_moveit2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.437004] (iiwa_moveit2) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (Backward)\n'}
+[0.437050] (iiwa_moveit2) StderrLine: {'line': b'  does not match the name of the calling package (backward_ros).  This can\n'}
+[0.437092] (iiwa_moveit2) StderrLine: {'line': b'  lead to problems in calling code that expects `find_package` result\n'}
+[0.437138] (iiwa_moveit2) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.437202] (iiwa_moveit2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.437246] (iiwa_moveit2) StderrLine: {'line': b'  /opt/ros/galactic/share/backward_ros/cmake/BackwardConfig.cmake:128 (find_package_handle_standard_args)\n'}
+[0.437291] (iiwa_moveit2) StderrLine: {'line': b'  /opt/ros/galactic/share/backward_ros/cmake/backward_rosConfig.cmake:41 (include)\n'}
+[0.437339] (iiwa_moveit2) StderrLine: {'line': b'  /opt/ros/galactic/share/moveit_common/cmake/moveit_package.cmake:36 (find_package)\n'}
+[0.437393] (iiwa_moveit2) StderrLine: {'line': b'  CMakeLists.txt:19 (moveit_package)\n'}
+[0.437438] (iiwa_moveit2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.437485] (iiwa_moveit2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.437538] (iiwa_moveit2) StdoutLine: {'line': b'-- Found Backward: /opt/ros/galactic/share/backward_ros/cmake\n'}
+[0.437593] (iiwa_moveit2) StderrLine: {'line': b"\x1b[0miiwa_moveit2: You did not request a specific build type: Choosing 'Release' for maximum performance\x1b[0m\n"}
+[0.437835] (iiwa_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.438466] (iiwa_description) StdoutLine: {'line': b'-- Build files have been written to: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/iiwa_description\n'}
+[0.438583] (iiwa_moveit2) StdoutLine: {'line': b'-- Found control_msgs: 3.0.0 (/opt/ros/galactic/share/control_msgs/cmake)\n'}
+[0.441744] (iiwa_description) JobEnded: {'identifier': 'iiwa_description', 'rc': 'SIGINT'}
+[0.454397] (iiwa_moveit2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.458112] (iiwa_moveit2) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.478000] (aruco_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")\n'}
+[0.499909] (-) TimerEvent: {}
+[0.510782] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")\n'}
+[0.514052] (aruco_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include\n'}
+[0.526142] (impedance_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")\n'}
+[0.538311] (iiwa_moveit2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")\n'}
+[0.540758] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include\n'}
+[0.566062] (iiwa_moveit2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include\n'}
+[0.566355] (impedance_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include\n'}
+[0.568084] (aruco_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.582073] (aruco_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)\n'}
+[0.594748] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.599999] (-) TimerEvent: {}
+[0.601606] (aruco_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[0.618877] (aruco_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):\n'}
+[0.619037] (aruco_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.619097] (aruco_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.619135] (aruco_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.619172] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.619210] (aruco_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.619246] (aruco_msgs) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.619274] (aruco_msgs) StderrLine: {'line': b'  CMakeLists.txt:23 (rosidl_generate_interfaces)\n'}
+[0.619300] (aruco_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.619328] (aruco_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.629867] (iiwa_moveit2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.635907] (aruco_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found version "3.9.7")\n'}
+[0.652316] (impedance_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.672045] (aruco_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[0.672237] (aruco_msgs) StderrLine: {'line': b'  execute_process(/home/dvij/anaconda3/bin/python3 -m rosidl_adapter\n'}
+[0.672293] (aruco_msgs) StderrLine: {'line': b'  --package-name aruco_msgs --arguments-file\n'}
+[0.672349] (aruco_msgs) StderrLine: {'line': b'  /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/aruco_msgs/rosidl_adapter__arguments__aruco_msgs.json\n'}
+[0.672394] (aruco_msgs) StderrLine: {'line': b'  --output-dir\n'}
+[0.672436] (aruco_msgs) StderrLine: {'line': b'  /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/aruco_msgs/rosidl_adapter/aruco_msgs\n'}
+[0.672479] (aruco_msgs) StderrLine: {'line': b'  --output-file\n'}
+[0.672519] (aruco_msgs) StderrLine: {'line': b'  /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/aruco_msgs/rosidl_adapter/aruco_msgs.idls)\n'}
+[0.672561] (aruco_msgs) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.672604] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.672645] (aruco_msgs) StderrLine: {'line': b"  AttributeError processing template 'msg.idl.em'\n"}
+[0.672686] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.672727] (aruco_msgs) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.672768] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.672807] (aruco_msgs) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 51, in evaluate_template\n'}
+[0.672847] (aruco_msgs) StderrLine: {'line': b'      em.BUFFERED_OPT: True,\n'}
+[0.672886] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.672925] (aruco_msgs) StderrLine: {'line': b"  AttributeError: module 'em' has no attribute 'BUFFERED_OPT'\n"}
+[0.672963] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.673004] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.673044] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.673083] (aruco_msgs) StderrLine: {'line': b'  During handling of the above exception, another exception occurred:\n'}
+[0.673125] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.673163] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.673202] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.673240] (aruco_msgs) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.673285] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.673325] (aruco_msgs) StderrLine: {'line': b'    File "/home/dvij/anaconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main\n'}
+[0.673368] (aruco_msgs) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.673408] (aruco_msgs) StderrLine: {'line': b'    File "/home/dvij/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code\n'}
+[0.673448] (aruco_msgs) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.673487] (aruco_msgs) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.673527] (aruco_msgs) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.673567] (aruco_msgs) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.673608] (aruco_msgs) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.673648] (aruco_msgs) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.673689] (aruco_msgs) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.673730] (aruco_msgs) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 39, in convert_msg_to_idl\n'}
+[0.673772] (aruco_msgs) StderrLine: {'line': b"      expand_template('msg.idl.em', data, output_file, encoding='iso-8859-1')\n"}
+[0.673813] (aruco_msgs) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template\n'}
+[0.673854] (aruco_msgs) StderrLine: {'line': b'      content = evaluate_template(template_name, data)\n'}
+[0.673894] (aruco_msgs) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template\n'}
+[0.673933] (aruco_msgs) StderrLine: {'line': b'      _interpreter.shutdown()\n'}
+[0.673974] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.674015] (aruco_msgs) StderrLine: {'line': b"  AttributeError: 'NoneType' object has no attribute 'shutdown'\n"}
+[0.674055] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.674095] (aruco_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.674135] (aruco_msgs) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.674175] (aruco_msgs) StderrLine: {'line': b'  CMakeLists.txt:23 (rosidl_generate_interfaces)\n'}
+[0.674215] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.674253] (aruco_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.674292] (aruco_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.679978] (aruco_msgs) JobEnded: {'identifier': 'aruco_msgs', 'rc': 'SIGINT'}
+[0.700090] (-) TimerEvent: {}
+[0.800339] (-) TimerEvent: {}
+[0.847896] (iiwa_moveit2) StdoutLine: {'line': b'-- Found moveit_core: 2.3.4 (/opt/ros/galactic/share/moveit_core/cmake)\n'}
+[0.861960] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.863410] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.872971] (external_torque_sensor_broadcaster) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.873435] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900431] (-) TimerEvent: {}
+[0.929416] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.929594] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.969594] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.969770] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.000543] (-) TimerEvent: {}
+[1.027646] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.028792] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.037229] (impedance_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.038827] (impedance_controller) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.049384] (impedance_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.049863] (impedance_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.071426] (iiwa_moveit2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread\n'}
+[1.090376] (iiwa_moveit2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem\n'}
+[1.100646] (-) TimerEvent: {}
+[1.101525] (impedance_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.101656] (impedance_controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.144802] (impedance_controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.145014] (impedance_controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.155535] (iiwa_moveit2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.157090] (iiwa_moveit2) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.167159] (iiwa_moveit2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.168100] (iiwa_moveit2) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.190658] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found realtime_tools: 2.2.0 (/opt/ros/galactic/share/realtime_tools/cmake)\n'}
+[1.195657] (impedance_controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.196806] (impedance_controller) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.200757] (-) TimerEvent: {}
+[1.259718] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)\n'}
+[1.260655] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[1.300888] (-) TimerEvent: {}
+[1.333785] (iiwa_moveit2) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.353190] (impedance_controller) StdoutLine: {'line': b'-- Found realtime_tools: 2.2.0 (/opt/ros/galactic/share/realtime_tools/cmake)\n'}
+[1.396395] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.401011] (-) TimerEvent: {}
+[1.408975] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.410332] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Build files have been written to: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/external_torque_sensor_broadcaster\n'}
+[1.417719] (external_torque_sensor_broadcaster) JobEnded: {'identifier': 'external_torque_sensor_broadcaster', 'rc': 'SIGINT'}
+[1.423855] (impedance_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)\n'}
+[1.424778] (impedance_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[1.427551] (iiwa_moveit2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7")\n'}
+[1.492709] (impedance_controller) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.501111] (-) TimerEvent: {}
+[1.505178] (impedance_controller) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.506451] (impedance_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/impedance_controller\n'}
+[1.515034] (impedance_controller) JobEnded: {'identifier': 'impedance_controller', 'rc': 'SIGINT'}
+[1.601205] (-) TimerEvent: {}
+[1.701491] (-) TimerEvent: {}
+[1.748250] (cv_bridge) StdoutLine: {'line': b'-- Found Python3: /home/dvij/anaconda3/include/python3.9 (found version "3.9.7") found components: Development NumPy Interpreter Development.Module Development.Embed\n'}
+[1.758124] (cv_bridge) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake:117 (find_package):\n'}
+[1.758330] (cv_bridge) StderrLine: {'line': b'  Found package configuration file:\n'}
+[1.758399] (cv_bridge) StderrLine: {'line': b'\n'}
+[1.758460] (cv_bridge) StderrLine: {'line': b'    /usr/lib/x86_64-linux-gnu/cmake/boost_python-1.71.0/boost_python-config.cmake\n'}
+[1.758518] (cv_bridge) StderrLine: {'line': b'\n'}
+[1.758573] (cv_bridge) StderrLine: {'line': b'  but it set boost_python_FOUND to FALSE so package "boost_python" is\n'}
+[1.758634] (cv_bridge) StderrLine: {'line': b'  considered to be NOT FOUND.  Reason given by package:\n'}
+[1.758695] (cv_bridge) StderrLine: {'line': b'\n'}
+[1.758751] (cv_bridge) StderrLine: {'line': b'  No suitable build variant has been found.\n'}
+[1.758804] (cv_bridge) StderrLine: {'line': b'\n'}
+[1.758858] (cv_bridge) StderrLine: {'line': b'  The following variants have been tried and rejected:\n'}
+[1.758912] (cv_bridge) StderrLine: {'line': b'\n'}
+[1.758965] (cv_bridge) StderrLine: {'line': b'  * libboost_python38.so.1.71.0 (3.8, Boost_PYTHON_VERSION=3.9)\n'}
+[1.759019] (cv_bridge) StderrLine: {'line': b'\n'}
+[1.759073] (cv_bridge) StderrLine: {'line': b'  * libboost_python38.a (3.8, Boost_PYTHON_VERSION=3.9)\n'}
+[1.759128] (cv_bridge) StderrLine: {'line': b'\n'}
+[1.759181] (cv_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.759235] (cv_bridge) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake:182 (boost_find_component)\n'}
+[1.759289] (cv_bridge) StderrLine: {'line': b'  /usr/local/share/cmake-3.29/Modules/FindBoost.cmake:594 (find_package)\n'}
+[1.759344] (cv_bridge) StderrLine: {'line': b'  CMakeLists.txt:31 (find_package)\n'}
+[1.759399] (cv_bridge) StderrLine: {'line': b'\n'}
+[1.759453] (cv_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[1.759508] (cv_bridge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.761607] (cv_bridge) JobEnded: {'identifier': 'cv_bridge', 'rc': 'SIGINT'}
+[1.801589] (-) TimerEvent: {}
+[1.901900] (-) TimerEvent: {}
+[2.002211] (-) TimerEvent: {}
+[2.102537] (-) TimerEvent: {}
+[2.202874] (-) TimerEvent: {}
+[2.303244] (-) TimerEvent: {}
+[2.355364] (iiwa_moveit2) StdoutLine: {'line': b'-- Found moveit_servo: 2.3.4 (/opt/ros/galactic/share/moveit_servo/cmake)\n'}
+[2.403405] (-) TimerEvent: {}
+[2.503732] (-) TimerEvent: {}
+[2.575018] (iiwa_moveit2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono\n'}
+[2.603855] (-) TimerEvent: {}
+[2.704121] (-) TimerEvent: {}
+[2.710463] (iiwa_moveit2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread\n'}
+[2.804245] (-) TimerEvent: {}
+[2.904518] (-) TimerEvent: {}
+[3.004804] (-) TimerEvent: {}
+[3.105037] (-) TimerEvent: {}
+[3.193095] (iiwa_moveit2) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)\n'}
+[3.193990] (iiwa_moveit2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[3.204289] (iiwa_moveit2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.204832] (iiwa_moveit2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.205072] (iiwa_moveit2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.205136] (-) TimerEvent: {}
+[3.205194] (iiwa_moveit2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.205419] (iiwa_moveit2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.205490] (iiwa_moveit2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.205699] (iiwa_moveit2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.206044] (iiwa_moveit2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.206109] (iiwa_moveit2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.206238] (iiwa_moveit2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.207014] (iiwa_moveit2) StdoutLine: {'line': b'-- Configuring done (3.2s)\n'}
+[3.252045] (iiwa_moveit2) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.253631] (iiwa_moveit2) StdoutLine: {'line': b'-- Build files have been written to: /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/build/iiwa_moveit2\n'}
+[3.263798] (iiwa_moveit2) JobEnded: {'identifier': 'iiwa_moveit2', 'rc': 'SIGINT'}
+[3.265098] (aruco) JobSkipped: {'identifier': 'aruco'}
+[3.265139] (camera_feed) JobSkipped: {'identifier': 'camera_feed'}
+[3.265161] (iiwa_bringup) JobSkipped: {'identifier': 'iiwa_bringup'}
+[3.265179] (scene_interpreter) JobSkipped: {'identifier': 'scene_interpreter'}
+[3.265195] (scene_visualizer) JobSkipped: {'identifier': 'scene_visualizer'}
+[3.265211] (aruco_ros2) JobSkipped: {'identifier': 'aruco_ros2'}
+[3.265226] (iiwa_hardware) JobSkipped: {'identifier': 'iiwa_hardware'}
+[3.265242] (-) EventReactorShutdown: {}

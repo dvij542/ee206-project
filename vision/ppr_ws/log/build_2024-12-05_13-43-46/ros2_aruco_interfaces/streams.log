@@ -1,0 +1,86 @@
+[0.214s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/ros2_aruco/ros2_aruco_interfaces -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/ros2_aruco_interfaces
+[0.215s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.217s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.217s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.217s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.217s]   the cmake_policy command to set the policy and suppress this warning.
+[0.217s] 
+[0.217s] Call Stack (most recent call first):
+[0.217s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.217s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.217s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.218s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.218s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.218s]   CMakeLists.txt:19 (find_package)
+[0.218s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.218s] [0m
+[0.240s] -- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")
+[0.240s] -- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3
+[0.554s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.579s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.728s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.793s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.804s] [33mCMake Warning (dev) at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[0.804s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.804s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.805s]   the cmake_policy command to set the policy and suppress this warning.
+[0.805s] 
+[0.805s] Call Stack (most recent call first):
+[0.805s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.805s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[0.805s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.805s] [0m
+[0.824s] -- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found version "3.9.7")
+[0.860s] [31mCMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.860s]   execute_process(/home/dvij/anaconda3/bin/python3 -m rosidl_adapter
+[0.860s]   --package-name ros2_aruco_interfaces --arguments-file
+[0.860s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ros2_aruco_interfaces/rosidl_adapter__arguments__ros2_aruco_interfaces.json
+[0.860s]   --output-dir
+[0.860s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces
+[0.860s]   --output-file
+[0.860s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces.idls)
+[0.860s]   returned error code 1:
+[0.860s] 
+[0.860s]   AttributeError processing template 'msg.idl.em'
+[0.860s] 
+[0.860s]   Traceback (most recent call last):
+[0.860s] 
+[0.860s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 51, in evaluate_template
+[0.860s]       em.BUFFERED_OPT: True,
+[0.861s] 
+[0.861s]   AttributeError: module 'em' has no attribute 'BUFFERED_OPT'
+[0.861s] 
+[0.861s] 
+[0.861s] 
+[0.861s]   During handling of the above exception, another exception occurred:
+[0.861s] 
+[0.861s] 
+[0.861s] 
+[0.861s]   Traceback (most recent call last):
+[0.861s] 
+[0.861s]     File "/home/dvij/anaconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+[0.861s]       return _run_code(code, main_globals, None,
+[0.861s]     File "/home/dvij/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code
+[0.861s]       exec(code, run_globals)
+[0.861s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.861s]       sys.exit(main())
+[0.861s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.861s]       abs_idl_file = convert_to_idl(
+[0.861s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.861s]       return convert_msg_to_idl(
+[0.861s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 39, in convert_msg_to_idl
+[0.861s]       expand_template('msg.idl.em', data, output_file, encoding='iso-8859-1')
+[0.861s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template
+[0.861s]       content = evaluate_template(template_name, data)
+[0.861s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template
+[0.861s]       _interpreter.shutdown()
+[0.861s] 
+[0.861s]   AttributeError: 'NoneType' object has no attribute 'shutdown'
+[0.861s] 
+[0.861s] Call Stack (most recent call first):
+[0.861s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.861s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[0.861s] 
+[0.861s] [0m
+[0.861s] -- Configuring incomplete, errors occurred!

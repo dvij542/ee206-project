@@ -1,0 +1,5 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring incomplete, errors occurred!
+See also "/home/pingpongproject/code/ping-pong-robot/ppr_ws/src/build/ppr_interfaces/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,32 @@
+[0.021s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/ppr_interfaces:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_description:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/cv_bridge:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_visualizer:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/noetic CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/ppr_interfaces -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/ppr_interfaces
+[0.170s] -- The C compiler identification is GNU 9.4.0
+[0.171s] -- The CXX compiler identification is GNU 9.4.0
+[0.171s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.177s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.177s] -- Detecting C compile features
+[0.177s] -- Detecting C compile features - done
+[0.179s] -- Detecting CXX compiler ABI info
+[0.228s] -- Detecting CXX compiler ABI info - done
+[0.245s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.245s] -- Detecting CXX compile features
+[0.246s] -- Detecting CXX compile features - done
+[0.255s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.255s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.255s]   has asked CMake to find a package configuration file provided by
+[0.255s]   "ament_cmake", but CMake did not find one.
+[0.255s] 
+[0.255s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.255s]   any of the following names:
+[0.255s] 
+[0.255s]     ament_cmakeConfig.cmake
+[0.255s]     ament_cmake-config.cmake
+[0.255s] 
+[0.255s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.255s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.255s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.255s]   has been installed.
+[0.255s] 
+[0.255s] [0m
+[0.255s] -- Configuring incomplete, errors occurred!
+[0.263s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/ppr_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/ppr_interfaces:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_description:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/cv_bridge:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_visualizer:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/noetic CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/ppr_interfaces -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/ppr_interfaces

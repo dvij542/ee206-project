@@ -1,0 +1,89 @@
+[0.034s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/aruco_msgs': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/camera_feed:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/interface:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_description:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/external_torque_sensor_broadcaster:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/foxy:/opt/ros/galactic:/opt/ros/noetic /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/aruco_ros2/aruco_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/aruco_msgs
+[0.210s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.210s] -- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")
+[0.210s] -- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3
+[0.210s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.210s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.210s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.210s]   the cmake_policy command to set the policy and suppress this warning.
+[0.210s] 
+[0.210s] Call Stack (most recent call first):
+[0.210s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.210s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.210s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.210s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.210s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.210s]   CMakeLists.txt:14 (find_package)
+[0.210s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.210s] [0m
+[0.212s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.213s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.216s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.218s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.330s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.347s] -- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+[0.370s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.389s] [33mCMake Warning (dev) at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[0.389s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.389s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.389s]   the cmake_policy command to set the policy and suppress this warning.
+[0.389s] 
+[0.389s] Call Stack (most recent call first):
+[0.389s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.389s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[0.389s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.389s] [0m
+[0.420s] -- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found version "3.9.7")
+[0.497s] -- Configuring incomplete, errors occurred!
+[0.497s] [31mCMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.498s]   execute_process(/home/dvij/anaconda3/bin/python3 -m rosidl_adapter
+[0.498s]   --package-name aruco_msgs --arguments-file
+[0.498s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/aruco_msgs/rosidl_adapter__arguments__aruco_msgs.json
+[0.499s]   --output-dir
+[0.499s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/aruco_msgs/rosidl_adapter/aruco_msgs
+[0.499s]   --output-file
+[0.499s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/aruco_msgs/rosidl_adapter/aruco_msgs.idls)
+[0.499s]   returned error code 1:
+[0.499s] 
+[0.499s]   AttributeError processing template 'msg.idl.em'
+[0.499s] 
+[0.499s]   Traceback (most recent call last):
+[0.499s] 
+[0.499s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 51, in evaluate_template
+[0.499s]       em.BUFFERED_OPT: True,
+[0.500s] 
+[0.500s]   AttributeError: module 'em' has no attribute 'BUFFERED_OPT'
+[0.500s] 
+[0.500s] 
+[0.500s] 
+[0.500s]   During handling of the above exception, another exception occurred:
+[0.500s] 
+[0.500s] 
+[0.500s] 
+[0.500s]   Traceback (most recent call last):
+[0.500s] 
+[0.500s]     File "/home/dvij/anaconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+[0.500s]       return _run_code(code, main_globals, None,
+[0.501s]     File "/home/dvij/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code
+[0.501s]       exec(code, run_globals)
+[0.501s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.502s]       sys.exit(main())
+[0.502s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.502s]       abs_idl_file = convert_to_idl(
+[0.504s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.504s]       return convert_msg_to_idl(
+[0.505s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 39, in convert_msg_to_idl
+[0.505s]       expand_template('msg.idl.em', data, output_file, encoding='iso-8859-1')
+[0.505s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template
+[0.506s]       content = evaluate_template(template_name, data)
+[0.507s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template
+[0.507s]       _interpreter.shutdown()
+[0.508s] 
+[0.509s]   AttributeError: 'NoneType' object has no attribute 'shutdown'
+[0.509s] 
+[0.509s] Call Stack (most recent call first):
+[0.509s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.509s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[0.510s] 
+[0.510s] [0m
+[0.513s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/aruco_msgs' returned '1': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/camera_feed:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package:/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/interface:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/impedance_controller:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_moveit2:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_description:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/external_torque_sensor_broadcaster:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/foxy:/opt/ros/galactic:/opt/ros/noetic /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/aruco_ros2/aruco_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/aruco_msgs

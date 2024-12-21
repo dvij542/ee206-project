@@ -1,0 +1,231 @@
+[0.339s] Invoking command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/pingpongproject/.local/bin/cmake /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/fri_vendor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor
+[0.445s] -- The C compiler identification is GNU 9.4.0
+[0.521s] -- The CXX compiler identification is GNU 9.4.0
+[0.530s] -- Detecting C compiler ABI info
+[0.562s] -- Detecting C compiler ABI info - done
+[0.571s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.571s] -- Detecting C compile features
+[0.571s] -- Detecting C compile features - done
+[0.574s] -- Detecting CXX compiler ABI info
+[0.613s] -- Detecting CXX compiler ABI info - done
+[0.621s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.621s] -- Detecting CXX compile features
+[0.622s] -- Detecting CXX compile features - done
+[0.627s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.642s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.642s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.766s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.839s] -- Configuring done (0.5s)
+[0.841s] -- Generating done (0.0s)
+[0.842s] -- Build files have been written to: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor
+[0.848s] Invoked command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/pingpongproject/.local/bin/cmake /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/src/fri_vendor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor
+[0.850s] Invoking command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/pingpongproject/.local/bin/cmake --build /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor -- -j20 -l20
+[0.875s] [ 12%] [34m[1mCreating directories for 'FRIClient'[0m
+[0.878s] [ 25%] [34m[1mPerforming download step (git clone) for 'FRIClient'[0m
+[0.883s] Cloning into 'FRIClient'...
+[3.865s] Already on 'fri-1.15'
+[3.865s] Your branch is up to date with 'origin/fri-1.15'.
+[3.883s] [ 37%] [34m[1mPerforming update step for 'FRIClient'[0m
+[4.201s] [ 50%] [34m[1mNo patch step for 'FRIClient'[0m
+[4.205s] [ 62%] [34m[1mPerforming configure step for 'FRIClient'[0m
+[4.235s] -- The C compiler identification is GNU 9.4.0
+[4.268s] -- The CXX compiler identification is GNU 9.4.0
+[4.274s] -- Detecting C compiler ABI info
+[4.304s] -- Detecting C compiler ABI info - done
+[4.310s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.310s] -- Detecting C compile features
+[4.310s] -- Detecting C compile features - done
+[4.312s] -- Detecting CXX compiler ABI info
+[4.349s] -- Detecting CXX compiler ABI info - done
+[4.360s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.361s] -- Detecting CXX compile features
+[4.361s] -- Detecting CXX compile features - done
+[4.371s] [0mFound nanopb of version: 0.2.8[0m
+[4.371s] [0mFound FRIClient of version: 1.15[0m
+[4.371s] -- Configuring FRIClient version 
+[4.372s] -- Configuring done (0.2s)
+[4.375s] -- Generating done (0.0s)
+[4.377s] -- Build files have been written to: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build
+[4.381s] [ 75%] [34m[1mPerforming build step for 'FRIClient'[0m
+[4.390s] [  7%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/base/friClientApplication.cpp.o[0m
+[4.390s] [ 15%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/client_lbr/friLBRClient.cpp.o[0m
+[4.390s] [ 30%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/client_lbr/friLBRCommand.cpp.o[0m
+[4.390s] [ 30%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/client_lbr/friLBRState.cpp.o[0m
+[4.390s] [ 38%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/client_trafo/friTransformationClient.cpp.o[0m
+[4.390s] [ 46%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/connection/friUdpConnection.cpp.o[0m
+[4.391s] [ 53%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/protobuf/friMonitoringMessageDecoder.cpp.o[0m
+[4.391s] [ 61%] [32mBuilding C object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/protobuf/pb_frimessages_callbacks.c.o[0m
+[4.391s] [ 69%] [32mBuilding CXX object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/protobuf/friCommandMessageEncoder.cpp.o[0m
+[4.391s] [ 76%] [32mBuilding C object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/nanopb-0.2.8/pb_decode.c.o[0m
+[4.391s] [ 92%] [32mBuilding C object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/nanopb-0.2.8/pb_encode.c.o[0m
+[4.392s] [ 92%] [32mBuilding C object CMakeFiles/FRIClient.dir/FRI-Client-SDK_Cpp/src/protobuf_gen/FRIMessages.pb.c.o[0m
+[4.450s] In file included from [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:69[m[K,
+[4.450s]                  from [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientApplication.cpp:64[m[K:
+[4.451s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:[m[K In constructor ‘[01m[KKUKA::FRI::FRIException::FRIException(const char*)[m[K’:
+[4.451s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:92:17:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[4.451s]    92 |          printf([01;35m[K_buffer[m[K);
+[4.451s]       |                 [01;35m[K^~~~~~~[m[K
+[4.451s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:[m[K In constructor ‘[01m[KKUKA::FRI::FRIException::FRIException(const char*, const char*)[m[K’:
+[4.451s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:111:17:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[4.451s]   111 |          printf([01;35m[K_buffer[m[K);
+[4.451s]       |                 [01;35m[K^~~~~~~[m[K
+[4.451s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:[m[K In constructor ‘[01m[KKUKA::FRI::FRIException::FRIException(const char*, const char*, const char*)[m[K’:
+[4.451s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:131:17:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[4.452s]   131 |          printf([01;35m[K_buffer[m[K);
+[4.452s]       |                 [01;35m[K^~~~~~~[m[K
+[4.453s] In file included from [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientApplication.cpp:64[m[K:
+[4.453s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:[m[K In static member function ‘[01m[Kstatic const FriIOValue& KUKA::FRI::ClientData::getIOValue(const FRIMonitoringMessage*, const char*, FriIOType)[m[K’:
+[4.453s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:169:47:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K|[m[K’ [[01;35m[K-Wparentheses[m[K]
+[4.453s]   169 |             const bool digitalValue = ([01;35m[KioType == FriIOType_DIGITAL[m[K | ioType == FriIOType_BOOLEAN);
+[4.453s]       |                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[4.454s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:[m[K In static member function ‘[01m[Kstatic FriIOValue& KUKA::FRI::ClientData::setIOValue(FRICommandMessage*, const char*, const FRIMonitoringMessage*, FriIOType)[m[K’:
+[4.454s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:220:48:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K|[m[K’ [[01;35m[K-Wparentheses[m[K]
+[4.454s]   220 |             ioValue.has_digitalValue = ([01;35m[KioType == FriIOType_DIGITAL[m[K | ioType == FriIOType_BOOLEAN);
+[4.454s]       |                                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[4.456s] In file included from [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:69[m[K,
+[4.456s]                  from [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/client_lbr/friLBRCommand.cpp:62[m[K:
+[4.456s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:[m[K In constructor ‘[01m[KKUKA::FRI::FRIException::FRIException(const char*)[m[K’:
+[4.456s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:92:17:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[4.456s]    92 |          printf([01;35m[K_buffer[m[K);
+[4.456s]       |                 [01;35m[K^~~~~~~[m[K
+[4.456s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:[m[K In constructor ‘[01m[KKUKA::FRI::FRIException::FRIException(const char*, const char*)[m[K’:
+[4.456s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:111:17:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[4.456s]   111 |          printf([01;35m[K_buffer[m[K);
+[4.456s]       |                 [01;35m[K^~~~~~~[m[K
+[4.456s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:[m[K In constructor ‘[01m[KKUKA::FRI::FRIException::FRIException(const char*, const char*, const char*)[m[K’:
+[4.456s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:131:17:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[4.456s]   131 |          printf([01;35m[K_buffer[m[K);
+[4.456s]       |                 [01;35m[K^~~~~~~[m[K
+[4.457s] In file included from [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:69[m[K,
+[4.457s]                  from [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/client_trafo/friTransformationClient.cpp:65[m[K:
+[4.457s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:[m[K In constructor ‘[01m[KKUKA::FRI::FRIException::FRIException(const char*)[m[K’:
+[4.457s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:92:17:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[4.457s]    92 |          printf([01;35m[K_buffer[m[K);
+[4.457s]       |                 [01;35m[K^~~~~~~[m[K
+[4.457s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:[m[K In constructor ‘[01m[KKUKA::FRI::FRIException::FRIException(const char*, const char*)[m[K’:
+[4.457s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:111:17:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[4.457s]   111 |          printf([01;35m[K_buffer[m[K);
+[4.457s]       |                 [01;35m[K^~~~~~~[m[K
+[4.457s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:[m[K In constructor ‘[01m[KKUKA::FRI::FRIException::FRIException(const char*, const char*, const char*)[m[K’:
+[4.457s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:131:17:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[4.457s]   131 |          printf([01;35m[K_buffer[m[K);
+[4.457s]       |                 [01;35m[K^~~~~~~[m[K
+[4.459s] In file included from [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/client_lbr/friLBRCommand.cpp:62[m[K:
+[4.459s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:[m[K In static member function ‘[01m[Kstatic const FriIOValue& KUKA::FRI::ClientData::getIOValue(const FRIMonitoringMessage*, const char*, FriIOType)[m[K’:
+[4.459s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:169:47:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K|[m[K’ [[01;35m[K-Wparentheses[m[K]
+[4.459s]   169 |             const bool digitalValue = ([01;35m[KioType == FriIOType_DIGITAL[m[K | ioType == FriIOType_BOOLEAN);
+[4.459s]       |                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[4.460s] In file included from [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/client_trafo/friTransformationClient.cpp:65[m[K:
+[4.460s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:[m[K In static member function ‘[01m[Kstatic const FriIOValue& KUKA::FRI::ClientData::getIOValue(const FRIMonitoringMessage*, const char*, FriIOType)[m[K’:
+[4.460s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:169:47:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K|[m[K’ [[01;35m[K-Wparentheses[m[K]
+[4.460s]   169 |             const bool digitalValue = ([01;35m[KioType == FriIOType_DIGITAL[m[K | ioType == FriIOType_BOOLEAN);
+[4.460s]       |                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[4.460s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:[m[K In static member function ‘[01m[Kstatic FriIOValue& KUKA::FRI::ClientData::setIOValue(FRICommandMessage*, const char*, const FRIMonitoringMessage*, FriIOType)[m[K’:
+[4.460s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:220:48:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K|[m[K’ [[01;35m[K-Wparentheses[m[K]
+[4.460s]   220 |             ioValue.has_digitalValue = ([01;35m[KioType == FriIOType_DIGITAL[m[K | ioType == FriIOType_BOOLEAN);
+[4.460s]       |                                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[4.460s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:[m[K In static member function ‘[01m[Kstatic FriIOValue& KUKA::FRI::ClientData::setIOValue(FRICommandMessage*, const char*, const FRIMonitoringMessage*, FriIOType)[m[K’:
+[4.460s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:220:48:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K|[m[K’ [[01;35m[K-Wparentheses[m[K]
+[4.460s]   220 |             ioValue.has_digitalValue = ([01;35m[KioType == FriIOType_DIGITAL[m[K | ioType == FriIOType_BOOLEAN);
+[4.460s]       |                                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[4.469s] In file included from [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:69[m[K,
+[4.469s]                  from [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/client_lbr/friLBRClient.cpp:62[m[K:
+[4.469s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:[m[K In constructor ‘[01m[KKUKA::FRI::FRIException::FRIException(const char*)[m[K’:
+[4.469s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:92:17:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[4.469s]    92 |          printf([01;35m[K_buffer[m[K);
+[4.469s]       |                 [01;35m[K^~~~~~~[m[K
+[4.469s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:[m[K In constructor ‘[01m[KKUKA::FRI::FRIException::FRIException(const char*, const char*)[m[K’:
+[4.469s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:111:17:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[4.469s]   111 |          printf([01;35m[K_buffer[m[K);
+[4.469s]       |                 [01;35m[K^~~~~~~[m[K
+[4.469s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:[m[K In constructor ‘[01m[KKUKA::FRI::FRIException::FRIException(const char*, const char*, const char*)[m[K’:
+[4.469s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:131:17:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[4.469s]   131 |          printf([01;35m[K_buffer[m[K);
+[4.470s]       |                 [01;35m[K^~~~~~~[m[K
+[4.472s] In file included from [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/client_lbr/friLBRClient.cpp:62[m[K:
+[4.472s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:[m[K In static member function ‘[01m[Kstatic const FriIOValue& KUKA::FRI::ClientData::getIOValue(const FRIMonitoringMessage*, const char*, FriIOType)[m[K’:
+[4.472s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:169:47:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K|[m[K’ [[01;35m[K-Wparentheses[m[K]
+[4.472s]   169 |             const bool digitalValue = ([01;35m[KioType == FriIOType_DIGITAL[m[K | ioType == FriIOType_BOOLEAN);
+[4.472s]       |                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[4.472s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:[m[K In static member function ‘[01m[Kstatic FriIOValue& KUKA::FRI::ClientData::setIOValue(FRICommandMessage*, const char*, const FRIMonitoringMessage*, FriIOType)[m[K’:
+[4.472s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:220:48:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K|[m[K’ [[01;35m[K-Wparentheses[m[K]
+[4.472s]   220 |             ioValue.has_digitalValue = ([01;35m[KioType == FriIOType_DIGITAL[m[K | ioType == FriIOType_BOOLEAN);
+[4.472s]       |                                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[4.489s] In file included from [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:69[m[K,
+[4.489s]                  from [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/client_lbr/friLBRState.cpp:61[m[K:
+[4.489s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:[m[K In constructor ‘[01m[KKUKA::FRI::FRIException::FRIException(const char*)[m[K’:
+[4.489s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:92:17:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[4.490s]    92 |          printf([01;35m[K_buffer[m[K);
+[4.490s]       |                 [01;35m[K^~~~~~~[m[K
+[4.490s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:[m[K In constructor ‘[01m[KKUKA::FRI::FRIException::FRIException(const char*, const char*)[m[K’:
+[4.490s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:111:17:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[4.490s]   111 |          printf([01;35m[K_buffer[m[K);
+[4.490s]       |                 [01;35m[K^~~~~~~[m[K
+[4.490s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:[m[K In constructor ‘[01m[KKUKA::FRI::FRIException::FRIException(const char*, const char*, const char*)[m[K’:
+[4.490s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/include/friException.h:131:17:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[4.490s]   131 |          printf([01;35m[K_buffer[m[K);
+[4.490s]       |                 [01;35m[K^~~~~~~[m[K
+[4.493s] In file included from [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/client_lbr/friLBRState.cpp:61[m[K:
+[4.494s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:[m[K In static member function ‘[01m[Kstatic const FriIOValue& KUKA::FRI::ClientData::getIOValue(const FRIMonitoringMessage*, const char*, FriIOType)[m[K’:
+[4.494s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:169:47:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K|[m[K’ [[01;35m[K-Wparentheses[m[K]
+[4.494s]   169 |             const bool digitalValue = ([01;35m[KioType == FriIOType_DIGITAL[m[K | ioType == FriIOType_BOOLEAN);
+[4.494s]       |                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[4.495s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:[m[K In static member function ‘[01m[Kstatic FriIOValue& KUKA::FRI::ClientData::setIOValue(FRICommandMessage*, const char*, const FRIMonitoringMessage*, FriIOType)[m[K’:
+[4.495s] [01m[K/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/FRIClient-prefix/src/FRIClient-build/FRI-Client-SDK_Cpp/src/base/friClientData.h:220:48:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K|[m[K’ [[01;35m[K-Wparentheses[m[K]
+[4.495s]   220 |             ioValue.has_digitalValue = ([01;35m[KioType == FriIOType_DIGITAL[m[K | ioType == FriIOType_BOOLEAN);
+[4.495s]       |                                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[4.556s] [100%] [32m[1mLinking CXX shared library libFRIClient.so[0m
+[4.616s] [100%] Built target FRIClient
+[4.620s] [ 87%] [34m[1mPerforming install step for 'FRIClient'[0m
+[4.631s] [100%] Built target FRIClient
+[4.634s] [36mInstall the project...[0m
+[4.636s] -- Install configuration: ""
+[4.636s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/fri_vendor_install/lib/libFRIClient.so
+[4.636s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/fri_vendor_install/include
+[4.636s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/fri_vendor_install/include/friTransformationClient.h
+[4.636s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/fri_vendor_install/include/friClientApplication.h
+[4.636s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/fri_vendor_install/include/friLBRState.h
+[4.636s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/fri_vendor_install/include/friLBRClient.h
+[4.636s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/fri_vendor_install/include/friConnectionIf.h
+[4.636s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/fri_vendor_install/include/friClientIf.h
+[4.636s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/fri_vendor_install/include/friUdpConnection.h
+[4.636s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/fri_vendor_install/include/friException.h
+[4.636s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/fri_vendor_install/include/friLBRCommand.h
+[4.636s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/fri_vendor_install/lib/cmake/FRIClient/FRIClientConfig.cmake
+[4.636s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/fri_vendor_install/lib/cmake/FRIClient/FRIClientConfig-noconfig.cmake
+[4.636s] -- Installing: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/fri_vendor_install/lib/cmake/FRIClient/FRIClientConfigVersion.cmake
+[4.640s] [100%] [34m[1mCompleted 'FRIClient'[0m
+[4.644s] [100%] Built target FRIClient
+[4.736s] Invoked command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/pingpongproject/.local/bin/cmake --build /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor -- -j20 -l20
+[4.761s] Invoking command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/pingpongproject/.local/bin/cmake --install /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor
+[4.776s] -- Install configuration: "Release"
+[4.776s] -- Execute custom install script
+[4.777s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/include/friClientApplication.h
+[4.778s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/include/friClientIf.h
+[4.780s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/include/friConnectionIf.h
+[4.781s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/include/friException.h
+[4.782s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/include/friLBRClient.h
+[4.783s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/include/friLBRCommand.h
+[4.784s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/include/friLBRState.h
+[4.785s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/include/friTransformationClient.h
+[4.787s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/include/friUdpConnection.h
+[4.788s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/lib/cmake/FRIClient/FRIClientConfig-noconfig.cmake
+[4.789s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/lib/cmake/FRIClient/FRIClientConfig.cmake
+[4.790s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/lib/cmake/FRIClient/FRIClientConfigVersion.cmake
+[4.791s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/lib/libFRIClient.so
+[4.792s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/ament_index/resource_index/package_run_dependencies/fri_vendor
+[4.794s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/ament_index/resource_index/parent_prefix_path/fri_vendor
+[4.795s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/fri_vendor/environment/ament_prefix_path.sh
+[4.797s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/fri_vendor/environment/ament_prefix_path.dsv
+[4.798s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/fri_vendor/environment/path.sh
+[4.799s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/fri_vendor/environment/path.dsv
+[4.801s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/fri_vendor/local_setup.bash
+[4.802s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/fri_vendor/local_setup.sh
+[4.804s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/fri_vendor/local_setup.zsh
+[4.805s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/fri_vendor/local_setup.dsv
+[4.807s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/fri_vendor/package.dsv
+[4.808s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/ament_index/resource_index/packages/fri_vendor
+[4.810s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/fri_vendor/cmake/fri_vendorConfig.cmake
+[4.811s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/fri_vendor/cmake/fri_vendorConfig-version.cmake
+[4.812s] -- Symlinking: /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/install/fri_vendor/share/fri_vendor/package.xml
+[4.817s] Invoked command in '/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/pingpongproject/.local/bin/cmake --install /home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor

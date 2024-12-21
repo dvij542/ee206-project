@@ -1,0 +1,87 @@
+[0.035s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/aruco_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:/opt/ros/galactic:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/aruco_ros2/aruco_msgs -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/aruco_msgs
+[0.292s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.292s] -- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")
+[0.292s] -- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3
+[0.292s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.292s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.292s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.292s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.292s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.292s]   the cmake_policy command to set the policy and suppress this warning.
+[0.292s] 
+[0.292s] Call Stack (most recent call first):
+[0.292s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.292s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.292s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.292s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.292s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.292s]   CMakeLists.txt:14 (find_package)
+[0.292s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.292s] [0m
+[0.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.502s] -- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+[0.518s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.537s] [33mCMake Warning (dev) at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[0.537s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.537s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.537s]   the cmake_policy command to set the policy and suppress this warning.
+[0.537s] 
+[0.537s] Call Stack (most recent call first):
+[0.537s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.537s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[0.537s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.537s] [0m
+[0.566s] -- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found version "3.9.7")
+[0.603s] [31mCMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.603s]   execute_process(/home/dvij/anaconda3/bin/python3 -m rosidl_adapter
+[0.603s]   --package-name aruco_msgs --arguments-file
+[0.603s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/aruco_msgs/rosidl_adapter__arguments__aruco_msgs.json
+[0.603s]   --output-dir
+[0.603s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/aruco_msgs/rosidl_adapter/aruco_msgs
+[0.603s]   --output-file
+[0.603s]   /home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/aruco_msgs/rosidl_adapter/aruco_msgs.idls)
+[0.603s]   returned error code 1:
+[0.603s] 
+[0.603s]   AttributeError processing template 'msg.idl.em'
+[0.603s] 
+[0.603s]   Traceback (most recent call last):
+[0.603s] 
+[0.604s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 51, in evaluate_template
+[0.604s]       em.BUFFERED_OPT: True,
+[0.604s] 
+[0.604s]   AttributeError: module 'em' has no attribute 'BUFFERED_OPT'
+[0.604s] 
+[0.604s] 
+[0.604s] 
+[0.604s]   During handling of the above exception, another exception occurred:
+[0.604s] 
+[0.604s] 
+[0.604s] 
+[0.604s]   Traceback (most recent call last):
+[0.604s] 
+[0.604s]     File "/home/dvij/anaconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+[0.604s]       return _run_code(code, main_globals, None,
+[0.604s]     File "/home/dvij/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code
+[0.604s]       exec(code, run_globals)
+[0.605s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.605s]       sys.exit(main())
+[0.605s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.605s]       abs_idl_file = convert_to_idl(
+[0.605s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.605s]       return convert_msg_to_idl(
+[0.605s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 39, in convert_msg_to_idl
+[0.605s]       expand_template('msg.idl.em', data, output_file, encoding='iso-8859-1')
+[0.605s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template
+[0.605s]       content = evaluate_template(template_name, data)
+[0.605s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template
+[0.605s]       _interpreter.shutdown()
+[0.605s] 
+[0.605s]   AttributeError: 'NoneType' object has no attribute 'shutdown'
+[0.605s] 
+[0.605s] Call Stack (most recent call first):
+[0.606s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.606s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[0.606s] 
+[0.606s] [0m
+[0.606s] -- Configuring incomplete, errors occurred!

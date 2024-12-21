@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000097] (-) JobUnselected: {'identifier': 'interface'}
+[0.000111] (-) JobUnselected: {'identifier': 'my_sync_package'}
+[0.000122] (camera_feed) JobQueued: {'identifier': 'camera_feed', 'dependencies': OrderedDict([('interface', '/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/interface'), ('my_sync_package', '/home/dvij/ee206-project/ping-pong-robot/ros2_ws/install/my_sync_package')])}
+[0.000405] (camera_feed) JobStarted: {'identifier': 'camera_feed'}
+[0.010369] (camera_feed) JobEnded: {'identifier': 'camera_feed', 'rc': 1}
+[0.020651] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros2_stack_ws_foxy2/build/fri_vendor/fri_vendor_install/lib/cmake/FRIClient/FRIClientConfigVersion.cmake

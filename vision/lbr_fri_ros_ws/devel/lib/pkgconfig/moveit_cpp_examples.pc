@@ -1,0 +1,8 @@
+prefix=/home/pingpongproject/code/ping-pong-robot/lbr_fri_ros_ws/devel
+
+Name: moveit_cpp_examples
+Description: Description of moveit_cpp_examples
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

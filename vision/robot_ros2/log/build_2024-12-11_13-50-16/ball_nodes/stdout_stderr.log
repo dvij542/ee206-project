@@ -1,0 +1,41 @@
+/home/dvij/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+creating ../../build/ball_nodes/ball_nodes.egg-info
+writing ../../build/ball_nodes/ball_nodes.egg-info/PKG-INFO
+writing dependency_links to ../../build/ball_nodes/ball_nodes.egg-info/dependency_links.txt
+writing entry points to ../../build/ball_nodes/ball_nodes.egg-info/entry_points.txt
+writing requirements to ../../build/ball_nodes/ball_nodes.egg-info/requires.txt
+writing top-level names to ../../build/ball_nodes/ball_nodes.egg-info/top_level.txt
+writing manifest file '../../build/ball_nodes/ball_nodes.egg-info/SOURCES.txt'
+reading manifest file '../../build/ball_nodes/ball_nodes.egg-info/SOURCES.txt'
+writing manifest file '../../build/ball_nodes/ball_nodes.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/ball_nodes/build
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/ball_nodes/build/lib
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/ball_nodes/build/lib/ball_nodes
+copying ball_nodes/ball_trajectory_ros2.py -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/ball_nodes/build/lib/ball_nodes
+copying ball_nodes/__init__.py -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/ball_nodes/build/lib/ball_nodes
+copying ball_nodes/ball_pub_ros2.py -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/ball_nodes/build/lib/ball_nodes
+running install
+running install_lib
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/lib/python3.8/site-packages/ball_nodes
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/ball_nodes/build/lib/ball_nodes/ball_trajectory_ros2.py -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/lib/python3.8/site-packages/ball_nodes
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/ball_nodes/build/lib/ball_nodes/__init__.py -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/lib/python3.8/site-packages/ball_nodes
+copying /home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/ball_nodes/build/lib/ball_nodes/ball_pub_ros2.py -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/lib/python3.8/site-packages/ball_nodes
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/lib/python3.8/site-packages/ball_nodes/ball_trajectory_ros2.py to ball_trajectory_ros2.cpython-38.pyc
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/lib/python3.8/site-packages/ball_nodes/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/lib/python3.8/site-packages/ball_nodes/ball_pub_ros2.py to ball_pub_ros2.cpython-38.pyc
+running install_data
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/share/ament_index
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/share/ament_index/resource_index
+creating /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/share/ament_index/resource_index/packages
+copying resource/ball_nodes -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/share/ament_index/resource_index/packages
+copying package.xml -> /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/share/ball_nodes
+running install_egg_info
+Copying ../../build/ball_nodes/ball_nodes.egg-info to /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/lib/python3.8/site-packages/ball_nodes-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ball_pub script to /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/lib/ball_nodes
+Installing ball_trajectory script to /home/dvij/ee206-project/ping-pong-robot/robot_ros2/install/ball_nodes/lib/ball_nodes
+writing list of installed files to '/home/dvij/ee206-project/ping-pong-robot/robot_ros2/build/ball_nodes/install.log'

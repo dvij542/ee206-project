@@ -1,0 +1,20 @@
+[0.021s] Invoking command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/cv_bridge': CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/cv_bridge
+[0.141s] -- Configuring incomplete, errors occurred!
+[0.143s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.143s]   By not providing "Findament_cmake_ros.cmake" in CMAKE_MODULE_PATH this
+[0.144s]   project has asked CMake to find a package configuration file provided by
+[0.144s]   "ament_cmake_ros", but CMake did not find one.
+[0.144s] 
+[0.144s]   Could not find a package configuration file provided by "ament_cmake_ros"
+[0.144s]   with any of the following names:
+[0.145s] 
+[0.145s]     ament_cmake_rosConfig.cmake
+[0.146s]     ament_cmake_ros-config.cmake
+[0.146s] 
+[0.147s]   Add the installation prefix of "ament_cmake_ros" to CMAKE_PREFIX_PATH or
+[0.147s]   set "ament_cmake_ros_DIR" to a directory containing one of the above files.
+[0.148s]   If "ament_cmake_ros" provides a separate development package or SDK, be
+[0.148s]   sure it has been installed.
+[0.149s] 
+[0.149s] [0m
+[0.165s] Invoked command in '/home/dvij/ee206-project/ping-pong-robot/ppr_ws/build/cv_bridge' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ping-pong-robot/ppr_ws/src/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/cv_bridge

@@ -1,6 +1,6 @@
 from mujoco_env_only_kuka import KukaTennisEnv
 from stable_baselines3 import PPO
-
+from geometry_msgs.msg import PoseStamped
 import rospy
 from control_msgs.msg import JointTrajectoryControllerState
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
@@ -21,6 +21,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--render', action='store_true', help='Enable rendering')
 parser.add_argument('--ik_rl', action='store_true', help='Enable using RL based IK')
 parser.add_argument('--ik', action='store_true', help='Enable using traditional IK')
+parser.add_argument('--mocap', action='store_true', help='Enable using mocap')
 
 args = parser.parse_args()
 
@@ -29,7 +30,8 @@ if args.ik and args.ik_rl:
     exit(0)
 
 RATE = 60
-
+current_positions = None
+angle_offset = np.pi/4.
 def reset_target():
     curr_target = np.array([0.,0.,0.,0.,0.,0.,0.])
     curr_target[0] = np.random.uniform(-0.2,0.2)
@@ -54,7 +56,9 @@ def reset_target():
 def joint_state_callback(data):
     global current_positions, current_velocities, joint_names
     # Extract the current joint positions and velocities from the state message
-    current_positions = data.actual.positions
+    current_positions = np.array(data.actual.positions)
+    # print(current_positions)
+    current_positions[6] -= angle_offset
     current_velocities = np.array(data.actual.velocities)
     joint_names = data.joint_names
     # print(time.time())
@@ -68,7 +72,9 @@ def restrict_range(val, min_val, max_val):
 
 def publish_trajectory_command():
     global current_positions, current_velocities, listener, trajectory_pub, env, model, env_ik, model_ik, obs_ik
-    
+    if current_positions is None:
+        print("No joint positions available yet")
+        return
     try:
         # Wait for the transform to be available, with a timeout of 1 second
         listener.waitForTransform('lbr_link_0', 'lbr_link_ee', rospy.Time(), rospy.Duration(1.0))
@@ -86,7 +92,7 @@ def publish_trajectory_command():
     # print(dir_z)
     t = np.array(trans)
     # print(0.1*dir_z,rot)
-    new_rot_mat = R.from_quat(rot).as_matrix() @ np.array([[0, 0, 1], [0, -1, 0], [1, 0, 0]])
+    new_rot_mat = R.from_quat(rot).as_matrix() @ Rot_x(-angle_offset) @ np.array([[0, 0, 1], [0, -1, 0], [1, 0, 0]])
     quat = R.from_matrix(new_rot_mat).as_quat()
     # Rotate the end effector by 90 degrees around the z axis
     joint_info = list(current_positions) + list(current_velocities)
@@ -98,9 +104,13 @@ def publish_trajectory_command():
             obs_ik, reward, done, _, info = env_ik.step(action_ik)
         action = (env_ik.data.qpos[:7]- current_positions)
     
-    obs, _, done, _, info = env.step_from_robot(joint_info, t, quat)
-    if done:
-        obs, _ = env.reset()
+    if args.mocap:
+        obs, _, done, _, info = env.step_from_robot(joint_info, t, quat, change_target=False)
+    else:
+        obs, _, done, _, info = env.step_from_robot(joint_info, t, quat)
+
+    # if done:
+    #     obs, _ = env.reset()
     obs[:14] = joint_info
     # obs[7:14] = 0
     if not args.ik_rl:
@@ -116,7 +126,7 @@ def publish_trajectory_command():
     trajectory_point = JointTrajectoryPoint()
     # print(action[0],current_positions[0],current_velocities[0])
     if args.ik_rl:
-        new_positions = list(np.array(current_positions)+0.3*np.array(action))
+        new_positions = list(np.array(current_positions)+1.0*np.array(action))
     else :
         new_positions = list(np.array(current_positions)+0.2*np.array(action))
     env.prev_actions[:-1,:] = env.prev_actions[1:,:]
@@ -127,6 +137,7 @@ def publish_trajectory_command():
     new_positions[3] = restrict_range(new_positions[3],-2.09,2.09)
     new_positions[4] = restrict_range(new_positions[4],-2.94,2.94)
     new_positions[5] = restrict_range(new_positions[5],-2.09,2.09)
+    new_positions[6] += angle_offset
     new_positions[6] = restrict_range(new_positions[6],-3,3)
     # print(new_positions)
     # print(new_positions[0])
@@ -145,6 +156,61 @@ def publish_trajectory_command():
     
     # Publish the trajectory command
     trajectory_pub.publish(trajectory_msg)
+
+def Rot_z(z_deg) :
+    z = np.radians(z_deg)
+    return np.array([[np.cos(z), -np.sin(z), 0],
+                    [np.sin(z), np.cos(z), 0],
+                    [0, 0, 1]])
+
+def Rot_x(x_deg) :
+    x = np.radians(x_deg)
+    return np.array([[1, 0, 0],
+                    [0, np.cos(x), -np.sin(x)],
+                    [0, np.sin(x), np.cos(x)]])
+
+def pose_callback(msg: PoseStamped):
+    origin = np.array([0.5,0.,0.])
+    correction_angle_z = 0
+    
+    global current_target_pose, env, listener
+    # Update the current_target_pose with the received position and quaternion
+    position = msg.pose.position
+    orientation = msg.pose.orientation
+    curr_q = np.array([orientation.x, orientation.y, orientation.z, orientation.w])
+    r = R.from_quat(curr_q)
+    # rot_ = np.array([[0,1,0],[-1,0,0],[0,0,1]])
+    # rot1 = np.array([[-1,0,0],[0,0,1],[0,1,0]])
+    rot1 = np.array([[0,0,1],[1,0,0],[0,1,0]]).T
+    rot2 = np.array([[0,0,1],[-1,0,0],[0,-1,0]])
+    Rot_new = rot2@r.as_matrix()@rot1@Rot_z(correction_angle_z)
+    racket_t = np.array([-0.2, 0., 0.])
+    q = R.from_matrix(Rot_new).as_quat()
+    current_target_pose = np.array([
+        position.z, -position.x, -position.y, 
+        q[0], q[1], q[2], q[3]
+    ]) 
+    current_target_pose[:3] += Rot_new@racket_t
+    current_target_pose[:3] -= origin
+    print("Got new pose")
+    # Restrict current_target_pose to the workspace limits
+    current_target_pose[0] = restrict_range(current_target_pose[0], -0.2, 0.2)
+    current_target_pose[1] = restrict_range(current_target_pose[1], -0.5, 0.5)
+    dist_drom_center = np.sqrt(current_target_pose[0]**2 + current_target_pose[1]**2)
+    val = 0.8 - 0.15*dist_drom_center/0.5
+    current_target_pose[2] = restrict_range(current_target_pose[2], 0.75, 1.15)
+    z_axis = np.array([1.,0.,0.])
+    x_axis = np.array([0.,0.,1.])
+    y_axis = np.cross(z_axis, x_axis)
+    q_straight = R.from_matrix(np.array([x_axis,y_axis,z_axis]).T).as_quat()
+    # Angle between q and q_straight
+    q_rel = R.from_quat(q) * R.from_quat(q_straight).inv() 
+    angle = q_rel.magnitude()
+    print("Angle: ", angle) 
+    if angle > 1.4:
+        current_target_pose[3:7] = q_straight
+    env.set_target_pose(current_target_pose)
+    # self.get_logger().info(f'Updated target pose: {self.current_target_pose}')
 
 if __name__ == '__main__':
     try:
@@ -165,6 +231,13 @@ if __name__ == '__main__':
         rospy.Subscriber('/lbr/PositionJointInterface_trajectory_controller/state', 
                          JointTrajectoryControllerState, joint_state_callback)
 
+        if args.mocap:
+            rospy.Subscriber(
+                '/vrpn_client_node/racket/pose',
+                PoseStamped,
+                pose_callback
+            )
+        
         # Publisher for the joint command topic
         trajectory_pub = rospy.Publisher('/lbr/PositionJointInterface_trajectory_controller/command', 
                                          JointTrajectory)
@@ -175,7 +248,7 @@ if __name__ == '__main__':
         if args.ik :
             name = 'arm'
             group = moveit_commander.MoveGroupCommander(name)
-            group.set_max_velocity_scaling_factor(0.3)
+            group.set_max_velocity_scaling_factor(1.0)
 
             # move to a named target
             target = 'home'
@@ -202,7 +275,7 @@ if __name__ == '__main__':
                 pose.orientation.w = new_target[6]
                 waypoints.append(copy.deepcopy(pose))
 
-                plan, fraction = group.compute_cartesian_path(waypoints, eef_step=0.01, jump_threshold=0.)
+                plan, fraction = group.compute_cartesian_path(waypoints, eef_step=0.01)
                 rospy.loginfo('Moving along cartesian path...')
                 group.execute(plan)
                 group.stop()

@@ -1,0 +1,145 @@
+[0.006s] Invoking command in '/home/dvij/ee206-project/ros2_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ros2_ws/src/ros1_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ros2_ws/install/ros1_bridge
+[0.078s] -- The C compiler identification is GNU 9.4.0
+[0.145s] -- The CXX compiler identification is GNU 9.4.0
+[0.154s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.206s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.206s] -- Detecting C compile features
+[0.207s] -- Detecting C compile features - done
+[0.209s] -- Detecting CXX compiler ABI info
+[0.254s] -- Detecting CXX compiler ABI info - done
+[0.263s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.264s] -- Detecting CXX compile features
+[0.264s] -- Detecting CXX compile features - done
+[0.267s] -- Found rmw: 1.0.4 (/opt/ros/foxy/share/rmw/cmake)
+[0.279s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.279s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.279s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.279s]   the cmake_policy command to set the policy and suppress this warning.
+[0.279s] 
+[0.279s] Call Stack (most recent call first):
+[0.279s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.279s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.279s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.279s]   /opt/ros/foxy/share/rmw/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.279s]   /opt/ros/foxy/share/rmw/cmake/rmwConfig.cmake:41 (include)
+[0.279s]   CMakeLists.txt:13 (find_package)
+[0.279s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.279s] [0m
+[0.294s] -- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")
+[0.294s] -- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3
+[0.435s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.485s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.513s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.518s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.593s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[0.614s] -- Found FastRTPS: /opt/ros/foxy/include
+[0.667s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.711s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.713s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.714s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.762s] -- Looking for pthread_create in pthreads
+[0.798s] -- Looking for pthread_create in pthreads - not found
+[0.798s] -- Looking for pthread_create in pthread
+[0.839s] -- Looking for pthread_create in pthread - found
+[0.840s] -- Found Threads: TRUE
+[0.937s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1")
+[0.940s] -- Checking for module 'roscpp'
+[0.956s] --   Found roscpp, version 1.16.0
+[0.997s] -- Checking for module 'std_msgs'
+[1.011s] --   Found std_msgs, version 0.5.13
+[1.304s] -- Checking for module 'actionlib'
+[1.319s] --   Found actionlib, version 1.14.0
+[1.361s] -- Checking for module 'actionlib_msgs'
+[1.374s] --   Found actionlib_msgs, version 1.13.1
+[1.411s] -- Checking for module 'actionlib_tutorials'
+[1.433s] --   Found actionlib_tutorials, version 0.2.0
+[1.475s] -- Checking for module 'bond'
+[1.489s] --   Found bond, version 1.8.6
+[1.527s] -- Checking for module 'control_msgs'
+[1.542s] --   Found control_msgs, version 1.5.2
+[1.580s] -- Checking for module 'controller_manager_msgs'
+[1.593s] --   Found controller_manager_msgs, version 0.20.0
+[1.632s] -- Checking for module 'diagnostic_msgs'
+[1.645s] --   Found diagnostic_msgs, version 1.13.1
+[1.683s] -- Checking for module 'dynamic_reconfigure'
+[1.696s] --   Found dynamic_reconfigure, version 1.7.3
+[1.735s] -- Checking for module 'gazebo_msgs'
+[1.754s] --   Found gazebo_msgs, version 2.9.2
+[1.792s] -- Checking for module 'geometry_msgs'
+[1.805s] --   Found geometry_msgs, version 1.13.1
+[1.844s] -- Checking for module 'map_msgs'
+[1.857s] --   Found map_msgs, version 1.14.1
+[1.895s] -- Checking for module 'moveit_msgs'
+[1.910s] --   Found moveit_msgs, version 0.11.4
+[1.951s] -- Checking for module 'nav_msgs'
+[1.964s] --   Found nav_msgs, version 1.13.1
+[2.002s] -- Checking for module 'object_recognition_msgs'
+[2.016s] --   Found object_recognition_msgs, version 0.4.2
+[2.055s] -- Checking for module 'octomap_msgs'
+[2.067s] --   Found octomap_msgs, version 0.3.5
+[2.105s] -- Checking for module 'pcl_msgs'
+[2.127s] --   Found pcl_msgs, version 0.3.0
+[2.169s] -- Checking for module 'rosgraph_msgs'
+[2.182s] --   Found rosgraph_msgs, version 1.11.3
+[2.221s] -- Checking for module 'rospy_tutorials'
+[2.242s] --   Found rospy_tutorials, version 0.10.2
+[2.280s] -- Checking for module 'sensor_msgs'
+[2.293s] --   Found sensor_msgs, version 1.13.1
+[2.338s] -- Checking for module 'shape_msgs'
+[2.351s] --   Found shape_msgs, version 1.13.1
+[2.389s] -- Checking for module 'smach_msgs'
+[2.410s] --   Found smach_msgs, version 2.5.2
+[2.451s] -- Checking for module 'stereo_msgs'
+[2.465s] --   Found stereo_msgs, version 1.13.1
+[2.503s] -- Checking for module 'tf'
+[2.520s] --   Found tf, version 1.13.2
+[2.565s] -- Checking for module 'tf2_msgs'
+[2.578s] --   Found tf2_msgs, version 0.7.7
+[2.618s] -- Checking for module 'theora_image_transport'
+[2.640s] --   Found theora_image_transport, version 1.15.0
+[2.677s] -- Checking for module 'trajectory_msgs'
+[2.690s] --   Found trajectory_msgs, version 1.13.1
+[2.729s] -- Checking for module 'turtle_actionlib'
+[2.751s] --   Found turtle_actionlib, version 0.2.0
+[2.787s] -- Checking for module 'turtlesim'
+[2.800s] --   Found turtlesim, version 0.10.2
+[2.840s] -- Checking for module 'visualization_msgs'
+[2.854s] --   Found visualization_msgs, version 1.13.1
+[2.891s] -- Checking for module 'control_toolbox'
+[2.905s] --   Found control_toolbox, version 1.19.0
+[2.948s] -- Checking for module 'laser_assembler'
+[2.973s] --   Found laser_assembler, version 1.7.8
+[3.026s] -- Checking for module 'polled_camera'
+[3.041s] --   Found polled_camera, version 1.12.0
+[3.087s] -- Checking for module 'roscpp_tutorials'
+[3.100s] --   Found roscpp_tutorials, version 0.10.2
+[3.140s] -- Checking for module 'rviz'
+[3.154s] --   Found rviz, version 1.14.25
+[3.209s] -- Checking for module 'std_srvs'
+[3.223s] --   Found std_srvs, version 1.11.3
+[3.264s] -- Checking for module 'topic_tools'
+[3.285s] --   Found topic_tools, version 1.16.0
+[3.329s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.331s] -- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+[3.356s] -- Checking for module 'roslaunch'
+[3.370s] --   Found roslaunch, version 1.16.0
+[3.418s] Traceback (most recent call last):
+[3.418s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[3.418s]     from catkin_pkg.package import parse_package_string
+[3.418s] ModuleNotFoundError: No module named 'catkin_pkg'
+[3.420s] [31mCMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[3.420s]   execute_process(/home/dvij/anaconda3/bin/python3
+[3.420s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.420s]   /home/dvij/ee206-project/ros2_ws/src/ros1_bridge/package.xml
+[3.420s]   /home/dvij/ee206-project/ros2_ws/build/ros1_bridge/ament_cmake_core/package.cmake)
+[3.420s]   returned error code 1
+[3.420s] Call Stack (most recent call first):
+[3.420s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.420s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[3.420s]   CMakeLists.txt:71 (ament_lint_auto_find_test_dependencies)
+[3.420s] 
+[3.420s] [0m
+[3.420s] -- Configuring incomplete, errors occurred!
+[3.427s] Invoked command in '/home/dvij/ee206-project/ros2_ws/build/ros1_bridge' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ros2_ws/src/ros1_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ros2_ws/install/ros1_bridge

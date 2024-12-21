@@ -68,7 +68,7 @@ class KukaTennisEnv(gym.Env):
         self.curr_target = pose
         self.update_vis_pose(self.curr_target)
     
-    def step_from_robot(self, joint_info, t, quat):
+    def step_from_robot(self, joint_info, t, quat, change_target=True):
 
         self.current_step += 1
         self.total_steps += 1
@@ -114,10 +114,10 @@ class KukaTennisEnv(gym.Env):
         #     print(self.proc_id,self.total_steps,tol)
 
         if reward > -tol and self.proc_id < 2:
-            if self.proc_id == 1: 
-                print("Reset target!", self.current_step)
-
-            self.reset_target()
+            # if self.proc_id == 1: 
+            #     print("Reset target!", self.current_step)
+            if change_target:
+                self.reset_target()
             reward = self._calculate_reward()
             curr_reward = 0.
             self.prev_reward = reward

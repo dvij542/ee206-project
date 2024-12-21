@@ -1,9 +1,9 @@
-#!/usr/bin/python3
+#!/home/dvij/anaconda3/bin/python3
 # -*- coding: utf-8 -*-
 # generated from catkin/cmake/template/script.py.in
 # creates a relay to a python script source file, acting as that file.
 # The purpose is that of a symlink
-python_script = '/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/src/lbr_fri_ros_stack/lbr_control/python/cartesian_pose_node.py'
+python_script = '/home/dvij/ee206-project/lbr_fri_ros_ws/src/lbr_fri_ros_stack/lbr_control/python/cartesian_pose_node.py'
 with open(python_script, 'r') as fh:
     context = {
         '__builtins__': __builtins__,

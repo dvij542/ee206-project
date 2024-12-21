@@ -97,8 +97,24 @@ passwd: dvij123
     source lbr_fri_ros_ws/devel/setup.bash
     python3 eval_ros.py [--ik_rl] [--ik] 
     ```
+
+    Before running with ik option, you need to chamnge the namespace as follows:-
+
+    ```
+    export ROS_NAMESPACE=lbr
+    ```
     
-    No options enabled will run the basic trained RL environment which may not run very well due to sim-to-real transfer. 'ik_rl' option will enable using RL based IK solver which will be more stable. 'ik' will enable traditional IK based solver
+    For running with mocap enabled for tele-oping, add --mocap option. Also, need to run the following to talk to both the real robot and the mocap
+
+    ```
+    sudo ip addr add 172.31.1.148/16 dev enp3s0
+    ```
+
+    No options enabled will run the basic trained RL environment which may not run very well due to sim-to-real transfer. 'ik_rl' option will enable using RL based IK solver which will be more stable. 'ik' will enable traditional IK based solver. To read pose from mocap, run :-
+
+    ```
+    roslaunch vrpn_client_ros sample.launch
+    ```
 
 ## TODO:-
 

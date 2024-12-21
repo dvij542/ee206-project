@@ -1,0 +1,185 @@
+[0.000000] (-) TimerEvent: {}
+[0.000817] (ros1_bridge) JobQueued: {'identifier': 'ros1_bridge', 'dependencies': OrderedDict()}
+[0.000915] (ros1_bridge) JobStarted: {'identifier': 'ros1_bridge'}
+[0.004290] (ros1_bridge) JobProgress: {'identifier': 'ros1_bridge', 'progress': 'cmake'}
+[0.004421] (ros1_bridge) Command: {'cmd': ['/usr/local/bin/cmake', '/home/dvij/ee206-project/ros2_ws/src/ros1_bridge', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ros2_ws/install/ros1_bridge'], 'cwd': '/home/dvij/ee206-project/ros2_ws/build/ros1_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'dvij'), ('GIO_MODULE_DIR', '/home/dvij/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '3065'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/dvij/.mpi-is/pam/install/lib:/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/dvij/.mpi-is/pam/install/lib:/home/dvij/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/dvij'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/dvij/ee206-project/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/172/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/dvij/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module:appmenu-gtk-module'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/172/usr/share/code/code'), ('MANAGERPID', '2954'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '71770'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dvij/ee206-project/ros2_ws/install'), ('ROS_DISTRO', 'noetic'), ('LOGNAME', 'dvij'), ('CONDA_ROOT', '/home/dvij/anaconda3'), ('JOURNAL_STREAM', '8:309257'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'dvij'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/dvij/.local/bin:/home/dvij/anaconda3/bin:/home/dvij/anaconda3/condabin:/home/dvij/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dvij/.mpi-is/pam/install/bin:/home/dvij/.mpi-is/pam/install/bin'), ('SESSION_MANAGER', 'local/sastry-ma-MS-7D25:@/tmp/.ICE-unix/66775,unix/sastry-ma-MS-7D25:/tmp/.ICE-unix/66775'), ('GTK_EXE_PREFIX', '/snap/code/172/usr'), ('INVOCATION_ID', '1989427c99c54d75ac7a4de2871f0f90'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/172/usr/lib/locale'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1005/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1005/vscode-git-73d3477197.sock'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1005/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/dvij/snap/code/172/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/dvij/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('CONDA_DEFAULT_ENV', 'base'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1005/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dvij/ee206-project/ros2_ws/build/ros1_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/dvij/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/home/dvij/snap/code/172/.local/share:/home/dvij/snap/code/172:/snap/code/172/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/dvij/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[0.079199] (ros1_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.091552] (-) TimerEvent: {}
+[0.145832] (ros1_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.155188] (ros1_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.191674] (-) TimerEvent: {}
+[0.198079] (ros1_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.206989] (ros1_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.207309] (ros1_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.207639] (ros1_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.209851] (ros1_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.255072] (ros1_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.264210] (ros1_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.264469] (ros1_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.264794] (ros1_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.267490] (ros1_bridge) StdoutLine: {'line': b'-- Found rmw: 1.0.4 (/opt/ros/foxy/share/rmw/cmake)\n'}
+[0.279839] (ros1_bridge) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.279938] (ros1_bridge) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.279990] (ros1_bridge) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.280034] (ros1_bridge) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.280078] (ros1_bridge) StderrLine: {'line': b'\n'}
+[0.280145] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.280184] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.280219] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.280244] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.280268] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/foxy/share/rmw/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.280293] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/foxy/share/rmw/cmake/rmwConfig.cmake:41 (include)\n'}
+[0.280317] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[0.280340] (ros1_bridge) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.280365] (ros1_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[0.291727] (-) TimerEvent: {}
+[0.294907] (ros1_bridge) StdoutLine: {'line': b'-- Found PythonInterp: /home/dvij/anaconda3/bin/python3 (found suitable version "3.9.7", minimum required is "3")\n'}
+[0.295092] (ros1_bridge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3\n'}
+[0.391850] (-) TimerEvent: {}
+[0.436282] (ros1_bridge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.485761] (ros1_bridge) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.491934] (-) TimerEvent: {}
+[0.513481] (ros1_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.519264] (ros1_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.592018] (-) TimerEvent: {}
+[0.593759] (ros1_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")\n'}
+[0.615218] (ros1_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include\n'}
+[0.668045] (ros1_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.692087] (-) TimerEvent: {}
+[0.711891] (ros1_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.713981] (ros1_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.714401] (ros1_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.763112] (ros1_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.763263] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.792233] (-) TimerEvent: {}
+[0.798697] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.798865] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.839938] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.840722] (ros1_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[0.892301] (-) TimerEvent: {}
+[0.938201] (ros1_bridge) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1")\n'}
+[0.941349] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'roscpp'\n"}
+[0.956930] (ros1_bridge) StdoutLine: {'line': b'--   Found roscpp, version 1.16.0\n'}
+[0.992386] (-) TimerEvent: {}
+[0.998069] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'std_msgs'\n"}
+[1.011952] (ros1_bridge) StdoutLine: {'line': b'--   Found std_msgs, version 0.5.13\n'}
+[1.092500] (-) TimerEvent: {}
+[1.192744] (-) TimerEvent: {}
+[1.293016] (-) TimerEvent: {}
+[1.304875] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'actionlib'\n"}
+[1.319498] (ros1_bridge) StdoutLine: {'line': b'--   Found actionlib, version 1.14.0\n'}
+[1.361558] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'actionlib_msgs'\n"}
+[1.374387] (ros1_bridge) StdoutLine: {'line': b'--   Found actionlib_msgs, version 1.13.1\n'}
+[1.393088] (-) TimerEvent: {}
+[1.412127] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'actionlib_tutorials'\n"}
+[1.434049] (ros1_bridge) StdoutLine: {'line': b'--   Found actionlib_tutorials, version 0.2.0\n'}
+[1.476262] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'bond'\n"}
+[1.489411] (ros1_bridge) StdoutLine: {'line': b'--   Found bond, version 1.8.6\n'}
+[1.493189] (-) TimerEvent: {}
+[1.528233] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'control_msgs'\n"}
+[1.542742] (ros1_bridge) StdoutLine: {'line': b'--   Found control_msgs, version 1.5.2\n'}
+[1.581215] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'controller_manager_msgs'\n"}
+[1.593299] (-) TimerEvent: {}
+[1.594342] (ros1_bridge) StdoutLine: {'line': b'--   Found controller_manager_msgs, version 0.20.0\n'}
+[1.633174] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'diagnostic_msgs'\n"}
+[1.646271] (ros1_bridge) StdoutLine: {'line': b'--   Found diagnostic_msgs, version 1.13.1\n'}
+[1.683357] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'dynamic_reconfigure'\n"}
+[1.693405] (-) TimerEvent: {}
+[1.696684] (ros1_bridge) StdoutLine: {'line': b'--   Found dynamic_reconfigure, version 1.7.3\n'}
+[1.735924] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'gazebo_msgs'\n"}
+[1.754390] (ros1_bridge) StdoutLine: {'line': b'--   Found gazebo_msgs, version 2.9.2\n'}
+[1.792599] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'geometry_msgs'\n"}
+[1.793459] (-) TimerEvent: {}
+[1.806060] (ros1_bridge) StdoutLine: {'line': b'--   Found geometry_msgs, version 1.13.1\n'}
+[1.844467] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'map_msgs'\n"}
+[1.858220] (ros1_bridge) StdoutLine: {'line': b'--   Found map_msgs, version 1.14.1\n'}
+[1.893571] (-) TimerEvent: {}
+[1.895901] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'moveit_msgs'\n"}
+[1.910606] (ros1_bridge) StdoutLine: {'line': b'--   Found moveit_msgs, version 0.11.4\n'}
+[1.951975] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'nav_msgs'\n"}
+[1.965139] (ros1_bridge) StdoutLine: {'line': b'--   Found nav_msgs, version 1.13.1\n'}
+[1.993687] (-) TimerEvent: {}
+[2.003280] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'object_recognition_msgs'\n"}
+[2.016861] (ros1_bridge) StdoutLine: {'line': b'--   Found object_recognition_msgs, version 0.4.2\n'}
+[2.055723] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'octomap_msgs'\n"}
+[2.068331] (ros1_bridge) StdoutLine: {'line': b'--   Found octomap_msgs, version 0.3.5\n'}
+[2.093806] (-) TimerEvent: {}
+[2.105671] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'pcl_msgs'\n"}
+[2.127647] (ros1_bridge) StdoutLine: {'line': b'--   Found pcl_msgs, version 0.3.0\n'}
+[2.170154] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'rosgraph_msgs'\n"}
+[2.183103] (ros1_bridge) StdoutLine: {'line': b'--   Found rosgraph_msgs, version 1.11.3\n'}
+[2.193912] (-) TimerEvent: {}
+[2.221422] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'rospy_tutorials'\n"}
+[2.243053] (ros1_bridge) StdoutLine: {'line': b'--   Found rospy_tutorials, version 0.10.2\n'}
+[2.280900] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'sensor_msgs'\n"}
+[2.293699] (ros1_bridge) StdoutLine: {'line': b'--   Found sensor_msgs, version 1.13.1\n'}
+[2.293967] (-) TimerEvent: {}
+[2.338979] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'shape_msgs'\n"}
+[2.351864] (ros1_bridge) StdoutLine: {'line': b'--   Found shape_msgs, version 1.13.1\n'}
+[2.389421] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'smach_msgs'\n"}
+[2.394036] (-) TimerEvent: {}
+[2.411171] (ros1_bridge) StdoutLine: {'line': b'--   Found smach_msgs, version 2.5.2\n'}
+[2.452299] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'stereo_msgs'\n"}
+[2.465783] (ros1_bridge) StdoutLine: {'line': b'--   Found stereo_msgs, version 1.13.1\n'}
+[2.494157] (-) TimerEvent: {}
+[2.503662] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'tf'\n"}
+[2.520812] (ros1_bridge) StdoutLine: {'line': b'--   Found tf, version 1.13.2\n'}
+[2.566255] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'tf2_msgs'\n"}
+[2.579235] (ros1_bridge) StdoutLine: {'line': b'--   Found tf2_msgs, version 0.7.7\n'}
+[2.594270] (-) TimerEvent: {}
+[2.618916] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'theora_image_transport'\n"}
+[2.640405] (ros1_bridge) StdoutLine: {'line': b'--   Found theora_image_transport, version 1.15.0\n'}
+[2.677832] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'trajectory_msgs'\n"}
+[2.690609] (ros1_bridge) StdoutLine: {'line': b'--   Found trajectory_msgs, version 1.13.1\n'}
+[2.694382] (-) TimerEvent: {}
+[2.730232] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'turtle_actionlib'\n"}
+[2.751861] (ros1_bridge) StdoutLine: {'line': b'--   Found turtle_actionlib, version 0.2.0\n'}
+[2.787527] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'turtlesim'\n"}
+[2.794494] (-) TimerEvent: {}
+[2.800929] (ros1_bridge) StdoutLine: {'line': b'--   Found turtlesim, version 0.10.2\n'}
+[2.841184] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'visualization_msgs'\n"}
+[2.854457] (ros1_bridge) StdoutLine: {'line': b'--   Found visualization_msgs, version 1.13.1\n'}
+[2.891751] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'control_toolbox'\n"}
+[2.894594] (-) TimerEvent: {}
+[2.905531] (ros1_bridge) StdoutLine: {'line': b'--   Found control_toolbox, version 1.19.0\n'}
+[2.949228] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'laser_assembler'\n"}
+[2.974267] (ros1_bridge) StdoutLine: {'line': b'--   Found laser_assembler, version 1.7.8\n'}
+[2.994718] (-) TimerEvent: {}
+[3.027255] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'polled_camera'\n"}
+[3.041500] (ros1_bridge) StdoutLine: {'line': b'--   Found polled_camera, version 1.12.0\n'}
+[3.087448] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'roscpp_tutorials'\n"}
+[3.094825] (-) TimerEvent: {}
+[3.100566] (ros1_bridge) StdoutLine: {'line': b'--   Found roscpp_tutorials, version 0.10.2\n'}
+[3.140705] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'rviz'\n"}
+[3.155143] (ros1_bridge) StdoutLine: {'line': b'--   Found rviz, version 1.14.25\n'}
+[3.194942] (-) TimerEvent: {}
+[3.209661] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'std_srvs'\n"}
+[3.223917] (ros1_bridge) StdoutLine: {'line': b'--   Found std_srvs, version 1.11.3\n'}
+[3.264422] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'topic_tools'\n"}
+[3.286312] (ros1_bridge) StdoutLine: {'line': b'--   Found topic_tools, version 1.16.0\n'}
+[3.295050] (-) TimerEvent: {}
+[3.329865] (ros1_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.332309] (ros1_bridge) StdoutLine: {'line': b'-- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)\n'}
+[3.357290] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'roslaunch'\n"}
+[3.371135] (ros1_bridge) StdoutLine: {'line': b'--   Found roslaunch, version 1.16.0\n'}
+[3.395167] (-) TimerEvent: {}
+[3.418686] (ros1_bridge) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.418815] (ros1_bridge) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>\n'}
+[3.418848] (ros1_bridge) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[3.418875] (ros1_bridge) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[3.420585] (ros1_bridge) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[3.420656] (ros1_bridge) StderrLine: {'line': b'  execute_process(/home/dvij/anaconda3/bin/python3\n'}
+[3.420688] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[3.420715] (ros1_bridge) StderrLine: {'line': b'  /home/dvij/ee206-project/ros2_ws/src/ros1_bridge/package.xml\n'}
+[3.420854] (ros1_bridge) StderrLine: {'line': b'  /home/dvij/ee206-project/ros2_ws/build/ros1_bridge/ament_cmake_core/package.cmake)\n'}
+[3.420895] (ros1_bridge) StderrLine: {'line': b'  returned error code 1\n'}
+[3.420923] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.420948] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[3.420978] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[3.421002] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:71 (ament_lint_auto_find_test_dependencies)\n'}
+[3.421025] (ros1_bridge) StderrLine: {'line': b'\n'}
+[3.421049] (ros1_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[3.421073] (ros1_bridge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.427966] (ros1_bridge) CommandEnded: {'returncode': 1}
+[3.442594] (ros1_bridge) JobEnded: {'identifier': 'ros1_bridge', 'rc': 1}
+[3.452880] (-) EventReactorShutdown: {}

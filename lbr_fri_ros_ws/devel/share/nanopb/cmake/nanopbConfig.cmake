@@ -67,14 +67,14 @@ set(nanopb_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(nanopb_SOURCE_PREFIX /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/src/fri/nanopb)
-  set(nanopb_DEVEL_PREFIX /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/devel)
+  set(nanopb_SOURCE_PREFIX /home/dvij/ee206-project/lbr_fri_ros_ws/src/fri/nanopb)
+  set(nanopb_DEVEL_PREFIX /home/dvij/ee206-project/lbr_fri_ros_ws/devel)
   set(nanopb_INSTALL_PREFIX "")
   set(nanopb_PREFIX ${nanopb_DEVEL_PREFIX})
 else()
   set(nanopb_SOURCE_PREFIX "")
   set(nanopb_DEVEL_PREFIX "")
-  set(nanopb_INSTALL_PREFIX /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/install)
+  set(nanopb_INSTALL_PREFIX /home/dvij/ee206-project/lbr_fri_ros_ws/install)
   set(nanopb_PREFIX ${nanopb_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(nanopb_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/src/fri/nanopb/include " STREQUAL " ")
+if(NOT "/home/dvij/ee206-project/lbr_fri_ros_ws/src/fri/nanopb/include " STREQUAL " ")
   set(nanopb_INCLUDE_DIRS "")
-  set(_include_dirs "/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/src/fri/nanopb/include")
+  set(_include_dirs "/home/dvij/ee206-project/lbr_fri_ros_ws/src/fri/nanopb/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/src/fri/nan
         message(FATAL_ERROR "Project 'nanopb' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'nanopb' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/src/fri/nanopb/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'nanopb' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/dvij/ee206-project/lbr_fri_ros_ws/src/fri/nanopb/${idir}'.  ${_report}")
     endif()
     _list_append_unique(nanopb_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/dvij/ee206-project/lbr_fri_ros_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

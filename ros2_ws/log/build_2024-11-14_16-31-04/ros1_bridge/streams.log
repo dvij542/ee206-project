@@ -1,0 +1,35 @@
+[0.009s] Invoking command in '/home/dvij/ee206-project/ros2_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/ppr_interfaces:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_description:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/cv_bridge:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_visualizer:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/noetic CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ros2_ws/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ros2_ws/install/ros1_bridge
+[0.017s] -- Found rmw: 1.0.4 (/opt/ros/foxy/share/rmw/cmake)
+[0.020s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.020s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.020s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.020s]   the cmake_policy command to set the policy and suppress this warning.
+[0.020s] 
+[0.020s] Call Stack (most recent call first):
+[0.021s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.021s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.021s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.021s]   /opt/ros/foxy/share/rmw/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.021s]   /opt/ros/foxy/share/rmw/cmake/rmwConfig.cmake:41 (include)
+[0.021s]   CMakeLists.txt:13 (find_package)
+[0.021s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.021s] [0m
+[0.036s] -- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3
+[0.052s] Traceback (most recent call last):
+[0.052s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.052s]     from ament_package.templates import get_environment_hook_template_path
+[0.052s] ModuleNotFoundError: No module named 'ament_package'
+[0.053s] [31mCMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.053s]   execute_process(/home/dvij/anaconda3/bin/python3
+[0.054s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.054s]   /home/dvij/ee206-project/ros2_ws/build/ros1_bridge/ament_cmake_package_templates/templates.cmake)
+[0.054s]   returned error code 1
+[0.054s] Call Stack (most recent call first):
+[0.054s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.054s]   /opt/ros/foxy/share/rmw/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.054s]   /opt/ros/foxy/share/rmw/cmake/rmwConfig.cmake:41 (include)
+[0.054s]   CMakeLists.txt:13 (find_package)
+[0.054s] 
+[0.054s] [0m
+[0.054s] -- Configuring incomplete, errors occurred!
+[0.056s] Invoked command in '/home/dvij/ee206-project/ros2_ws/build/ros1_bridge' returned '1': CMAKE_PREFIX_PATH=/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/ppr_interfaces:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_bringup:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/iiwa_description:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/cv_bridge:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_visualizer:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/scene_interpreter:/home/dvij/ee206-project/ping-pong-robot/ppr_ws/install/camera_feed:/opt/ros/noetic CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/dvij/ee206-project/ros2_ws/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ros2_ws/install/ros1_bridge

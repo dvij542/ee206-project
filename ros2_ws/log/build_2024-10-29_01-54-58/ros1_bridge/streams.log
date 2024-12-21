@@ -1,0 +1,35 @@
+[0.007s] Invoking command in '/home/dvij/ee206-project/ros2_ws/build/ros1_bridge': /usr/local/bin/cmake /home/dvij/ee206-project/ros2_ws/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ros2_ws/install/ros1_bridge
+[0.016s] -- Found rmw: 1.0.4 (/opt/ros/foxy/share/rmw/cmake)
+[0.017s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.017s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.017s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.017s]   the cmake_policy command to set the policy and suppress this warning.
+[0.017s] 
+[0.017s] Call Stack (most recent call first):
+[0.017s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.017s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.017s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.017s]   /opt/ros/foxy/share/rmw/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.017s]   /opt/ros/foxy/share/rmw/cmake/rmwConfig.cmake:41 (include)
+[0.017s]   CMakeLists.txt:13 (find_package)
+[0.017s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.017s] [0m
+[0.032s] -- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3
+[0.046s] Traceback (most recent call last):
+[0.046s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.047s]     from ament_package.templates import get_environment_hook_template_path
+[0.047s] ModuleNotFoundError: No module named 'ament_package'
+[0.048s] [31mCMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.048s]   execute_process(/home/dvij/anaconda3/bin/python3
+[0.048s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.048s]   /home/dvij/ee206-project/ros2_ws/build/ros1_bridge/ament_cmake_package_templates/templates.cmake)
+[0.048s]   returned error code 1
+[0.048s] Call Stack (most recent call first):
+[0.048s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.048s]   /opt/ros/foxy/share/rmw/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.048s]   /opt/ros/foxy/share/rmw/cmake/rmwConfig.cmake:41 (include)
+[0.048s]   CMakeLists.txt:13 (find_package)
+[0.048s] 
+[0.049s] [0m
+[0.049s] -- Configuring incomplete, errors occurred!
+[0.051s] Invoked command in '/home/dvij/ee206-project/ros2_ws/build/ros1_bridge' returned '1': /usr/local/bin/cmake /home/dvij/ee206-project/ros2_ws/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ros2_ws/install/ros1_bridge

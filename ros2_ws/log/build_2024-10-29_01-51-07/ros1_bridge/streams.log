@@ -1,0 +1,44 @@
+[0.011s] Invoking command in '/home/dvij/ee206-project/ros2_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake /home/dvij/ee206-project/ros2_ws/src/ros1_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ros2_ws/install/ros1_bridge
+[0.017s] -- Found rmw: 1.0.4 (/opt/ros/foxy/share/rmw/cmake)
+[0.018s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.018s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.018s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.018s]   the cmake_policy command to set the policy and suppress this warning.
+[0.018s] 
+[0.018s] Call Stack (most recent call first):
+[0.018s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.018s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.018s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.018s]   /opt/ros/foxy/share/rmw/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.018s]   /opt/ros/foxy/share/rmw/cmake/rmwConfig.cmake:41 (include)
+[0.018s]   CMakeLists.txt:13 (find_package)
+[0.018s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.018s] [0m
+[0.034s] -- Using PYTHON_EXECUTABLE: /home/dvij/anaconda3/bin/python3
+[0.154s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.169s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.177s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.179s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.250s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.273s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.273s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.786s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.786s] -- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+[0.823s] Traceback (most recent call last):
+[0.823s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[0.823s]     from catkin_pkg.package import parse_package_string
+[0.823s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.825s] [31mCMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[0.825s]   execute_process(/home/dvij/anaconda3/bin/python3
+[0.825s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.825s]   /home/dvij/ee206-project/ros2_ws/src/ros1_bridge/package.xml
+[0.825s]   /home/dvij/ee206-project/ros2_ws/build/ros1_bridge/ament_cmake_core/package.cmake)
+[0.825s]   returned error code 1
+[0.825s] Call Stack (most recent call first):
+[0.825s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.825s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.825s]   CMakeLists.txt:71 (ament_lint_auto_find_test_dependencies)
+[0.825s] 
+[0.825s] [0m
+[0.825s] -- Configuring incomplete, errors occurred!
+[0.830s] Invoked command in '/home/dvij/ee206-project/ros2_ws/build/ros1_bridge' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake /home/dvij/ee206-project/ros2_ws/src/ros1_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dvij/ee206-project/ros2_ws/install/ros1_bridge

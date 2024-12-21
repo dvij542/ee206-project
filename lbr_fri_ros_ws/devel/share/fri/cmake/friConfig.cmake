@@ -67,14 +67,14 @@ set(fri_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(fri_SOURCE_PREFIX /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/src/fri/fri)
-  set(fri_DEVEL_PREFIX /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/devel)
+  set(fri_SOURCE_PREFIX /home/dvij/ee206-project/lbr_fri_ros_ws/src/fri/fri)
+  set(fri_DEVEL_PREFIX /home/dvij/ee206-project/lbr_fri_ros_ws/devel)
   set(fri_INSTALL_PREFIX "")
   set(fri_PREFIX ${fri_DEVEL_PREFIX})
 else()
   set(fri_SOURCE_PREFIX "")
   set(fri_DEVEL_PREFIX "")
-  set(fri_INSTALL_PREFIX /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/install)
+  set(fri_INSTALL_PREFIX /home/dvij/ee206-project/lbr_fri_ros_ws/install)
   set(fri_PREFIX ${fri_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(fri_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/src/fri/fri/include " STREQUAL " ")
+if(NOT "/home/dvij/ee206-project/lbr_fri_ros_ws/src/fri/fri/include " STREQUAL " ")
   set(fri_INCLUDE_DIRS "")
-  set(_include_dirs "/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/src/fri/fri/include")
+  set(_include_dirs "/home/dvij/ee206-project/lbr_fri_ros_ws/src/fri/fri/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/src/fri/fri
         message(FATAL_ERROR "Project 'fri' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'fri' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/src/fri/fri/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'fri' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/dvij/ee206-project/lbr_fri_ros_ws/src/fri/fri/${idir}'.  ${_report}")
     endif()
     _list_append_unique(fri_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/dvij/learning_table_tennis_from_scratch/lbr_fri_ros_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/dvij/ee206-project/lbr_fri_ros_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

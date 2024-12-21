@@ -142,7 +142,7 @@
                     <site pos="0 0 0.045" name="attachment_site"/>
 
                     <body name="tennis_racket" pos="0 0 0" quat="0 0.7068252 0 0.7073883">
-                      <geom name="racket" type="cylinder" pos="0.1 0 0" size="0.10 0.015" rgba="0.8 0.2 0.2 1" material="black"/>
+                      <geom name="racket" type="cylinder" pos="0.1 0 0" size="0.10 0.04" rgba="0.8 0.2 0.2 1" material="black"/>
                     </body>
                   </body>
                 </body>

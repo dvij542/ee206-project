@@ -6,13 +6,6 @@ Control Kuka iiwa R820 arm to play ping pong
   <img src="iiwa_14.png" width="400">
 </p>
 
-## SSH into 337 cory lab machine
-
-```bash 
-ssh dvij@10.41.45.23
-```
-
-passwd: dvij123
 
 ## Installation on local machine
 
